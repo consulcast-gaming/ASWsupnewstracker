@@ -34,7 +34,7 @@ FEEDS_FILE    = ROOT / "feeds.json"
 EVENTS_FILE   = ROOT / "events.json"
 MAX_AGE_DAYS  = 7          # ignore articles older than this
 MAX_TOTAL     = 200        # cap total events kept (rolling window)
-SLEEP_BETWEEN = 5        # polite delay between Gemini calls (seconds)
+SLEEP_BETWEEN = 1        # polite delay between Gemini calls (seconds)
 
 CATEGORIES = ["chokepoint", "vessel", "port", "conflict",
               "policy", "labour", "route", "industry"]
