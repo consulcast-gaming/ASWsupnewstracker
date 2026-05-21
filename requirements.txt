@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Supply Chain Situation Tracker</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    background: #0d1117; color: #c9d1d9;
+    height: 100%; overflow: hidden;
+  }
+  .app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
+
+  /* HEADER */
+  header.app-header {
+    background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+    border-bottom: 1px solid #30363d;
+    padding: 14px 22px;
+  }
+  .header-row {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 12px; gap: 12px; flex-wrap: wrap;
+  }
+  .title-block { display: flex; flex-direction: column; gap: 2px; }
+  .title { font-size: 19px; font-weight: 600; color: #f0f6fc; letter-spacing: -0.01em; }
+  .subtitle { font-size: 12px; color: #8b949e; }
+  .meta { display: flex; gap: 14px; font-size: 12px; color: #8b949e; align-items: center; }
+  .pulse {
+    width: 8px; height: 8px; border-radius: 50%; background: #56d364;
+    box-shadow: 0 0 0 0 rgba(86, 211, 100, 0.7);
+    animation: pulse 2s infinite;
+    display: inline-block;
+  }
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(86, 211, 100, 0.7); }
+    70%  { box-shadow: 0 0 0 8px rgba(86, 211, 100, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(86, 211, 100, 0); }
+  }
+
+  /* FILTERS */
+  .filters { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+  .chip {
+    background: #21262d; border: 1px solid #30363d; color: #c9d1d9;
+    padding: 5px 11px; border-radius: 999px; font-size: 12px;
+    cursor: pointer; transition: all 0.15s; font-family: inherit;
+    display: inline-flex; align-items: center; gap: 6px; user-select: none;
+  }
+  .chip:hover { border-color: #58a6ff; }
+  .chip.active { background: #1f6feb; border-color: #1f6feb; color: white; font-weight: 500; }
+  .chip-count {
+    background: rgba(255,255,255,0.12); padding: 1px 7px;
+    border-radius: 10px; font-size: 10.5px; font-variant-numeric: tabular-nums;
+  }
+  .chip.active .chip-count { background: rgba(255,255,255,0.22); }
+  .chip-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  /* MAIN LAYOUT */
+  .main {
+    display: grid; grid-template-columns: 1fr 420px;
+    overflow: hidden; min-height: 0;
+  }
+  @media (max-width: 900px) {
+    .main { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+  }
+  #map { width: 100%; height: 100%; background: #0d1117; }
+
+  /* Leaflet dark tweaks */
+  .leaflet-container { background: #0d1117; font-family: inherit; }
+  .leaflet-control-attribution { background: rgba(13, 17, 23, 0.85) !important; color: #8b949e !important; font-size: 10px !important; }
+  .leaflet-control-attribution a { color: #58a6ff !important; }
+  .leaflet-control-zoom a { background: #161b22 !important; color: #c9d1d9 !important; border: 1px solid #30363d !important; }
+  .leaflet-control-zoom a:hover { background: #21262d !important; }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #161b22; color: #c9d1d9;
+    border: 1px solid #30363d; box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.5; max-width: 280px; }
+  .leaflet-popup-content strong { color: #f0f6fc; }
+  .leaflet-popup-close-button { color: #8b949e !important; }
+  .leaflet-popup-content a { color: #58a6ff; }
+
+  .marker-pulse { background: transparent; border: none; }
+  .marker-dot {
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.8);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .marker-dot.critical { animation: marker-pulse-anim 1.8s infinite; }
+  @keyframes marker-pulse-anim {
+    0%   { box-shadow: 0 0 0 0 currentColor; }
+    70%  { box-shadow: 0 0 0 14px transparent; }
+    100% { box-shadow: 0 0 0 0 transparent; }
+  }
+
+  /* FEED */
+  .feed-panel { border-left: 1px solid #30363d; background: #0d1117; display: flex; flex-direction: column; overflow: hidden; }
+  .feed-header {
+    padding: 14px 18px; border-bottom: 1px solid #30363d; background: #161b22;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: #8b949e; display: flex; justify-content: space-between; align-items: center;
+  }
+  .feed-count { color: #c9d1d9; font-weight: 700; }
+  .feed-list { overflow-y: auto; flex: 1; padding: 0; scrollbar-width: thin; scrollbar-color: #30363d #0d1117; }
+  .feed-list::-webkit-scrollbar { width: 8px; }
+  .feed-list::-webkit-scrollbar-track { background: #0d1117; }
+  .feed-list::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+  .feed-list::-webkit-scrollbar-thumb:hover { background: #484f58; }
+
+  .feed-item { padding: 14px 18px; border-bottom: 1px solid #21262d; cursor: pointer; transition: background 0.12s; position: relative; }
+  .feed-item:hover { background: #161b22; }
+  .feed-item.active { background: #1c2128; border-left: 3px solid #58a6ff; padding-left: 15px; }
+  .feed-item-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .severity-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .feed-item-cat { font-size: 10px; letter-spacing: 0.07em; text-transform: uppercase; color: #8b949e; font-weight: 600; }
+  .feed-item-date { margin-left: auto; font-size: 11px; color: #6e7681; font-variant-numeric: tabular-nums; }
+  .feed-item-title { font-size: 14px; font-weight: 600; color: #f0f6fc; line-height: 1.35; margin-bottom: 5px; }
+  .feed-item-location { font-size: 11.5px; color: #8b949e; margin-bottom: 6px; display: flex; align-items: center; gap: 5px; }
+  .feed-item-desc { font-size: 12.5px; color: #c9d1d9; line-height: 1.5; }
+  .feed-item-source { margin-top: 8px; font-size: 11px; }
+  .feed-item-source a { color: #58a6ff; text-decoration: none; }
+  .feed-item-source a:hover { text-decoration: underline; }
+
+  .empty-state { padding: 40px 20px; text-align: center; color: #8b949e; font-size: 13px; }
+  .loading-overlay {
+    position: fixed; inset: 0; background: rgba(13, 17, 23, 0.9);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 9999; color: #8b949e; font-size: 13px;
+    transition: opacity 0.3s;
+  }
+  .loading-overlay.hidden { opacity: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loading">Loading events…</div>
+
+<div class="app">
+  <header class="app-header">
+    <div class="header-row">
+      <div class="title-block">
+        <div class="title">Supply Chain Situation Tracker</div>
+        <div class="subtitle">Live map of ongoing global shipping &amp; logistics disruptions</div>
+      </div>
+      <div class="meta">
+        <span id="status"><span class="pulse"></span>&nbsp;&nbsp;Loading…</span>
+        <span id="event-count">—</span>
+      </div>
+    </div>
+    <div class="filters" id="filters"></div>
+  </header>
+
+  <div class="main">
+    <div id="map"></div>
+    <aside class="feed-panel">
+      <div class="feed-header">
+        <span>Active events</span>
+        <span class="feed-count" id="feed-count">—</span>
+      </div>
+      <div class="feed-list" id="feed-list"></div>
+    </aside>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+
+const CATEGORIES = {
+  chokepoint: { label: 'Chokepoint',         color: '#f85149' },
+  vessel:     { label: 'Vessel incident',    color: '#ff9a3d' },
+  port:       { label: 'Port',               color: '#fbcd5b' },
+  conflict:   { label: 'Conflict / security', color: '#bc8cff' },
+  policy:     { label: 'Policy / tariffs',   color: '#79c0ff' },
+  labour:     { label: 'Labour',             color: '#56d364' },
+  route:      { label: 'Route shift',        color: '#9d4edd' },
+  industry:   { label: 'Industry signal',    color: '#8b949e' },
+};
+const SEVERITY = {
+  critical: { color: '#f85149' }, high: { color: '#ff9a3d' },
+  medium:   { color: '#fbcd5b' }, low:  { color: '#56d364' },
+  info:     { color: '#79c0ff' },
+};
+
+let EVENTS = [];
+let LAST_UPDATED = null;
+let activeCategory = 'all';
+let activeEventId = null;
+const markerMap = {};
+
+const map = L.map('map', {
+  center: [25, 55], zoom: 3, minZoom: 2, maxZoom: 10,
+  worldCopyJump: true, zoomControl: true,
+}).setView([25, 55], 3);
+
+L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}@2x.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO',
+  subdomains: 'abcd', maxZoom: 19,
+}).addTo(map);
+
+function makeMarker(ev) {
+  const color = (SEVERITY[ev.severity] || SEVERITY.medium).color;
+  const isCritical = ev.severity === 'critical';
+  const icon = L.divIcon({
+    className: 'marker-pulse',
+    html: `<div class="marker-dot ${isCritical ? 'critical' : ''}" style="background:${color}; color:${color};"></div>`,
+    iconSize: [18, 18], iconAnchor: [9, 9],
+  });
+  const m = L.marker([ev.lat, ev.lng], { icon, title: ev.title });
+  m.bindPopup(`
+    <div><strong>${escapeHtml(ev.title)}</strong></div>
+    <div style="margin-top:4px; color:#8b949e; font-size:11px;">${escapeHtml(ev.location)} · ${escapeHtml(ev.dateLabel)}</div>
+    <div style="margin-top:8px;">${escapeHtml(ev.description)}</div>
+    <div style="margin-top:8px; font-size:11px;"><a href="${ev.sourceUrl}" target="_blank" rel="noopener">${escapeHtml(ev.sourceLabel)} ↗</a></div>
+  `, { maxWidth: 320 });
+  m.on('click', () => {
+    activeEventId = ev.id;
+    renderFeed();
+    const el = document.querySelector(`.feed-item[data-id="${ev.id}"]`);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+  return m;
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[c]));
+}
+
+function renderMarkers() {
+  Object.values(markerMap).forEach(m => map.removeLayer(m));
+  Object.keys(markerMap).forEach(k => delete markerMap[k]);
+  filteredEvents().forEach(ev => {
+    const m = makeMarker(ev);
+    m.addTo(map);
+    markerMap[ev.id] = m;
+  });
+}
+
+function renderFilters() {
+  const counts = { all: EVENTS.length };
+  EVENTS.forEach(e => { counts[e.category] = (counts[e.category] || 0) + 1; });
+  const buildChip = (cat, label, color) => {
+    const count = counts[cat] || 0;
+    const dot = color ? `<span class="chip-dot" style="background:${color};"></span>` : '';
+    return `<button class="chip ${activeCategory === cat ? 'active' : ''}" data-cat="${cat}">${dot}<span>${label}</span><span class="chip-count">${count}</span></button>`;
+  };
+  let html = buildChip('all', 'All events', null);
+  Object.entries(CATEGORIES).forEach(([k, v]) => { if (counts[k]) html += buildChip(k, v.label, v.color); });
+  const node = document.getElementById('filters');
+  node.innerHTML = html;
+  node.querySelectorAll('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      activeCategory = chip.dataset.cat;
+      activeEventId = null;
+      renderAll();
+    });
+  });
+}
+
+function filteredEvents() {
+  const list = activeCategory === 'all' ? EVENTS : EVENTS.filter(e => e.category === activeCategory);
+  const sevOrder = { critical: 5, high: 4, medium: 3, low: 2, info: 1 };
+  return [...list].sort((a, b) => {
+    if (a.date !== b.date) return b.date.localeCompare(a.date);
+    return (sevOrder[b.severity] || 0) - (sevOrder[a.severity] || 0);
+  });
+}
+
+function renderFeed() {
+  const list = filteredEvents();
+  document.getElementById('feed-count').textContent = list.length;
+  document.getElementById('event-count').textContent = `${EVENTS.length} events`;
+  const container = document.getElementById('feed-list');
+  if (!list.length) {
+    container.innerHTML = '<div class="empty-state">No events match this filter.</div>';
+    return;
+  }
+  container.innerHTML = list.map(ev => {
+    const sev = SEVERITY[ev.severity] || SEVERITY.medium;
+    const cat = CATEGORIES[ev.category] || CATEGORIES.industry;
+    return `
+      <div class="feed-item ${activeEventId === ev.id ? 'active' : ''}" data-id="${ev.id}">
+        <div class="feed-item-header">
+          <span class="severity-dot" style="background:${sev.color};"></span>
+          <span class="feed-item-cat" style="color:${cat.color}">${cat.label}</span>
+          <span class="feed-item-date">${escapeHtml(ev.dateLabel)}</span>
+        </div>
+        <div class="feed-item-title">${escapeHtml(ev.title)}</div>
+        <div class="feed-item-location">📍 ${escapeHtml(ev.location)}</div>
+        <div class="feed-item-desc">${escapeHtml(ev.description)}</div>
+        <div class="feed-item-source"><a href="${ev.sourceUrl}" target="_blank" rel="noopener">${escapeHtml(ev.sourceLabel)} ↗</a></div>
+      </div>
+    `;
+  }).join('');
+  container.querySelectorAll('.feed-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      if (e.target.tagName === 'A') return;
+      const id = item.dataset.id;
+      const ev = EVENTS.find(x => x.id === id);
+      if (!ev) return;
+      activeEventId = id;
+      map.flyTo([ev.lat, ev.lng], 5, { duration: 0.8 });
+      setTimeout(() => markerMap[id]?.openPopup(), 850);
+      renderFeed();
+    });
+  });
+}
+
+function renderAll() {
+  renderFilters();
+  renderMarkers();
+  renderFeed();
+}
+
+function formatUpdated(iso) {
+  if (!iso) return 'unknown';
+  const d = new Date(iso);
+  const now = new Date();
+  const diffMin = Math.round((now - d) / 60000);
+  if (diffMin < 1) return 'just now';
+  if (diffMin < 60) return `${diffMin}m ago`;
+  if (diffMin < 1440) return `${Math.round(diffMin/60)}h ago`;
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
+async function loadEvents() {
+  try {
+    const url = `events.json?t=${Date.now()}`; // cache-buster
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    EVENTS = data.events || [];
+    LAST_UPDATED = data.lastUpdated;
+    document.getElementById('status').innerHTML =
+      `<span class="pulse"></span>&nbsp;&nbsp;Updated ${formatUpdated(LAST_UPDATED)}`;
+    renderAll();
+  } catch (e) {
+    console.error('Failed to load events:', e);
+    document.getElementById('status').textContent = 'Failed to load events.json';
+    document.getElementById('feed-list').innerHTML =
+      `<div class="empty-state">Could not load <code>events.json</code>.<br/><br/>` +
+      `If you opened this file directly (file://), browsers block fetch for security.<br/>` +
+      `Try: <code>python -m http.server</code> from the project folder, then visit ` +
+      `<code>http://localhost:8000</code>.<br/><br/>` +
+      `Or deploy to GitHub Pages.</div>`;
+  } finally {
+    document.getElementById('loading').classList.add('hidden');
+  }
+}
+
+loadEvents();
+</script>
+</body>
+</html>
