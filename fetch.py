@@ -1,209 +1,264 @@
-{
-  "lastUpdated": "2026-05-21T03:30:00Z",
-  "events": [
-    {
-      "id": "oef-basrah",
-      "title": "Second wave of US sanctions: 19 vessels designated for deceptive shipping",
-      "location": "Basrah, Iraq",
-      "lat": 30.5081, "lng": 47.7833,
-      "date": "2026-05-19", "dateLabel": "19 May 2026",
-      "category": "policy", "severity": "medium",
-      "description": "US designated 19 more vessels in second wave of Operation Economic Fury, targeting ships using deceptive shipping practices to obfuscate Iran port calls. SAR imagery showed 9 vessels manipulating positions at Basrah Oil Terminal. Builds on first wave (9 vessels, 15 April).",
-      "sourceUrl": "https://insights.windward.ai/",
-      "sourceLabel": "Windward (MIOC)",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "cma-cgm-san-antonio",
-      "title": "CMA CGM San Antonio attacked in Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 26.2, "lng": 56.6,
-      "date": "2026-05-05", "dateLabel": "Early May 2026",
-      "category": "vessel", "severity": "high",
-      "description": "French container line CMA CGM confirmed its vessel San Antonio was attacked while transiting the Strait of Hormuz. One of several merchant-vessel attacks during the wider crisis; 17 ships damaged, 7 abandoned across the crisis.",
-      "sourceUrl": "https://carraglobe.com/strait-of-hormuz-closure-2026/",
-      "sourceLabel": "Carra Globe",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "us-east-coast-strike",
-      "title": "US East Coast ports — dockworker strike risk",
-      "location": "New York / New Jersey",
-      "lat": 40.7128, "lng": -74.0060,
-      "date": "2026-05-01", "dateLabel": "May 2026",
-      "category": "labour", "severity": "medium",
-      "description": "Tens of thousands of ILA dockworkers threatening strike if union cannot reach a deal to renew its contract with terminal operators. Could shut down major US East Coast ports as early as next week.",
-      "sourceUrl": "https://www.cbsnews.com/tag/supply-chain/",
-      "sourceLabel": "CBS News",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "dhl-tipping-point",
-      "title": "DHL CEO warns Gulf shock approaches \"tipping point\"",
-      "location": "Bonn, Germany",
-      "lat": 50.7374, "lng": 7.0982,
-      "date": "2026-04-21", "dateLabel": "21 Apr 2026",
-      "category": "industry", "severity": "info",
-      "description": "DHL Group CEO Tobias Meyer warned that sustained disruption in Gulf crude flows could push the global economy toward a tipping point. Routes tightening, freight markets constrained, shipping rates rising — especially on Asia-Europe lanes.",
-      "sourceUrl": "https://logisticsviewpoints.com/2026/04/24/supply-chain-and-logistics-news-april-20th-23rd-2026/",
-      "sourceLabel": "Logistics Viewpoints",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "mexico-blockades",
-      "title": "Farmer-trucker blockades disrupt Mexican ports & highways",
-      "location": "Central Mexico",
-      "lat": 19.4326, "lng": -99.1332,
-      "date": "2026-04-20", "dateLabel": "Apr 2026",
-      "category": "labour", "severity": "medium",
-      "description": "Major farmer-trucker blockades across Mexico are disrupting highways, slowing port and border operations, and forcing logistics providers to reroute freight. Affecting both export and import flows through Mexican ports.",
-      "sourceUrl": "https://www.freightwaves.com/news/category/news/business/supply-chains",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "ups-surge-fee",
-      "title": "UPS Surge Emergency Fee in effect",
-      "location": "United States",
-      "lat": 33.7490, "lng": -84.3880,
-      "date": "2026-04-19", "dateLabel": "Since 19 Apr 2026",
-      "category": "policy", "severity": "medium",
-      "description": "UPS implemented a Surge Emergency Fee. Most international shipments incur a $0.23/lb charge; China and Hong Kong → US shipments face $0.32/lb. Applies to premium services (Worldwide Express, Express Freight).",
-      "sourceUrl": "https://logisticsviewpoints.com/2026/04/24/supply-chain-and-logistics-news-april-20th-23rd-2026/",
-      "sourceLabel": "Logistics Viewpoints",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "manzanillo-cjng",
-      "title": "Port of Manzanillo destabilised by CJNG cartel violence",
-      "location": "Manzanillo, Mexico",
-      "lat": 19.05, "lng": -104.32,
-      "date": "2026-04-15", "dateLabel": "Apr 2026",
-      "category": "conflict", "severity": "high",
-      "description": "Death of CJNG cartel leader \"El Mencho\" triggered violent retaliation across western Mexico — disrupting highways, rattling the Port of Manzanillo (Mexico's busiest Pacific port), and threatening US-Mexico cross-border trade flows.",
-      "sourceUrl": "https://www.freightwaves.com/news/category/news/business/supply-chains",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "russia-lng-cape",
-      "title": "Russian LNG carriers rerouting via Cape of Good Hope",
-      "location": "Cape of Good Hope",
-      "lat": -34.3568, "lng": 18.4737,
-      "date": "2026-04-01", "dateLabel": "Apr–May 2026",
-      "category": "route", "severity": "info",
-      "description": "Five Russia-flagged LNG carriers tracked sailing from Arctic ports to South China Sea via Cape of Good Hope and Sunda Strait throughout April–May, following the Arctic Metagaz drone strike. Tactic spreading beyond the LNG segment.",
-      "sourceUrl": "https://insights.windward.ai/",
-      "sourceLabel": "Windward (MIOC)",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "us-10pct-tariff",
-      "title": "US imposes 10% global tariff after Supreme Court ruling",
-      "location": "Washington, D.C.",
-      "lat": 38.9072, "lng": -77.0369,
-      "date": "2026-04-01", "dateLabel": "Apr 2026",
-      "category": "policy", "severity": "medium",
-      "description": "Trump unveiled a new 10% global tariff after the Supreme Court ruled many of his earlier country-specific tariffs unconstitutional. Companies advised to track entries, file protests, and prepare for billions-of-dollars refund process.",
-      "sourceUrl": "https://www.freightwaves.com/news/category/news/business/supply-chains",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "jnpt-surge",
-      "title": "Jawaharlal Nehru Port: transhipment volume up 700%",
-      "location": "Nhava Sheva, India",
-      "lat": 18.9456, "lng": 72.9544,
-      "date": "2026-03-15", "dateLabel": "Mar–May 2026",
-      "category": "route", "severity": "info",
-      "description": "India's Jawaharlal Nehru Port has rapidly transformed into a major transhipment hub, with volumes up more than 700% from February baselines. Saudi Arabia and Singapore are also emerging as Gulf-diversion destinations.",
-      "sourceUrl": "https://www.freightwaves.com/news/34000-shipping-routes-diverted-from-hormuz-disruption-report",
-      "sourceLabel": "FreightWaves / project44",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "arctic-metagaz",
-      "title": "Russian LNG carrier Arctic Metagaz hit by drone strike",
-      "location": "East of Malta",
-      "lat": 35.9, "lng": 15.0,
-      "date": "2026-03-04", "dateLabel": "4 Mar 2026",
-      "category": "vessel", "severity": "high",
-      "description": "The laden LNG carrier Arctic Metagaz was struck by a drone east of Malta. Crew abandoned ship; vessel later anchored off Benghazi after EU-sanctioned salvage. Triggered Russia LNG carriers avoiding Mediterranean transits.",
-      "sourceUrl": "https://insights.windward.ai/",
-      "sourceLabel": "Windward (MIOC)",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "red-sea-houthis",
-      "title": "Red Sea attacks resume — Bab el-Mandeb transits halved",
-      "location": "Bab el-Mandeb strait",
-      "lat": 12.5833, "lng": 43.3333,
-      "date": "2026-03-01", "dateLabel": "Since Mar 2026",
-      "category": "chokepoint", "severity": "high",
-      "description": "Houthis resumed attacks on Red Sea shipping after the October 2025 ceasefire collapsed. Bab el-Mandeb transits stuck at ~50% pre-attack levels. Carriers default to Cape of Good Hope routing — adding 10-14 days Asia <-> Europe.",
-      "sourceUrl": "https://www.imf.org/en/blogs/articles/2026/04/29/global-disruptions-are-testing-how-the-world-moves-goods-and-people",
-      "sourceLabel": "IMF · International Crisis Group",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "hormuz-crisis",
-      "title": "Strait of Hormuz crisis — 1,550+ vessels stranded",
-      "location": "Strait of Hormuz",
-      "lat": 26.5667, "lng": 56.2500,
-      "date": "2026-02-28", "dateLabel": "Since 28 Feb 2026 · ongoing",
-      "category": "chokepoint", "severity": "critical",
-      "description": "Iran has largely blocked Strait of Hormuz shipping since US-Israel struck Iranian targets on 28 Feb. As of early May: 22,500 mariners trapped on 1,550+ vessels; traffic ~5-15% of pre-war volume. US naval blockade since 13 April. Iran allowing limited transit via northern coastal corridor under IRGC monitoring.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
-      "sourceLabel": "Wikipedia · Carra Globe · Al Jazeera",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "tema-cranes",
-      "title": "Port of Tema operating with crane outages",
-      "location": "Tema, Ghana",
-      "lat": 5.6739, "lng": 0.0228,
-      "date": "2026-02-15", "dateLabel": "Since Feb 2026",
-      "category": "port", "severity": "medium",
-      "description": "Tema port experiencing significant crane outages. Berthing delays for window vessels extend up to 36 hours; non-window vessels subject to berth availability. Operating under strict pro-forma move limits.",
-      "sourceUrl": "https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-19-02-2026",
-      "sourceLabel": "Kuehne+Nagel port updates",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "mombasa-congestion",
-      "title": "Port of Mombasa: 5+ day waits, equipment shortages",
-      "location": "Mombasa, Kenya",
-      "lat": -4.0435, "lng": 39.6682,
-      "date": "2026-02-01", "dateLabel": "Since Feb 2026",
-      "category": "port", "severity": "medium",
-      "description": "Mombasa terminal experiencing prolonged congestion and reduced productivity due to equipment shortages and high transhipment volumes diverted from Gulf. 7-day average vessel wait time around 5+ days.",
-      "sourceUrl": "https://mykn.kuehne-nagel.com/news/article/port-operational-updates-from-19-02-2026",
-      "sourceLabel": "Kuehne+Nagel port updates",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "karachi-fire",
-      "title": "Container terminal fire at Port of Karachi",
-      "location": "Karachi, Pakistan",
-      "lat": 24.8607, "lng": 67.0011,
-      "date": "2026-01-16", "dateLabel": "16 Jan 2026",
-      "category": "port", "severity": "medium",
-      "description": "Fire in the container terminals disrupted operations on 16 January. Over 20 containers were impacted; the fire forced suspension of handling operations for two vessels.",
-      "sourceUrl": "https://www.everstream.ai/risk-centers/port-congestion-report-22-january-2026/",
-      "sourceLabel": "Everstream Analytics",
-      "added": "2026-05-21T03:30:00Z"
-    },
-    {
-      "id": "panama-drought",
-      "title": "Panama Canal — drought-induced transit limits ongoing",
-      "location": "Panama Canal",
-      "lat": 9.0833, "lng": -79.6833,
-      "date": "2026-01-01", "dateLabel": "Ongoing 2026",
-      "category": "chokepoint", "severity": "medium",
-      "description": "Dwindling water levels in Panama Canal continue to constrain global supply chains. Compounds the Suez & Hormuz disruptions — with East Coast US <-> Asia traffic looking for any working alternative.",
-      "sourceUrl": "https://unctad.org/news/unprecedented-shipping-disruptions-raise-risk-global-trade-unctad-warns",
-      "sourceLabel": "UNCTAD",
-      "added": "2026-05-21T03:30:00Z"
-    }
-  ]
-}
+"""
+Supply Chain Situation Tracker - fetcher
+
+Reads feeds.json, fetches each RSS source, sends new articles to Gemini for
+classification and structured extraction, merges with existing events.json,
+writes the result back.
+
+Designed to be idempotent: safe to run repeatedly. Articles are deduplicated
+by stable hash of their URL. Existing events are kept; new ones are appended.
+
+Environment variables:
+  GEMINI_API_KEY  required, free tier OK
+  DRY_RUN         optional, if set to "1" skips the Gemini calls and
+                  writes a placeholder for each new candidate article (useful
+                  for testing the pipeline before adding an API key).
+
+Usage:
+  python fetch.py
+"""
+
+import os
+import json
+import time
+import hashlib
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import feedparser
+
+# --- Configuration ---------------------------------------------------------
+
+ROOT          = Path(__file__).parent
+FEEDS_FILE    = ROOT / "feeds.json"
+EVENTS_FILE   = ROOT / "events.json"
+MAX_AGE_DAYS  = 7          # ignore articles older than this
+MAX_TOTAL     = 200        # cap total events kept (rolling window)
+SLEEP_BETWEEN = 0.3        # polite delay between Gemini calls (seconds)
+
+CATEGORIES = ["chokepoint", "vessel", "port", "conflict",
+              "policy", "labour", "route", "industry"]
+SEVERITIES = ["critical", "high", "medium", "low", "info"]
+
+PROMPT = """You are filtering a news article for a supply chain situation tracker.
+
+The tracker shows ongoing disruptions and notable events relevant to global
+freight, shipping, and logistics: port issues, vessel incidents, chokepoint
+disruptions, trade policy moves, labour actions, route shifts, conflicts that
+affect freight flows, and industry signals (carrier announcements, etc).
+
+Reject anything that is: corporate earnings reporting, technology product
+announcements, opinion columns, year-in-review summaries, or general
+non-disruption-related news.
+
+Article title: {title}
+Article summary: {summary}
+Article URL: {url}
+
+If this article describes a SPECIFIC, CURRENT supply chain event or
+disruption worth tracking, return ONLY this JSON (no other text, no
+markdown fences):
+
+{{
+  "relevant": true,
+  "title": "<concise event title, max 80 chars>",
+  "location": "<specific location name>",
+  "lat": <latitude as a number>,
+  "lng": <longitude as a number>,
+  "category": "<one of: {categories}>",
+  "severity": "<one of: {severities}>",
+  "description": "<2-3 sentence factual summary>"
+}}
+
+If the article is NOT relevant, return ONLY:
+{{"relevant": false}}
+
+Coordinates should be best-guess for the central location of the event.
+Be precise about category and severity; do not default to "medium" or
+"industry" if a more specific value fits."""
+
+
+# --- Helpers ---------------------------------------------------------------
+
+def stable_id(url: str) -> str:
+    """Stable 12-char hash of an article URL — used as dedupe key."""
+    return hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
+
+
+def parse_published(entry) -> datetime | None:
+    """Best-effort extraction of an article's publish datetime (UTC)."""
+    for attr in ("published_parsed", "updated_parsed"):
+        v = getattr(entry, attr, None)
+        if v:
+            return datetime(*v[:6], tzinfo=timezone.utc)
+    return None
+
+
+def load_existing() -> dict:
+    """Load existing events.json. If absent or broken, return a fresh shell."""
+    if EVENTS_FILE.exists():
+        try:
+            with open(EVENTS_FILE) as f:
+                data = json.load(f)
+            if isinstance(data.get("events"), list):
+                return data
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {"lastUpdated": None, "events": []}
+
+
+def load_feeds() -> list[dict]:
+    with open(FEEDS_FILE) as f:
+        return json.load(f)["feeds"]
+
+
+def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
+    """Send one article through Gemini, parse JSON response."""
+    prompt = PROMPT.format(
+        title=title[:200],
+        summary=(summary or "")[:1500],
+        url=url,
+        categories=", ".join(CATEGORIES),
+        severities=", ".join(SEVERITIES),
+    )
+    try:
+        resp = model.generate_content(prompt)
+        text = (resp.text or "").strip()
+    except Exception as exc:
+        print(f"  gemini error: {exc}")
+        return None
+
+    # Strip optional code fences the model sometimes adds.
+    if text.startswith("```"):
+        text = text.strip("`")
+        if text.startswith("json"):
+            text = text[4:]
+        text = text.strip()
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        print(f"  bad json: {text[:120]}")
+        return None
+
+    if not data.get("relevant"):
+        return None
+
+    # Validate fields
+    try:
+        return {
+            "title":       str(data["title"])[:120],
+            "location":    str(data["location"])[:80],
+            "lat":         float(data["lat"]),
+            "lng":         float(data["lng"]),
+            "category":    data["category"] if data["category"] in CATEGORIES else "industry",
+            "severity":    data["severity"] if data["severity"] in SEVERITIES else "medium",
+            "description": str(data["description"])[:600],
+        }
+    except (KeyError, ValueError, TypeError) as exc:
+        print(f"  validation error: {exc}")
+        return None
+
+
+# --- Main ------------------------------------------------------------------
+
+def main() -> int:
+    dry_run = os.environ.get("DRY_RUN") == "1"
+
+    # Set up Gemini client unless dry run
+    model = None
+    if not dry_run:
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            print("ERROR: GEMINI_API_KEY env var not set. "
+                  "Set it, or run with DRY_RUN=1 to test the pipeline.")
+            return 1
+        import google.generativeai as genai
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel("gemini-2.0-flash")
+
+    feeds         = load_feeds()
+    state         = load_existing()
+    existing_ids  = {e["id"] for e in state["events"]}
+    cutoff        = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    added         = 0
+    skipped_old   = 0
+    skipped_dupe  = 0
+    skipped_norel = 0
+
+    for feed in feeds:
+        feed_name = feed["name"]
+        feed_url  = feed["url"]
+        print(f"\n=== {feed_name} ===")
+        try:
+            parsed = feedparser.parse(feed_url)
+        except Exception as exc:
+            print(f"  fetch failed: {exc}")
+            continue
+        entries = parsed.entries or []
+        print(f"  {len(entries)} items")
+        for entry in entries:
+            url = entry.get("link", "")
+            if not url:
+                continue
+            eid = stable_id(url)
+            if eid in existing_ids:
+                skipped_dupe += 1
+                continue
+            pub = parse_published(entry)
+            if pub and pub < cutoff:
+                skipped_old += 1
+                continue
+
+            title   = entry.get("title", "(no title)")
+            summary = entry.get("summary", entry.get("description", ""))
+
+            print(f"  -> {title[:80]}")
+            if dry_run:
+                # Add as placeholder so we can see the pipeline working
+                event = {
+                    "id": eid,
+                    "title": title[:80],
+                    "location": "(dry run — Gemini not called)",
+                    "lat": 0.0, "lng": 0.0,
+                    "category": "industry",
+                    "severity": "info",
+                    "description": (summary[:300] or "(no summary)"),
+                }
+            else:
+                extracted = call_gemini(model, title, summary, url)
+                time.sleep(SLEEP_BETWEEN)
+                if not extracted:
+                    skipped_norel += 1
+                    continue
+                event = {"id": eid, **extracted}
+
+            event_date = pub or datetime.now(timezone.utc)
+            event.update({
+                "date":        event_date.strftime("%Y-%m-%d"),
+                "dateLabel":   event_date.strftime("%b %d, %Y"),
+                "sourceUrl":   url,
+                "sourceLabel": feed_name,
+                "added":       datetime.now(timezone.utc).isoformat(),
+            })
+            state["events"].append(event)
+            existing_ids.add(eid)
+            added += 1
+
+    # Trim to MAX_TOTAL most recently added
+    state["events"].sort(key=lambda e: e.get("added", ""), reverse=True)
+    state["events"] = state["events"][:MAX_TOTAL]
+    state["lastUpdated"] = datetime.now(timezone.utc).isoformat()
+
+    with open(EVENTS_FILE, "w") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+    print(f"\nDone. Added {added} events. "
+          f"Skipped: {skipped_dupe} dupes, {skipped_old} old, "
+          f"{skipped_norel} non-relevant. "
+          f"Total now: {len(state['events'])}.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

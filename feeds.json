@@ -1,44 +1,13 @@
-name: Update events
-
-on:
-  schedule:
-    # Every 4 hours, on the hour (UTC). Adjust to taste.
-    - cron: '0 */4 * * *'
-  workflow_dispatch: # lets you trigger manually from the Actions tab
-
-permissions:
-  contents: write  # needed to commit events.json back to the repo
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-          cache: pip
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run fetcher
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python fetch.py
-
-      - name: Commit updated events.json
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update events ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+{
+  "feeds": [
+    { "name": "gCaptain",           "url": "https://gcaptain.com/feed/" },
+    { "name": "Splash 247",         "url": "https://splash247.com/feed/" },
+    { "name": "The Loadstar",       "url": "https://theloadstar.com/feed/" },
+    { "name": "FreightWaves",       "url": "https://www.freightwaves.com/news/feed" },
+    { "name": "Container News",     "url": "https://container-news.com/feed/" },
+    { "name": "Maritime Executive", "url": "https://maritime-executive.com/articles.rss" },
+    { "name": "Hellenic Shipping",  "url": "https://www.hellenicshippingnews.com/feed/" },
+    { "name": "Lloyd's List",       "url": "https://lloydslist.maritimeintelligence.informa.com/feed" }
+  ],
+  "_comment": "Add or remove RSS feeds here. Just keep the JSON structure valid. The fetcher will read this on each run."
+}

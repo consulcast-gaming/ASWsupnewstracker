@@ -1,264 +1,238 @@
-"""
-Supply Chain Situation Tracker - fetcher
+# Supply Chain Situation Tracker
 
-Reads feeds.json, fetches each RSS source, sends new articles to Gemini for
-classification and structured extraction, merges with existing events.json,
-writes the result back.
+A self-updating map of global shipping & logistics disruptions, powered by RSS
+feeds + a free LLM tier + GitHub Actions. Runs forever at $0/month.
 
-Designed to be idempotent: safe to run repeatedly. Articles are deduplicated
-by stable hash of their URL. Existing events are kept; new ones are appended.
+![architecture](https://img.shields.io/badge/cost-%240%2Fmonth-green)
+![status](https://img.shields.io/badge/status-POC-orange)
 
-Environment variables:
-  GEMINI_API_KEY  required, free tier OK
-  DRY_RUN         optional, if set to "1" skips the Gemini calls and
-                  writes a placeholder for each new candidate article (useful
-                  for testing the pipeline before adding an API key).
+---
 
-Usage:
-  python fetch.py
-"""
+## What this is
 
-import os
-import json
-import time
-import hashlib
-from datetime import datetime, timedelta, timezone
-from pathlib import Path
+- **Static HTML page** (`index.html`) showing an interactive Leaflet map + news
+  feed of current supply chain events.
+- **Python fetcher** (`fetch.py`) pulls RSS feeds from maritime news sources,
+  classifies each article via Google Gemini, and writes a structured
+  `events.json`.
+- **GitHub Actions** (`.github/workflows/update.yml`) runs the fetcher every
+  4 hours and commits the updated `events.json` back to the repo.
+- **GitHub Pages** serves the page for free.
 
-import feedparser
+Net result: deploy once, and you have a tracker that auto-updates without you
+ever touching it again. Cost is $0/month using free tiers throughout.
 
-# --- Configuration ---------------------------------------------------------
+---
 
-ROOT          = Path(__file__).parent
-FEEDS_FILE    = ROOT / "feeds.json"
-EVENTS_FILE   = ROOT / "events.json"
-MAX_AGE_DAYS  = 7          # ignore articles older than this
-MAX_TOTAL     = 200        # cap total events kept (rolling window)
-SLEEP_BETWEEN = 0.3        # polite delay between Gemini calls (seconds)
+## File overview
 
-CATEGORIES = ["chokepoint", "vessel", "port", "conflict",
-              "policy", "labour", "route", "industry"]
-SEVERITIES = ["critical", "high", "medium", "low", "info"]
+```
+supply-chain-tracker/
+├── README.md              you are here
+├── index.html             the tracker page (Leaflet + JS)
+├── events.json            event data; updated by fetch.py
+├── fetch.py               news fetcher / Gemini classifier
+├── feeds.json             list of RSS feeds to monitor (edit freely)
+├── requirements.txt       Python dependencies
+└── .github/workflows/
+    └── update.yml         GitHub Actions schedule
+```
 
-PROMPT = """You are filtering a news article for a supply chain situation tracker.
+---
 
-The tracker shows ongoing disruptions and notable events relevant to global
-freight, shipping, and logistics: port issues, vessel incidents, chokepoint
-disruptions, trade policy moves, labour actions, route shifts, conflicts that
-affect freight flows, and industry signals (carrier announcements, etc).
+## Deployment — 15 minutes
 
-Reject anything that is: corporate earnings reporting, technology product
-announcements, opinion columns, year-in-review summaries, or general
-non-disruption-related news.
+You need: a GitHub account, and a Google Gemini API key (free).
 
-Article title: {title}
-Article summary: {summary}
-Article URL: {url}
+### 1. Get a Gemini API key (3 min)
 
-If this article describes a SPECIFIC, CURRENT supply chain event or
-disruption worth tracking, return ONLY this JSON (no other text, no
-markdown fences):
+1. Go to <https://aistudio.google.com/app/apikey>
+2. Sign in with a Google account.
+3. Click "Create API key". Pick "Create API key in new project" if asked.
+4. Copy the key (looks like `AIza...`).
 
-{{
-  "relevant": true,
-  "title": "<concise event title, max 80 chars>",
-  "location": "<specific location name>",
-  "lat": <latitude as a number>,
-  "lng": <longitude as a number>,
-  "category": "<one of: {categories}>",
-  "severity": "<one of: {severities}>",
-  "description": "<2-3 sentence factual summary>"
-}}
+Free tier is 1,500 requests/day on Gemini 2.0 Flash — about 10× what this
+tracker needs.
 
-If the article is NOT relevant, return ONLY:
-{{"relevant": false}}
+### 2. Create the GitHub repo (5 min)
 
-Coordinates should be best-guess for the central location of the event.
-Be precise about category and severity; do not default to "medium" or
-"industry" if a more specific value fits."""
+1. Go to <https://github.com/new>
+2. Name it whatever you want (e.g. `supply-chain-tracker`).
+3. Make it **public** (required for free GitHub Pages on personal accounts).
+4. Create the repo.
+5. Either upload all the files in this folder via the web UI ("Add file →
+   Upload files"), or clone the empty repo and copy the files in via
+   command line.
 
+### 3. Add the API key as a secret (1 min)
 
-# --- Helpers ---------------------------------------------------------------
+1. In your new repo, go to **Settings → Secrets and variables → Actions**.
+2. Click **New repository secret**.
+3. Name: `GEMINI_API_KEY`
+4. Secret: paste your Gemini key.
+5. Click **Add secret**.
 
-def stable_id(url: str) -> str:
-    """Stable 12-char hash of an article URL — used as dedupe key."""
-    return hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
+### 4. Enable GitHub Pages (2 min)
 
+1. Go to **Settings → Pages**.
+2. Under **Source**, pick **Deploy from a branch**.
+3. Branch: `main`, folder: `/ (root)`.
+4. Click **Save**.
+5. Wait 1-2 minutes; GitHub will give you a URL like
+   `https://yourusername.github.io/supply-chain-tracker/`.
 
-def parse_published(entry) -> datetime | None:
-    """Best-effort extraction of an article's publish datetime (UTC)."""
-    for attr in ("published_parsed", "updated_parsed"):
-        v = getattr(entry, attr, None)
-        if v:
-            return datetime(*v[:6], tzinfo=timezone.utc)
-    return None
+### 5. Test it (3 min)
 
+1. Visit your GitHub Pages URL. You should see the tracker with the 17 seed
+   events loaded.
+2. Go to the **Actions** tab in your repo. You should see the "Update events"
+   workflow listed.
+3. Click it, then click **Run workflow** to trigger it manually for the first
+   run.
+4. Wait ~1-2 minutes for it to finish. Refresh your tracker page; new events
+   from the past week should appear.
 
-def load_existing() -> dict:
-    """Load existing events.json. If absent or broken, return a fresh shell."""
-    if EVENTS_FILE.exists():
-        try:
-            with open(EVENTS_FILE) as f:
-                data = json.load(f)
-            if isinstance(data.get("events"), list):
-                return data
-        except (json.JSONDecodeError, OSError):
-            pass
-    return {"lastUpdated": None, "events": []}
+That's it. The workflow will now run every 4 hours forever.
 
+---
 
-def load_feeds() -> list[dict]:
-    with open(FEEDS_FILE) as f:
-        return json.load(f)["feeds"]
+## Local testing (optional)
 
+If you want to test the fetcher on your own machine before deploying:
 
-def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
-    """Send one article through Gemini, parse JSON response."""
-    prompt = PROMPT.format(
-        title=title[:200],
-        summary=(summary or "")[:1500],
-        url=url,
-        categories=", ".join(CATEGORIES),
-        severities=", ".join(SEVERITIES),
-    )
-    try:
-        resp = model.generate_content(prompt)
-        text = (resp.text or "").strip()
-    except Exception as exc:
-        print(f"  gemini error: {exc}")
-        return None
+```bash
+cd supply-chain-tracker
+pip install -r requirements.txt
 
-    # Strip optional code fences the model sometimes adds.
-    if text.startswith("```"):
-        text = text.strip("`")
-        if text.startswith("json"):
-            text = text[4:]
-        text = text.strip()
+# Test the pipeline with no API key (placeholder data only)
+DRY_RUN=1 python fetch.py
 
-    try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        print(f"  bad json: {text[:120]}")
-        return None
+# Real run
+export GEMINI_API_KEY=your_key_here
+python fetch.py
+```
 
-    if not data.get("relevant"):
-        return None
+To view the page locally, you need to serve it via HTTP (not file://):
 
-    # Validate fields
-    try:
-        return {
-            "title":       str(data["title"])[:120],
-            "location":    str(data["location"])[:80],
-            "lat":         float(data["lat"]),
-            "lng":         float(data["lng"]),
-            "category":    data["category"] if data["category"] in CATEGORIES else "industry",
-            "severity":    data["severity"] if data["severity"] in SEVERITIES else "medium",
-            "description": str(data["description"])[:600],
-        }
-    except (KeyError, ValueError, TypeError) as exc:
-        print(f"  validation error: {exc}")
-        return None
+```bash
+python -m http.server 8000
+# then open http://localhost:8000
+```
 
+---
 
-# --- Main ------------------------------------------------------------------
+## Customisation
 
-def main() -> int:
-    dry_run = os.environ.get("DRY_RUN") == "1"
+### Add or remove news sources
 
-    # Set up Gemini client unless dry run
-    model = None
-    if not dry_run:
-        api_key = os.environ.get("GEMINI_API_KEY")
-        if not api_key:
-            print("ERROR: GEMINI_API_KEY env var not set. "
-                  "Set it, or run with DRY_RUN=1 to test the pipeline.")
-            return 1
-        import google.generativeai as genai
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+Edit `feeds.json`. Just keep the JSON structure. Suggested sources beyond
+the defaults:
 
-    feeds         = load_feeds()
-    state         = load_existing()
-    existing_ids  = {e["id"] for e in state["events"]}
-    cutoff        = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
-    added         = 0
-    skipped_old   = 0
-    skipped_dupe  = 0
-    skipped_norel = 0
+- **Industry-specific:** Aerial Press, Air Cargo News, AJOT, Container News,
+  Joc.com, Maritime Executive, Maersk newsroom, MSC press
+- **Regional:** Asia Cargo News, Eyefortransport, Lloyd's List, Splash
+- **Government/regulator:** USCG, IMO, USTR, UNCTAD
 
-    for feed in feeds:
-        feed_name = feed["name"]
-        feed_url  = feed["url"]
-        print(f"\n=== {feed_name} ===")
-        try:
-            parsed = feedparser.parse(feed_url)
-        except Exception as exc:
-            print(f"  fetch failed: {exc}")
-            continue
-        entries = parsed.entries or []
-        print(f"  {len(entries)} items")
-        for entry in entries:
-            url = entry.get("link", "")
-            if not url:
-                continue
-            eid = stable_id(url)
-            if eid in existing_ids:
-                skipped_dupe += 1
-                continue
-            pub = parse_published(entry)
-            if pub and pub < cutoff:
-                skipped_old += 1
-                continue
+### Change the update frequency
 
-            title   = entry.get("title", "(no title)")
-            summary = entry.get("summary", entry.get("description", ""))
+Edit `.github/workflows/update.yml`, change the cron schedule:
 
-            print(f"  -> {title[:80]}")
-            if dry_run:
-                # Add as placeholder so we can see the pipeline working
-                event = {
-                    "id": eid,
-                    "title": title[:80],
-                    "location": "(dry run — Gemini not called)",
-                    "lat": 0.0, "lng": 0.0,
-                    "category": "industry",
-                    "severity": "info",
-                    "description": (summary[:300] or "(no summary)"),
-                }
-            else:
-                extracted = call_gemini(model, title, summary, url)
-                time.sleep(SLEEP_BETWEEN)
-                if not extracted:
-                    skipped_norel += 1
-                    continue
-                event = {"id": eid, **extracted}
+```yaml
+- cron: '0 */4 * * *'   # every 4 hours (default)
+- cron: '0 */1 * * *'   # every hour (heavier on Gemini quota)
+- cron: '0 9,17 * * *'  # twice a day at 9am and 5pm UTC
+```
 
-            event_date = pub or datetime.now(timezone.utc)
-            event.update({
-                "date":        event_date.strftime("%Y-%m-%d"),
-                "dateLabel":   event_date.strftime("%b %d, %Y"),
-                "sourceUrl":   url,
-                "sourceLabel": feed_name,
-                "added":       datetime.now(timezone.utc).isoformat(),
-            })
-            state["events"].append(event)
-            existing_ids.add(eid)
-            added += 1
+### Adjust the classification rules
 
-    # Trim to MAX_TOTAL most recently added
-    state["events"].sort(key=lambda e: e.get("added", ""), reverse=True)
-    state["events"] = state["events"][:MAX_TOTAL]
-    state["lastUpdated"] = datetime.now(timezone.utc).isoformat()
+Edit the `PROMPT` constant in `fetch.py`. The relevant changes:
 
-    with open(EVENTS_FILE, "w") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False)
+- **Stricter relevance:** add explicit "reject" clauses (e.g. "reject articles
+  about specific carrier earnings unless they include a service change")
+- **Different categories:** change the `CATEGORIES` list — make sure
+  `index.html`'s `CATEGORIES` object matches
+- **Geographic focus:** add to the prompt "Only return events located in Asia,
+  Africa, or the Middle East — reject events solely about North America" or
+  similar
 
-    print(f"\nDone. Added {added} events. "
-          f"Skipped: {skipped_dupe} dupes, {skipped_old} old, "
-          f"{skipped_norel} non-relevant. "
-          f"Total now: {len(state['events'])}.")
-    return 0
+### Cap the number of events shown
 
+Edit `MAX_TOTAL` in `fetch.py` (default 200). Older events past this cap are
+dropped on each run.
 
-if __name__ == "__main__":
-    raise SystemExit(main())
+---
+
+## How it actually works
+
+1. GitHub Actions starts on schedule.
+2. `fetch.py` reads `feeds.json` and `events.json`.
+3. For each feed, it parses the RSS, looks at each article.
+4. New articles (not previously seen by URL hash, less than 7 days old) get
+   sent to Gemini with the classification prompt.
+5. Gemini returns either `{"relevant": false}` or a structured event object.
+6. Relevant events get added to `events.json` with stable IDs.
+7. The file is committed back to the repo.
+8. GitHub Pages serves the updated file automatically.
+9. When anyone visits the tracker, `index.html` fetches the latest
+   `events.json` and renders.
+
+Total elapsed time per run: typically 1-3 minutes depending on how many new
+articles there are.
+
+---
+
+## Cost breakdown
+
+Per month, with default settings:
+
+| Component | Cost |
+|---|---|
+| GitHub Actions (2,000 min free, we use ~10) | $0 |
+| GitHub Pages hosting | $0 |
+| Gemini API (free tier: 1,500 req/day; we use ~50-200) | $0 |
+| Domain (optional, if you want a custom URL) | $0-15 |
+| **Total** | **$0/month** |
+
+You only start paying if you upgrade to a much higher article volume or want
+faster updates than every hour.
+
+---
+
+## Known limitations
+
+- **Snapshot, not real-time.** Updates every 4 hours by default; not minute-by-
+  minute. For real-time you'd need streaming integrations.
+- **LLM hallucinations.** Gemini occasionally puts the wrong city in a wrong
+  country, or gets a lat/lng off by a degree. Spot-check the output
+  periodically. For production credibility you'd want a human-review step.
+- **RSS feeds change.** If a source restructures their feed or shuts it down,
+  it silently drops out of your sources. Logs will show the failure.
+- **No vessel tracking.** This tool tracks *events*, not ships. AIS data is a
+  paid feed (~$100+/month) and isn't included.
+- **No alerting.** Tool is pull-based (you visit it). No push notifications
+  to Slack/email — easy to add later if useful.
+
+---
+
+## Where to go next
+
+If the POC proves useful, the natural next steps roughly in order:
+
+1. **Add a human review queue.** Set new events to `status: "pending"` by
+   default, surface them in a separate UI, require manual approval before
+   they appear on the public map. This is the LiveUAMap pattern.
+2. **Add static context layers.** Show major shipping lanes, key chokepoints
+   shaded, major hubs as muted markers. Makes the map more meaningful.
+3. **Add filters by date / region.** "Show me events from the last 7 days in
+   Asia only" etc.
+4. **Add alerting.** Slack webhook integration so the team gets pinged when
+   a critical-severity event is detected.
+5. **Add selective AIS data.** Pay for cheaper MarineTraffic API endpoints to
+   show e.g. "vessels currently queued at Hormuz" — targeted indicators, not
+   full traffic.
+
+---
+
+## License
+
+Do whatever you want with this.
