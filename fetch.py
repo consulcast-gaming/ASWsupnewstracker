@@ -112,7 +112,7 @@ def load_feeds() -> list[dict]:
         return json.load(f)["feeds"]
 
 
-def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
+def call_gemini(client, title: str, summary: str, url: str) -> dict | None:
     """Send one article through Gemini, parse JSON response."""
     prompt = PROMPT.format(
         title=title[:200],
@@ -122,7 +122,10 @@ def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
         severities=", ".join(SEVERITIES),
     )
     try:
-        resp = model.generate_content(prompt)
+        resp = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt,
+        )
         text = (resp.text or "").strip()
     except Exception as exc:
         print(f"  gemini error: {exc}")
@@ -166,16 +169,15 @@ def main() -> int:
     dry_run = os.environ.get("DRY_RUN") == "1"
 
     # Set up Gemini client unless dry run
-    model = None
+    client = None
     if not dry_run:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             print("ERROR: GEMINI_API_KEY env var not set. "
                   "Set it, or run with DRY_RUN=1 to test the pipeline.")
             return 1
-        import google.generativeai as genai
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        from google import genai
+        client = genai.Client(api_key=api_key)
 
     feeds         = load_feeds()
     state         = load_existing()
@@ -226,7 +228,7 @@ def main() -> int:
                     "description": (summary[:300] or "(no summary)"),
                 }
             else:
-                extracted = call_gemini(model, title, summary, url)
+                extracted = call_gemini(client, title, summary, url)
                 time.sleep(SLEEP_BETWEEN)
                 if not extracted:
                     skipped_norel += 1
