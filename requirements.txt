@@ -1,2 +1,2 @@
 feedparser>=6.0.10
-google-genai>=1.0.0
+groq>=0.20.0
