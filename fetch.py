@@ -122,11 +122,13 @@ def call_gemini(client, title: str, summary: str, url: str) -> dict | None:
         severities=", ".join(SEVERITIES),
     )
     try:
-        resp = client.models.generate_content(
-          model="gemini-2.5-flash-lite",
-          contents=prompt,
+        resp = client.chat.completions.create(
+            model="qwen/qwen3-32b",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            reasoning_effort="none",
         )
-        text = (resp.text or "").strip()
+        text = (resp.choices[0].message.content or "").strip()
     except Exception as exc:
         print(f"  gemini error: {exc}")
         return None
@@ -171,13 +173,13 @@ def main() -> int:
     # Set up Gemini client unless dry run
     client = None
     if not dry_run:
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
-            print("ERROR: GEMINI_API_KEY env var not set. "
+            print("ERROR: GROQ_API_KEY env var not set. "
                   "Set it, or run with DRY_RUN=1 to test the pipeline.")
             return 1
-        from google import genai
-        client = genai.Client(api_key=api_key)
+        from groq import Groq
+        client = Groq(api_key=api_key)
 
     feeds         = load_feeds()
     state         = load_existing()
