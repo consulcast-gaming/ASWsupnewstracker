@@ -123,8 +123,8 @@ def call_gemini(client, title: str, summary: str, url: str) -> dict | None:
     )
     try:
         resp = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=prompt,
+          model="gemini-2.5-flash-lite",
+          contents=prompt,
         )
         text = (resp.text or "").strip()
     except Exception as exc:
