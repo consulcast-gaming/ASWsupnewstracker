@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-21T21:30:59.711009+00:00",
+  "lastUpdated": "2026-05-22T02:19:11.097547+00:00",
   "events": [
+    {
+      "id": "564606a5ba73",
+      "title": "Container Spot Rates Rise in Early Peak Season",
+      "location": "Global East-West Trade Lanes",
+      "lat": 30.0,
+      "lng": -20.0,
+      "category": "industry",
+      "severity": "high",
+      "description": "Container freight rates are increasing as carriers raise prices on major East-West trade lanes, signaling the start of the traditional peak shipping season. This trend reflects strong demand and ongoing supply chain adjustments.",
+      "date": "2026-05-21",
+      "dateLabel": "May 21, 2026",
+      "sourceUrl": "https://gcaptain.com/drewry-container-spot-rates-continue-climb-as-early-peak-season-gains-momentum/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-22T02:09:19.809505+00:00"
+    },
     {
       "id": "dde5625cb998",
       "title": "Iran claims control of waters south of UAE port",
