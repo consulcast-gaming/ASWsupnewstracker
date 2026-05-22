@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-22T02:19:11.097547+00:00",
+  "lastUpdated": "2026-05-22T07:43:43.147298+00:00",
   "events": [
+    {
+      "id": "070149275126",
+      "title": "MSC updates emergency fuel surcharge for Red Sea and East Africa routes",
+      "location": "Red Sea",
+      "lat": 18.2206,
+      "lng": 38.9157,
+      "category": "industry",
+      "severity": "high",
+      "description": "MSC has updated its emergency fuel surcharge for cargo moving between Northern Europe, the Red Sea, and East Africa, effective June 1–15, 2026, due to ongoing disruptions in global marine operations.",
+      "date": "2026-05-22",
+      "dateLabel": "May 22, 2026",
+      "sourceUrl": "https://container-news.com/msc-updates-emergency-fuel-surcharge-on-red-sea-and-east-africa-trades/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-22T07:39:21.481810+00:00"
+    },
+    {
+      "id": "600670ae8168",
+      "title": "CMA CGM implements new PSS charges on key routes",
+      "location": "North Europe",
+      "lat": 56.1304,
+      "lng": 10.2073,
+      "category": "industry",
+      "severity": "high",
+      "description": "CMA CGM announced a new Peak Season Surcharge (PSS) of $500 per TEU effective 1 June 2026 for cargo from Asia to North Europe, impacting trade flows and freight costs.",
+      "date": "2026-05-22",
+      "dateLabel": "May 22, 2026",
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-new-pss-charges-on-europe-africa-and-indian-ocean-routes/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-22T07:38:54.134182+00:00"
+    },
+    {
+      "id": "509a60a17ef2",
+      "title": "Rhenus opens Jordan land corridor for Europe-Middle East freight",
+      "location": "Jordan",
+      "lat": 30.5833,
+      "lng": 36.2667,
+      "category": "route",
+      "severity": "high",
+      "description": "Rhenus has launched an alternative overland transport corridor through Jordan to maintain cargo flows between Europe and the Middle East, bypassing traditional routes affected by regional disruptions. The new route connects Europe and Türkiye with Gulf markets including Saudi Arabia, UAE, and others.",
+      "date": "2026-05-22",
+      "dateLabel": "May 22, 2026",
+      "sourceUrl": "https://container-news.com/rhenus-launches-alternative-europe-middle-east-land-corridor-via-jordan/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-22T07:38:45.450858+00:00"
+    },
     {
       "id": "564606a5ba73",
       "title": "Container Spot Rates Rise in Early Peak Season",
