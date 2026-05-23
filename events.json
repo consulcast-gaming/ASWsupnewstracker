@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-23T09:52:47.078598+00:00",
+  "lastUpdated": "2026-05-23T13:07:17.961433+00:00",
   "events": [
+    {
+      "id": "b5469149f02b",
+      "title": "Dali owners settle USD 2.25B Maryland claim",
+      "location": "Baltimore, Maryland",
+      "lat": 39.2904,
+      "lng": -76.6122,
+      "category": "vessel",
+      "severity": "high",
+      "description": "Grace Ocean and Synergy Marine have agreed to settle a USD 2.25 billion claim by Maryland related to the Dali's collision with the Francis Scott Key Bridge in March 2024.",
+      "date": "2026-05-23",
+      "dateLabel": "May 23, 2026",
+      "sourceUrl": "https://container-news.com/dali-owners-settle-usd-2-25-billion-maryland-claim-as-pi-losses-set-new-record/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-23T13:01:48.578364+00:00"
+    },
     {
       "id": "73eef7be4b59",
       "title": "MSC launches Ochna service for China-Vietnam trade",
