@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-23T16:58:37.088598+00:00",
+  "lastUpdated": "2026-05-23T20:48:10.418229+00:00",
   "events": [
+    {
+      "id": "05189179ef60",
+      "title": "US Blockade Redirects 100 Vessels Near Iran",
+      "location": "Iranian Ports",
+      "lat": 29.5254,
+      "lng": 52.3136,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "US forces have redirected 100 commercial vessels near Iranian ports as part of a six-week blockade, disrupting regional maritime traffic.",
+      "date": "2026-05-23",
+      "dateLabel": "May 23, 2026",
+      "sourceUrl": "https://gcaptain.com/us-says-its-blockade-against-iran-has-redirected-100-vessels/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-23T20:38:05.908443+00:00"
+    },
     {
       "id": "4dfffda9b12c",
       "title": "Gainesville Inland Port opens with daily rail service to Savannah",
