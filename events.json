@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-05-22T21:12:58.566344+00:00",
+  "lastUpdated": "2026-05-23T02:07:34.788488+00:00",
   "events": [
+    {
+      "id": "4f2b18e49b81",
+      "title": "Iran conflict impacts Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.012,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The ongoing Iran conflict, now in its 12th week, continues to create uncertainty and potential disruptions in the Strait of Hormuz, a critical global oil shipping chokepoint.",
+      "date": "2026-05-22",
+      "dateLabel": "May 22, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/gibson-tanker-report-strait-forward/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-23T02:07:24.104086+00:00"
+    },
+    {
+      "id": "7d4ed3980576",
+      "title": "Maersk blanks Northern Star sailing",
+      "location": "Asia-Oceania corridor",
+      "lat": -23.4944,
+      "lng": 146.977,
+      "category": "industry",
+      "severity": "medium",
+      "description": "Maersk has announced a seasonal blanking on its Northern Star service, affecting the Capitaine Baret on voyages 628S and 631N due to cargo seasonality and demand fluctuations on the Asia-Oceania corridor.",
+      "date": "2026-05-23",
+      "dateLabel": "May 23, 2026",
+      "sourceUrl": "https://container-news.com/maersk-blanks-northern-star-sailing/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-23T02:01:32.298072+00:00"
+    },
     {
       "id": "8c3d0339859e",
       "title": "U.S.-China Agree on Hormuz Strait Toll Policy",
