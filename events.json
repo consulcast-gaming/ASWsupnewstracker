@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-23T02:07:34.788488+00:00",
+  "lastUpdated": "2026-05-23T06:37:36.978489+00:00",
   "events": [
+    {
+      "id": "73eef7be4b59",
+      "title": "MSC launches Ochna service for China-Vietnam trade",
+      "location": "Dalian",
+      "lat": 38.9146,
+      "lng": 121.546,
+      "category": "route",
+      "severity": "info",
+      "description": "MSC has launched the Ochna service, providing direct and fast connectivity between key ports in China and Vietnam. The inaugural voyage, operated by the MSC Hailey Ann II, is scheduled to arrive in Dalian on June 19, 2026.",
+      "date": "2026-05-22",
+      "dateLabel": "May 22, 2026",
+      "sourceUrl": "https://container-news.com/msc-launches-ochna-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-23T06:32:14.528576+00:00"
+    },
     {
       "id": "4f2b18e49b81",
       "title": "Iran conflict impacts Strait of Hormuz",
