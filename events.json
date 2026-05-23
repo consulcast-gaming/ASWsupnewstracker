@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-23T13:07:17.961433+00:00",
+  "lastUpdated": "2026-05-23T16:58:37.088598+00:00",
   "events": [
+    {
+      "id": "4dfffda9b12c",
+      "title": "Gainesville Inland Port opens with daily rail service to Savannah",
+      "location": "Gainesville, Georgia",
+      "lat": 34.2887,
+      "lng": -83.7431,
+      "category": "port",
+      "severity": "info",
+      "description": "The Georgia Ports Authority's Gainesville Inland Port officially launched daily rail service to the Port of Savannah, enhancing freight connectivity for regional manufacturers.",
+      "date": "2026-05-23",
+      "dateLabel": "May 23, 2026",
+      "sourceUrl": "https://container-news.com/gainesville-port-begins-operations-with-daily-rail-service-to-savannah/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-23T16:52:54.714516+00:00"
+    },
     {
       "id": "b5469149f02b",
       "title": "Dali owners settle USD 2.25B Maryland claim",
