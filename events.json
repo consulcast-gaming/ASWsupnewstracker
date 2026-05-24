@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-24T13:07:24.867029+00:00",
+  "lastUpdated": "2026-05-24T17:00:20.853625+00:00",
   "events": [
+    {
+      "id": "b31a81c6ea9e",
+      "title": "Asia-Europe freight rates surge, WCI rises 6%",
+      "location": "Shanghai to Rotterdam",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "category": "industry",
+      "severity": "high",
+      "description": "The Drewry World Container Index increased 6% to $2,712 per 40ft container, driven by a 15% rise in Asia-Europe spot rates, particularly from Shanghai to Rotterdam, signaling early peak season demand.",
+      "date": "2026-05-24",
+      "dateLabel": "May 24, 2026",
+      "sourceUrl": "https://container-news.com/world-container-index-climbs-as-asia-europe-freight-rates-surge/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-24T16:54:51.291110+00:00"
+    },
+    {
+      "id": "d4ba21058ca2",
+      "title": "Chinese Coast Guard Ship Departs Pratas Islands Waters",
+      "location": "Pratas Islands",
+      "lat": 20.4283,
+      "lng": 116.5428,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Chinese coast guard ship left waters near Taiwan's Pratas Islands after a tense standoff, raising concerns over regional tensions that could impact maritime freight routes.",
+      "date": "2026-05-24",
+      "dateLabel": "May 24, 2026",
+      "sourceUrl": "https://gcaptain.com/chinese-ship-leaves-after-tense-standoff-near-taiwan-controlled-islands/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-24T16:50:35.738923+00:00"
+    },
+    {
+      "id": "0c18f639875f",
+      "title": "LNG Tanker Exits Hormuz for India",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "An LNG tanker has exited the Strait of Hormuz heading to India for the first time since the war began, signaling a potential easing or shift in regional shipping disruptions.",
+      "date": "2026-05-24",
+      "dateLabel": "May 24, 2026",
+      "sourceUrl": "https://gcaptain.com/lng-tanker-exits-hormuz-for-india-for-first-time-since-war-began/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-24T16:50:34.216878+00:00"
+    },
     {
       "id": "43d2d3372e75",
       "title": "Oman's strategic role in Hormuz dynamic",
