@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-24T02:14:54.322587+00:00",
+  "lastUpdated": "2026-05-24T07:03:05.378742+00:00",
   "events": [
+    {
+      "id": "c90c598726b4",
+      "title": "Ukraine strikes Russian Sheskharis oil terminal",
+      "location": "Sheskharis Oil Terminal, Russia",
+      "lat": 45.8867,
+      "lng": 38.9333,
+      "category": "conflict",
+      "severity": "high",
+      "description": "The Ukrainian military reported striking Russia's Sheskharis oil terminal and nearby Grushova oil depot on the Black Sea, potentially disrupting oil infrastructure and regional supply chain operations.",
+      "date": "2026-05-24",
+      "dateLabel": "May 24, 2026",
+      "sourceUrl": "https://gcaptain.com/ukraine-says-it-hit-russias-sheskharis-oil-terminal-on-black-sea/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-24T06:53:26.943591+00:00"
+    },
     {
       "id": "cacff7eeeb61",
       "title": "SCOTUS ruling impacts truckload brokerage sector",
