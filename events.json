@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-23T20:48:10.418229+00:00",
+  "lastUpdated": "2026-05-24T02:14:54.322587+00:00",
   "events": [
+    {
+      "id": "cacff7eeeb61",
+      "title": "SCOTUS ruling impacts truckload brokerage sector",
+      "location": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "category": "policy",
+      "severity": "high",
+      "description": "The U.S. Supreme Court ruled that truckload brokers can be held liable under state law for negligent hiring, leading to increased spot rates and potential long-term changes in the $800B+ truckload brokerage industry.",
+      "date": "2026-05-23",
+      "dateLabel": "May 23, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/one-week-after-landmark-scotus-ruling-why-truckload-spot-rates-just-hit-all-time-highs-and-why-this-is-only-the-beginning",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-05-24T02:06:05.788882+00:00"
+    },
     {
       "id": "05189179ef60",
       "title": "US Blockade Redirects 100 Vessels Near Iran",
