@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-24T07:03:05.378742+00:00",
+  "lastUpdated": "2026-05-24T09:56:45.649708+00:00",
   "events": [
+    {
+      "id": "43d2d3372e75",
+      "title": "Oman's strategic role in Hormuz dynamic",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Oman is playing a pivotal role in the evolving Hormuz dynamic, influencing the potential permanence of the PGSA toll regime and affecting global maritime freight flows through this critical chokepoint.",
+      "date": "2026-05-24",
+      "dateLabel": "May 24, 2026",
+      "sourceUrl": "https://container-news.com/explainer-omans-role-in-hormuz-dynamic/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-24T09:51:10.080143+00:00"
+    },
     {
       "id": "c90c598726b4",
       "title": "Ukraine strikes Russian Sheskharis oil terminal",
