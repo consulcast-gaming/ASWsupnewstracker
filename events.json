@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-25T17:36:36.819662+00:00",
+  "lastUpdated": "2026-05-25T21:05:59.723266+00:00",
   "events": [
+    {
+      "id": "ef97dd07f4bb",
+      "title": "Middle East oil and LNG vessels exit Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0832,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "Two LNG tankers and a supertanker carrying Iraqi crude have exited the Strait of Hormuz after being delayed due to the US-Israeli war on Iran, which has severely disrupted shipping through the region.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/vessels-carrying-middle-east-oil-lng-exit-hormuz-head-for-pakistan-china/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-25T21:05:24.301718+00:00"
+    },
+    {
+      "id": "5c9feb9eca75",
+      "title": "Iran expands PGSA claimed zone near Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0118,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Iran has expanded its claimed Protected Green Shipping Area (PGSA) zone to the UAE coast, heightening tensions in the Strait of Hormuz. This development occurs amid ongoing diplomatic and military activity in the region, affecting global shipping flows.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/trump-says-hormuz-will-open-a-deal-takes-shape-as-iran-expands-the-pgsa/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-25T21:04:47.704580+00:00"
+    },
+    {
+      "id": "0e82810e56b7",
+      "title": "US-Iran draft deal to reopen Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "A draft preliminary agreement between the US and Iran outlines plans to reopen the Strait of Hormuz, ease sanctions, and extend a ceasefire. The deal could significantly impact global shipping through this critical oil chokepoint.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://container-news.com/us-iran-draft-deal-outlines-hormuz-reopening-and-sanctions-relief/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-25T21:01:00.817184+00:00"
+    },
     {
       "id": "10c9a89d36dc",
       "title": "Strait of Hormuz Deal Framework Lacks Specifics",
