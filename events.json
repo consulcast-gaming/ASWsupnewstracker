@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-25T21:05:59.723266+00:00",
+  "lastUpdated": "2026-05-26T02:14:03.223176+00:00",
   "events": [
+    {
+      "id": "5a501ab7ab06",
+      "title": "Iran deal hopes ease Strait of Hormuz tensions",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "European natural gas prices dropped as optimism grew over a potential U.S.-Iran peace deal, which could ease tensions and reopen the critical Strait of Hormuz, a major global shipping chokepoint.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/european-natural-gas-prices-slump-echoing-oil-price-drop-amid-iran-deal-hopes/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-26T02:13:51.324910+00:00"
+    },
+    {
+      "id": "92a51480fbc9",
+      "title": "Cargo Ship Fire Injures Eight in Hamburg",
+      "location": "Hamburg, Germany",
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "category": "vessel",
+      "severity": "high",
+      "description": "A cargo ship fire occurred in Hamburg, Germany, on May 24, injuring eight people. The incident involved a vessel docked at the port and required emergency response.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/eight-injured-during-cargo-ship-fire-in-hamburg",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-05-26T02:09:55.970762+00:00"
+    },
+    {
+      "id": "4007a671eb46",
+      "title": "Clash reported in Strait of Hormuz",
+      "location": "Strait of Hormuz, Iran",
+      "lat": 26.6667,
+      "lng": 55.0,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A fatal skirmish was reported in the Strait of Hormuz, a critical global shipping chokepoint, following social media reports of explosions along Iran's coastline.",
+      "date": "2026-05-25",
+      "dateLabel": "May 25, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/possible-clash-reported-near-bandar-abbas-as-ceasefire-deal-edges-closer",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-05-26T02:09:51.617327+00:00"
+    },
     {
       "id": "ef97dd07f4bb",
       "title": "Middle East oil and LNG vessels exit Hormuz",
