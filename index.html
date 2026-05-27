@@ -96,6 +96,37 @@
     100% { box-shadow: 0 0 0 0 transparent; }
   }
 
+  /* ASW office markers — visually distinct from event markers */
+  .marker-office { background: transparent; border: none; }
+  .office-direct {
+    width: 14px; height: 14px; border-radius: 3px;
+    background: #3fb8af; border: 2px solid rgba(255,255,255,0.85);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.45);
+    transform: rotate(45deg);
+  }
+  .office-partner {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: transparent; border: 1.5px solid #8b949e;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+
+  /* Leaflet layer control — dark-themed */
+  .leaflet-control-layers {
+    background: #161b22 !important; color: #c9d1d9 !important;
+    border: 1px solid #30363d !important; box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+  }
+  .leaflet-control-layers-expanded { padding: 10px 12px !important; font-size: 12px !important; }
+  .leaflet-control-layers-toggle { background-color: #161b22 !important; }
+  .leaflet-control-layers label { color: #c9d1d9 !important; margin-bottom: 4px !important; }
+  .leaflet-control-layers-separator { border-top: 1px solid #30363d !important; }
+  .layer-swatch {
+    display: inline-block; width: 10px; height: 10px; margin: 0 6px 0 4px;
+    vertical-align: middle;
+  }
+  .layer-swatch.events { background: #f85149; border-radius: 50%; border: 1.5px solid rgba(255,255,255,0.7); }
+  .layer-swatch.direct { background: #3fb8af; transform: rotate(45deg); border: 1.5px solid rgba(255,255,255,0.7); }
+  .layer-swatch.partner { background: transparent; border: 1.5px solid #8b949e; border-radius: 50%; }
+
   /* FEED */
   .feed-panel { border-left: 1px solid #30363d; background: #0d1117; display: flex; flex-direction: column; overflow: hidden; }
   .feed-header {
@@ -208,7 +239,9 @@ function makeMarker(ev) {
     html: `<div class="marker-dot ${isCritical ? 'critical' : ''}" style="background:${color}; color:${color};"></div>`,
     iconSize: [18, 18], iconAnchor: [9, 9],
   });
-  const m = L.marker([ev.lat, ev.lng], { icon, title: ev.title });
+  // zIndexOffset keeps event markers above coincident office markers
+  // (e.g. a disruption at Hong Kong should sit on top of the HK office pin)
+  const m = L.marker([ev.lat, ev.lng], { icon, title: ev.title, zIndexOffset: 1000 });
   m.bindPopup(`
     <div><strong>${escapeHtml(ev.title)}</strong></div>
     <div style="margin-top:4px; color:#8b949e; font-size:11px;">${escapeHtml(ev.location)} · ${escapeHtml(ev.dateLabel)}</div>
@@ -231,11 +264,11 @@ function escapeHtml(s) {
 }
 
 function renderMarkers() {
-  Object.values(markerMap).forEach(m => map.removeLayer(m));
+  Object.values(markerMap).forEach(m => eventsLayer.removeLayer(m));
   Object.keys(markerMap).forEach(k => delete markerMap[k]);
   filteredEvents().forEach(ev => {
     const m = makeMarker(ev);
-    m.addTo(map);
+    eventsLayer.addLayer(m);
     markerMap[ev.id] = m;
   });
 }
@@ -326,6 +359,179 @@ function formatUpdated(iso) {
   if (diffMin < 1440) return `${Math.round(diffMin/60)}h ago`;
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
 }
+
+/* =================== ASW OFFICE NETWORK ===================
+   Two layers: direct offices (city-level pins) and partner-network
+   countries (country-centroid pins). Direct offices are visually
+   prominent (teal diamond), partners are muted (hollow gray ring).
+   Partner network defaults OFF to avoid noise on the disruption map. */
+
+const OFFICES = {
+  direct: [
+    // Latin America
+    { city: 'Iquique',         country: 'Chile',         region: 'Latin America', lat: -20.2208, lng: -70.1431 },
+    { city: 'Santiago',        country: 'Chile',         region: 'Latin America', lat: -33.4489, lng: -70.6693 },
+    { city: 'San Jose',        country: 'Costa Rica',    region: 'Latin America', lat:   9.9281, lng: -84.0907 },
+    { city: 'San Salvador',    country: 'El Salvador',   region: 'Latin America', lat:  13.6929, lng: -89.2182 },
+    { city: 'Guatemala City',  country: 'Guatemala',     region: 'Latin America', lat:  14.6349, lng: -90.5069 },
+    { city: 'Guadalajara',     country: 'Mexico',        region: 'Latin America', lat:  20.6597, lng:-103.3496 },
+    { city: 'Mexico City',     country: 'Mexico',        region: 'Latin America', lat:  19.4326, lng: -99.1332 },
+    { city: 'Colon Free Zone', country: 'Panama',        region: 'Latin America', lat:   9.3499, lng: -79.9018 },
+    { city: 'Panama City',     country: 'Panama',        region: 'Latin America', lat:   8.9824, lng: -79.5199 },
+    // East China
+    { city: 'Beijing',         country: 'China',         region: 'East China',    lat:  39.9042, lng: 116.4074 },
+    { city: 'Chongqing',       country: 'China',         region: 'East China',    lat:  29.4316, lng: 106.9123 },
+    { city: 'Lianyungang',     country: 'China',         region: 'East China',    lat:  34.6000, lng: 119.1600 },
+    { city: 'Nanjing',         country: 'China',         region: 'East China',    lat:  32.0603, lng: 118.7969 },
+    { city: 'Ningbo',          country: 'China',         region: 'East China',    lat:  29.8683, lng: 121.5440 },
+    { city: 'Shanghai',        country: 'China',         region: 'East China',    lat:  31.2304, lng: 121.4737 },
+    { city: 'Suzhou',          country: 'China',         region: 'East China',    lat:  31.2989, lng: 120.5853 },
+    { city: 'Wuhan',           country: 'China',         region: 'East China',    lat:  30.5928, lng: 114.3055 },
+    { city: 'Wuxi',            country: 'China',         region: 'East China',    lat:  31.4912, lng: 120.3119 },
+    { city: 'Zhengzhou',       country: 'China',         region: 'East China',    lat:  34.7466, lng: 113.6253 },
+    // North China
+    { city: 'Dalian',          country: 'China',         region: 'North China',   lat:  38.9140, lng: 121.6147 },
+    { city: 'Jinan',           country: 'China',         region: 'North China',   lat:  36.6512, lng: 117.1201 },
+    { city: 'Qingdao',         country: 'China',         region: 'North China',   lat:  36.0671, lng: 120.3826 },
+    { city: 'Tianjin',         country: 'China',         region: 'North China',   lat:  39.3434, lng: 117.3616 },
+    // HK & South China
+    { city: 'Chengdu',         country: 'China',         region: 'HK & South China', lat: 30.5728, lng: 104.0668 },
+    { city: 'Guangzhou',       country: 'China',         region: 'HK & South China', lat: 23.1291, lng: 113.2644 },
+    { city: 'Hong Kong',       country: 'Hong Kong SAR', region: 'HK & South China', lat: 22.3193, lng: 114.1694 },
+    { city: 'Shenzhen',        country: 'China',         region: 'HK & South China', lat: 22.5431, lng: 114.0579 },
+    { city: 'Xiamen',          country: 'China',         region: 'HK & South China', lat: 24.4798, lng: 118.0894 },
+    // Taiwan
+    { city: 'Taipei',          country: 'Taiwan',        region: 'Taiwan',        lat:  25.0330, lng: 121.5654 },
+    // Vietnam
+    { city: 'Ho Chi Minh City',country: 'Vietnam',       region: 'Vietnam',       lat:  10.8231, lng: 106.6297 },
+    { city: 'Hanoi',           country: 'Vietnam',       region: 'Vietnam',       lat:  21.0285, lng: 105.8542 },
+  ],
+  partners: [
+    // Africa
+    { country: 'Egypt',                region: 'Africa',                  lat:  26.82, lng:  30.80 },
+    { country: 'Kenya',                region: 'Africa',                  lat:  -0.02, lng:  37.91 },
+    { country: 'Madagascar',           region: 'Africa',                  lat: -18.77, lng:  46.87 },
+    { country: 'Mauritius',            region: 'Africa',                  lat: -20.35, lng:  57.55 },
+    { country: 'South Africa',         region: 'Africa',                  lat: -30.56, lng:  22.94 },
+    // Asia Pacific
+    { country: 'Australia',            region: 'Asia Pacific',            lat: -25.27, lng: 133.78 },
+    { country: 'Bangladesh',           region: 'Asia Pacific',            lat:  23.68, lng:  90.36 },
+    { country: 'Cambodia',             region: 'Asia Pacific',            lat:  12.57, lng: 104.99 },
+    { country: 'India',                region: 'Asia Pacific',            lat:  20.59, lng:  78.96 },
+    { country: 'Indonesia',            region: 'Asia Pacific',            lat:  -0.79, lng: 113.92 },
+    { country: 'Japan',                region: 'Asia Pacific',            lat:  36.20, lng: 138.25 },
+    { country: 'Laos',                 region: 'Asia Pacific',            lat:  19.85, lng: 102.50 },
+    { country: 'Macau',                region: 'Asia Pacific',            lat:  22.20, lng: 113.55 },
+    { country: 'Malaysia',             region: 'Asia Pacific',            lat:   4.21, lng: 101.98 },
+    { country: 'Myanmar',              region: 'Asia Pacific',            lat:  21.91, lng:  95.96 },
+    { country: 'Nepal',                region: 'Asia Pacific',            lat:  28.39, lng:  84.12 },
+    { country: 'New Zealand',          region: 'Asia Pacific',            lat: -40.90, lng: 174.89 },
+    { country: 'Northern Mariana Is.', region: 'Asia Pacific',            lat:  17.33, lng: 145.38 },
+    { country: 'Philippines',          region: 'Asia Pacific',            lat:  12.88, lng: 121.77 },
+    { country: 'Singapore',            region: 'Asia Pacific',            lat:   1.35, lng: 103.82 },
+    { country: 'South Korea',          region: 'Asia Pacific',            lat:  35.91, lng: 127.77 },
+    { country: 'Sri Lanka',            region: 'Asia Pacific',            lat:   7.87, lng:  80.77 },
+    { country: 'Thailand',             region: 'Asia Pacific',            lat:  15.87, lng: 100.99 },
+    // Middle East
+    { country: 'Israel',               region: 'Middle East',             lat:  31.05, lng:  34.85 },
+    { country: 'Jordan',               region: 'Middle East',             lat:  30.59, lng:  36.24 },
+    { country: 'Saudi Arabia',         region: 'Middle East',             lat:  23.89, lng:  45.08 },
+    { country: 'United Arab Emirates', region: 'Middle East',             lat:  23.42, lng:  53.85 },
+    // Europe
+    { country: 'Austria',              region: 'Europe',                  lat:  47.52, lng:  14.55 },
+    { country: 'Belgium',              region: 'Europe',                  lat:  50.50, lng:   4.47 },
+    { country: 'Czech Republic',       region: 'Europe',                  lat:  49.82, lng:  15.47 },
+    { country: 'Denmark',              region: 'Europe',                  lat:  56.26, lng:   9.50 },
+    { country: 'Estonia',              region: 'Europe',                  lat:  58.60, lng:  25.01 },
+    { country: 'Finland',              region: 'Europe',                  lat:  61.92, lng:  25.75 },
+    { country: 'France',               region: 'Europe',                  lat:  46.23, lng:   2.21 },
+    { country: 'Germany',              region: 'Europe',                  lat:  51.17, lng:  10.45 },
+    { country: 'Greece',               region: 'Europe',                  lat:  39.07, lng:  21.82 },
+    { country: 'Hungary',              region: 'Europe',                  lat:  47.16, lng:  19.50 },
+    { country: 'Iceland',              region: 'Europe',                  lat:  64.96, lng: -19.02 },
+    { country: 'Ireland',              region: 'Europe',                  lat:  53.41, lng:  -8.24 },
+    { country: 'Italy',                region: 'Europe',                  lat:  41.87, lng:  12.57 },
+    { country: 'Latvia',               region: 'Europe',                  lat:  56.88, lng:  24.60 },
+    { country: 'Lithuania',            region: 'Europe',                  lat:  55.17, lng:  23.88 },
+    { country: 'Moldova',              region: 'Europe',                  lat:  47.41, lng:  28.37 },
+    { country: 'Netherlands',          region: 'Europe',                  lat:  52.13, lng:   5.29 },
+    { country: 'Norway',               region: 'Europe',                  lat:  60.47, lng:   8.47 },
+    { country: 'Poland',               region: 'Europe',                  lat:  51.92, lng:  19.15 },
+    { country: 'Portugal',             region: 'Europe',                  lat:  39.40, lng:  -8.22 },
+    { country: 'Romania',              region: 'Europe',                  lat:  45.94, lng:  24.97 },
+    { country: 'Slovakia',             region: 'Europe',                  lat:  48.67, lng:  19.70 },
+    { country: 'Slovenia',             region: 'Europe',                  lat:  46.15, lng:  14.99 },
+    { country: 'Spain',                region: 'Europe',                  lat:  40.46, lng:  -3.75 },
+    { country: 'Sweden',               region: 'Europe',                  lat:  60.13, lng:  18.64 },
+    { country: 'Switzerland',          region: 'Europe',                  lat:  46.82, lng:   8.23 },
+    { country: 'Turkey',               region: 'Europe',                  lat:  38.96, lng:  35.24 },
+    { country: 'United Kingdom',       region: 'Europe',                  lat:  55.38, lng:  -3.44 },
+    // North America
+    { country: 'Canada',               region: 'North America',           lat:  56.13, lng:-106.35 },
+    { country: 'United States',        region: 'North America',           lat:  37.09, lng: -95.71 },
+    // South & Central America
+    { country: 'Antigua and Barbuda',  region: 'South & Central America', lat:  17.06, lng: -61.80 },
+    { country: 'Argentina',            region: 'South & Central America', lat: -38.42, lng: -63.62 },
+    { country: 'Barbados',             region: 'South & Central America', lat:  13.19, lng: -59.54 },
+    { country: 'Belize',               region: 'South & Central America', lat:  17.19, lng: -88.50 },
+    { country: 'Brazil',               region: 'South & Central America', lat: -14.24, lng: -51.93 },
+    { country: 'Colombia',             region: 'South & Central America', lat:   4.57, lng: -74.30 },
+    { country: 'Dominican Republic',   region: 'South & Central America', lat:  18.74, lng: -70.16 },
+    { country: 'Ecuador',              region: 'South & Central America', lat:  -1.83, lng: -78.18 },
+    { country: 'Guyana',               region: 'South & Central America', lat:   4.86, lng: -58.93 },
+    { country: 'Honduras',             region: 'South & Central America', lat:  15.20, lng: -86.24 },
+    { country: 'Jamaica',              region: 'South & Central America', lat:  18.11, lng: -77.30 },
+    { country: 'Nicaragua',            region: 'South & Central America', lat:  12.87, lng: -85.21 },
+    { country: 'Paraguay',             region: 'South & Central America', lat: -23.44, lng: -58.44 },
+    { country: 'Peru',                 region: 'South & Central America', lat:  -9.19, lng: -75.02 },
+    { country: 'Puerto Rico',          region: 'South & Central America', lat:  18.22, lng: -66.59 },
+    { country: 'St. Lucia',            region: 'South & Central America', lat:  13.91, lng: -60.98 },
+    { country: 'Suriname',             region: 'South & Central America', lat:   3.92, lng: -56.03 },
+    { country: 'Uruguay',              region: 'South & Central America', lat: -32.52, lng: -55.77 },
+  ],
+};
+
+// Use sibling LayerGroups so the Leaflet layer control can toggle each independently.
+// Event markers are added directly to the map via renderMarkers(); we wrap them in a
+// LayerGroup too so the user can hide *all* events at once when they want to study
+// network coverage in isolation.
+const eventsLayer  = L.layerGroup().addTo(map);
+const directLayer  = L.layerGroup().addTo(map);   // ASW direct offices — ON by default
+const partnerLayer = L.layerGroup();              // Partners — OFF by default; user toggles on
+
+OFFICES.direct.forEach(o => {
+  const icon = L.divIcon({
+    className: 'marker-office',
+    html: `<div class="office-direct" title="ASW Office"></div>`,
+    iconSize: [14, 14], iconAnchor: [7, 7],
+  });
+  const m = L.marker([o.lat, o.lng], { icon, title: `ASW · ${o.city}` });
+  m.bindPopup(`
+    <div><strong>${escapeHtml(o.city)}</strong> <span style="color:#3fb8af; font-size:11px;">· ASW Office</span></div>
+    <div style="margin-top:4px; color:#8b949e; font-size:11.5px;">${escapeHtml(o.country)} · ${escapeHtml(o.region)}</div>
+  `, { maxWidth: 240 });
+  directLayer.addLayer(m);
+});
+
+OFFICES.partners.forEach(o => {
+  const icon = L.divIcon({
+    className: 'marker-office',
+    html: `<div class="office-partner" title="Partner network"></div>`,
+    iconSize: [10, 10], iconAnchor: [5, 5],
+  });
+  const m = L.marker([o.lat, o.lng], { icon, title: `Partner · ${o.country}` });
+  m.bindPopup(`
+    <div><strong>${escapeHtml(o.country)}</strong> <span style="color:#8b949e; font-size:11px;">· Partner network</span></div>
+    <div style="margin-top:4px; color:#8b949e; font-size:11.5px;">${escapeHtml(o.region)}</div>
+  `, { maxWidth: 240 });
+  partnerLayer.addLayer(m);
+});
+
+L.control.layers(null, {
+  '<span class="layer-swatch events"></span> Disruption events':   eventsLayer,
+  '<span class="layer-swatch direct"></span> ASW offices':         directLayer,
+  '<span class="layer-swatch partner"></span> Partner network':    partnerLayer,
+}, { collapsed: false, position: 'topright' }).addTo(map);
 
 async function loadEvents() {
   try {
