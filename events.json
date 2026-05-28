@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-05-28T15:36:29.305850+00:00",
+  "lastUpdated": "2026-05-28T18:40:15.367804+00:00",
   "events": [
+    {
+      "id": "38d632513626",
+      "title": "Mangalore SPM Operations Suspended",
+      "location": "Mangalore, India",
+      "lat": 12.8775,
+      "lng": 74.9124,
+      "category": "port",
+      "severity": "medium",
+      "description": "Operations at the Mangalore SPM are suspended due to the southwest monsoon, affecting port activities.",
+      "date": "2026-05-28",
+      "dateLabel": "May 28, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/hot-port-news-from-gac-275/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-28T18:39:37.922620+00:00"
+    },
+    {
+      "id": "f6a8afed1152",
+      "title": "U.S.-Iran strikes near Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 26.7604,
+      "lng": 55.9673,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "The U.S. and Iran exchanged airstrikes near the Strait of Hormuz, raising tensions and reducing hopes for a near-term peace deal. The strikes occurred hours after U.S. President Trump downplayed prospects for an agreement to reopen the critical shipping chokepoint.",
+      "date": "2026-05-28",
+      "dateLabel": "May 28, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/u-s-iran-exchange-strikes-dampening-hopes-for-imminent-peace-deal/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-05-28T18:39:21.065436+00:00"
+    },
+    {
+      "id": "e4c22cb08844",
+      "title": "U.S. Warns Oman Over Hormuz Strait Toll System",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "policy",
+      "severity": "high",
+      "description": "U.S. Treasury Secretary Scott Bessent warned Oman that the U.S. is prepared to sanction any entity involved in facilitating an Iranian-linked tolling system in the Strait of Hormuz, raising concerns over potential disruptions to a critical global shipping chokepoint.",
+      "date": "2026-05-28",
+      "dateLabel": "May 28, 2026",
+      "sourceUrl": "https://gcaptain.com/u-s-treasury-warns-oman-over-hormuz-toll-system/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-28T18:29:08.069587+00:00"
+    },
     {
       "id": "cde140ee990a",
       "title": "UAE steps up as administrator amid Hormuz crisis",
