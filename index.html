@@ -232,7 +232,7 @@ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}
 }).addTo(map);
 
 function makeMarker(ev) {
-  const color = (SEVERITY[ev.severity] || SEVERITY.medium).color;
+  const color = (CATEGORIES[ev.category] || CATEGORIES.industry).color;
   const isCritical = ev.severity === 'critical';
   const icon = L.divIcon({
     className: 'marker-pulse',
