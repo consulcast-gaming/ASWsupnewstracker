@@ -1,18 +1,21 @@
 """
 Supply Chain Situation Tracker - fetcher
 
-Reads feeds.json, fetches each RSS source, sends new articles to Gemini for
-classification and structured extraction, merges with existing events.json,
-writes the result back.
+Reads feeds.json, fetches each RSS source, sends new articles to Qwen via
+Groq for classification and structured extraction, merges with existing
+events.json, writes the result back.
 
 Designed to be idempotent: safe to run repeatedly. Articles are deduplicated
-by stable hash of their URL. Existing events are kept; new ones are appended.
+by stable hash of their URL. Existing events are pruned by date (events
+older than PRUNE_AGE_DAYS are dropped each run), then new ones are appended.
 
 Environment variables:
-  GEMINI_API_KEY  required, free tier OK
-  DRY_RUN         optional, if set to "1" skips the Gemini calls and
-                  writes a placeholder for each new candidate article (useful
-                  for testing the pipeline before adding an API key).
+  GROQ_API_KEY    required, free tier OK. Stored in the repo as a secret
+                  named GEMINI_API_KEY (legacy name); the workflow YAML maps
+                  it to GROQ_API_KEY for this script.
+  DRY_RUN         optional, if set to "1" skips the LLM calls and writes a
+                  placeholder for each new candidate article (useful for
+                  testing the pipeline before adding an API key).
 
 Usage:
   python fetch.py
@@ -35,7 +38,7 @@ EVENTS_FILE   = ROOT / "events.json"
 MAX_AGE_DAYS  = 7          # ignore incoming articles older than this
 PRUNE_AGE_DAYS = 7         # delete stored events whose event-date is older than this
 MAX_TOTAL     = 200        # cap total events kept (rolling window)
-SLEEP_BETWEEN = 0.3        # polite delay between Gemini calls (seconds)
+SLEEP_BETWEEN = 1          # polite delay between Groq calls (seconds)
 
 CATEGORIES = ["chokepoint", "vessel", "port", "conflict",
               "policy", "labour", "route", "industry"]
@@ -111,10 +114,11 @@ def load_existing() -> dict:
 def prune_old_events(state: dict, max_age_days: int = PRUNE_AGE_DAYS) -> int:
     """Drop events whose 'date' field is more than max_age_days days old.
 
-    The fetcher used to only filter incoming articles by recency, which meant
-    existing events accumulated until MAX_TOTAL pushed them out. The tracker
-    is supposed to show *current* situations, so events more than a week old
-    are stale and should be evicted. Returns the number of events removed.
+    The fetcher previously only filtered incoming articles by recency, which
+    meant existing events accumulated until MAX_TOTAL pushed them out. The
+    tracker is supposed to show *current* situations, so events more than a
+    week old are stale and should be evicted. Returns the number of events
+    removed.
 
     Events with missing or malformed dates are kept (safer to be conservative
     than to accidentally evict things that just had a parse error).
@@ -125,15 +129,12 @@ def prune_old_events(state: dict, max_age_days: int = PRUNE_AGE_DAYS) -> int:
     kept = []
     for e in state["events"]:
         d = e.get("date", "")
-        # YYYY-MM-DD strings sort lexicographically, so string compare works.
-        # Malformed/missing → keep (don't conflate "no date" with "old").
         if not d or not isinstance(d, str) or len(d) != 10:
             kept.append(e)
         elif d >= cutoff_str:
             kept.append(e)
     state["events"] = kept
-    pruned = before - len(kept)
-    return pruned
+    return before - len(kept)
 
 
 def load_feeds() -> list[dict]:
@@ -141,8 +142,8 @@ def load_feeds() -> list[dict]:
         return json.load(f)["feeds"]
 
 
-def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
-    """Send one article through Gemini, parse JSON response."""
+def call_gemini(client, title: str, summary: str, url: str) -> dict | None:
+    """Send one article through Qwen via Groq, parse JSON response."""
     prompt = PROMPT.format(
         title=title[:200],
         summary=(summary or "")[:1500],
@@ -151,8 +152,13 @@ def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
         severities=", ".join(SEVERITIES),
     )
     try:
-        resp = model.generate_content(prompt)
-        text = (resp.text or "").strip()
+        resp = client.chat.completions.create(
+            model="qwen/qwen3-32b",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            reasoning_effort="none",
+        )
+        text = (resp.choices[0].message.content or "").strip()
     except Exception as exc:
         print(f"  gemini error: {exc}")
         return None
@@ -194,30 +200,29 @@ def call_gemini(model, title: str, summary: str, url: str) -> dict | None:
 def main() -> int:
     dry_run = os.environ.get("DRY_RUN") == "1"
 
-    # Set up Gemini client unless dry run
-    model = None
+    # Set up Groq client unless dry run
+    client = None
     if not dry_run:
-        api_key = os.environ.get("GEMINI_API_KEY")
+        api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
-            print("ERROR: GEMINI_API_KEY env var not set. "
+            print("ERROR: GROQ_API_KEY env var not set. "
                   "Set it, or run with DRY_RUN=1 to test the pipeline.")
             return 1
-        import google.generativeai as genai
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        from groq import Groq
+        client = Groq(api_key=api_key)
 
     feeds         = load_feeds()
     state         = load_existing()
 
     # Drop stale events whose date is older than PRUNE_AGE_DAYS. We do this
-    # before processing new feeds so the existing_ids set is also free of
-    # stale entries — that way if the same story re-surfaces this week, it
-    # can be re-added rather than being silently deduped against an old copy
-    # we just intended to delete.
+    # before building existing_ids so that if a story re-surfaces this week,
+    # it can be re-added rather than being silently deduped against an old
+    # copy we just intended to delete.
     pruned = prune_old_events(state)
     if pruned:
+        cutoff_date = (datetime.now(timezone.utc) - timedelta(days=PRUNE_AGE_DAYS)).date()
         print(f"Pruned {pruned} events older than {PRUNE_AGE_DAYS} days "
-              f"(date < {(datetime.now(timezone.utc) - timedelta(days=PRUNE_AGE_DAYS)).date()})")
+              f"(date < {cutoff_date})")
 
     existing_ids  = {e["id"] for e in state["events"]}
     cutoff        = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
@@ -266,7 +271,7 @@ def main() -> int:
                     "description": (summary[:300] or "(no summary)"),
                 }
             else:
-                extracted = call_gemini(model, title, summary, url)
+                extracted = call_gemini(client, title, summary, url)
                 time.sleep(SLEEP_BETWEEN)
                 if not extracted:
                     skipped_norel += 1
