@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-30T02:09:49.812892+00:00",
+  "lastUpdated": "2026-05-30T06:50:53.273771+00:00",
   "events": [
+    {
+      "id": "8c4f5f4eb425",
+      "title": "Hormuz Strait closure impacts fleet operations",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "The closure of the Strait of Hormuz enters its fourth month, affecting 16 Anglo-Eastern vessels and over 350 seafarers. The company is enhancing fleet security via its Global Security Desk to monitor threats and support crews.",
+      "date": "2026-05-30",
+      "dateLabel": "May 30, 2026",
+      "sourceUrl": "https://container-news.com/anglo-eastern-strengthens-fleet-security-as-hormuz-disruption-continues/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-30T06:43:51.800422+00:00"
+    },
     {
       "id": "c7c4b8c8c5af",
       "title": "Porsche Wins Lawsuit Over Felicity Ace Fire",
