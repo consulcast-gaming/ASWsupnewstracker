@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-30T06:50:53.273771+00:00",
+  "lastUpdated": "2026-05-30T10:01:30.988596+00:00",
   "events": [
+    {
+      "id": "1fa63400f46b",
+      "title": "Rio de Janeiro port upgrades for larger vessels",
+      "location": "Port of Rio de Janeiro, Brazil",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "category": "port",
+      "severity": "info",
+      "description": "The Port of Rio de Janeiro has completed a USD 32 million dredging and engineering project, allowing it to accommodate vessels up to 366 metres in length and increasing its operational capacity.",
+      "date": "2026-05-30",
+      "dateLabel": "May 30, 2026",
+      "sourceUrl": "https://container-news.com/rio-de-janeiro-port-upgrades-channel-to-receive-larger-vessels/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-30T09:54:28.602715+00:00"
+    },
     {
       "id": "8c4f5f4eb425",
       "title": "Hormuz Strait closure impacts fleet operations",
