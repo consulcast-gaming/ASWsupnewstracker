@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-30T17:02:46.254688+00:00",
+  "lastUpdated": "2026-05-30T20:54:05.864029+00:00",
   "events": [
+    {
+      "id": "afa002cac15f",
+      "title": "Ukrainian drones strike Russian port and oil depot",
+      "location": "Taganrog, Russia",
+      "lat": 47.2264,
+      "lng": 38.9364,
+      "category": "conflict",
+      "severity": "high",
+      "description": "Ukrainian drone strikes damaged a port and oil refinery in Taganrog and an oil depot in Armavir, disrupting Russian oil infrastructure and potentially affecting regional freight and logistics flows.",
+      "date": "2026-05-30",
+      "dateLabel": "May 30, 2026",
+      "sourceUrl": "https://gcaptain.com/ukrainian-drones-strike-port-oil-depot-in-southern-russia/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-05-30T20:42:58.583133+00:00"
+    },
     {
       "id": "1fa63400f46b",
       "title": "Rio de Janeiro port upgrades for larger vessels",
