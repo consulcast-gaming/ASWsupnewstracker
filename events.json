@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-31T02:25:13.487878+00:00",
+  "lastUpdated": "2026-05-31T07:48:50.781962+00:00",
   "events": [
+    {
+      "id": "bfbdd7352b16",
+      "title": "Samskip adds Halmstad to Europe–Iceland service",
+      "location": "Halmstad",
+      "lat": 57.9961,
+      "lng": 12.2021,
+      "category": "industry",
+      "severity": "info",
+      "description": "Samskip will add Halmstad to its Blue service connecting Europe and Iceland, starting in September. The service uses two 900 TEU vessels and expands network coverage in Scandinavia.",
+      "date": "2026-05-31",
+      "dateLabel": "May 31, 2026",
+      "sourceUrl": "https://container-news.com/samskip-adds-halmstad-to-europe-iceland-blue-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-31T07:41:55.728429+00:00"
+    },
     {
       "id": "38ac2c729491",
       "title": "US Disables Cargo Ship in Gulf of Oman",
