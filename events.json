@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-31T10:17:59.750519+00:00",
+  "lastUpdated": "2026-05-31T13:21:43.456580+00:00",
   "events": [
+    {
+      "id": "7950c261fe15",
+      "title": "Mexican truckers lose US visas over cabotage violations",
+      "location": "US-Mexico border",
+      "lat": 32.3214,
+      "lng": -116.7608,
+      "category": "policy",
+      "severity": "high",
+      "description": "Thousands of Mexican truckers have lost their US visas due to cabotage violations, disrupting cross-border freight movements. The issue arises from enforcement actions related to unauthorized hauling within the US.",
+      "date": "2026-05-31",
+      "dateLabel": "May 31, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/borderlands-mexico-thousands-of-mexican-truckers-lose-us-visas-over-cabotage-violations",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-05-31T13:11:48.652164+00:00"
+    },
     {
       "id": "40206bb09eab",
       "title": "MSC adds Napier to Eagle service rotation",
