@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-31T07:48:50.781962+00:00",
+  "lastUpdated": "2026-05-31T10:17:59.750519+00:00",
   "events": [
+    {
+      "id": "40206bb09eab",
+      "title": "MSC adds Napier to Eagle service rotation",
+      "location": "Napier, New Zealand",
+      "lat": -39.4889,
+      "lng": 176.8771,
+      "category": "route",
+      "severity": "info",
+      "description": "MSC has added Napier, New Zealand, to its Eagle service rotation, which connects the US East Coast with Australia and New Zealand, effective in June. The update reflects a shift in shipping routes to enhance connectivity in the region.",
+      "date": "2026-05-31",
+      "dateLabel": "May 31, 2026",
+      "sourceUrl": "https://container-news.com/msc-adds-napier-call-to-eagle-service-rotation/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-31T10:11:12.516032+00:00"
+    },
     {
       "id": "bfbdd7352b16",
       "title": "Samskip adds Halmstad to Europe–Iceland service",
