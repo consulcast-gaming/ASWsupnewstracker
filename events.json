@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-05-31T17:05:43.718178+00:00",
+  "lastUpdated": "2026-05-31T20:57:23.267684+00:00",
   "events": [
+    {
+      "id": "17ed84fb0e71",
+      "title": "Conflict Continues in Gulf, No Ceasefire in Sight",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.073,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "Ongoing conflict in the Gulf region shows no signs of de-escalation, with continued tensions affecting the critical Strait of Hormuz, a major global shipping chokepoint.",
+      "date": "2026-05-31",
+      "dateLabel": "May 31, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/no-signs-of-peace-in-the-gulf",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-05-31T20:52:01.521633+00:00"
+    },
+    {
+      "id": "161249b8bfc6",
+      "title": "Drewry WCI rises for fourth straight week",
+      "location": "Global",
+      "lat": 20.0,
+      "lng": 0.0,
+      "category": "industry",
+      "severity": "info",
+      "description": "The Drewry World Container Index (WCI) increased for the fourth consecutive week, reaching $2,800 per 40ft container. Rising rates are driven by early peak season demand, with Asia-Europe and Transpacific trades seeing carriers implement higher pricing and tighter capacity management.",
+      "date": "2026-05-31",
+      "dateLabel": "May 31, 2026",
+      "sourceUrl": "https://container-news.com/drewry-wci-rises-for-fourth-straight-week/",
+      "sourceLabel": "Container News",
+      "added": "2026-05-31T20:51:07.485452+00:00"
+    },
     {
       "id": "e2e12b34419a",
       "title": "Bulkers converted to container ships due to tonnage shortage",
