@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-05-30T20:54:05.864029+00:00",
+  "lastUpdated": "2026-05-31T02:25:13.487878+00:00",
   "events": [
+    {
+      "id": "38ac2c729491",
+      "title": "US Disables Cargo Ship in Gulf of Oman",
+      "location": "Gulf of Oman",
+      "lat": 25.5,
+      "lng": 56.5,
+      "category": "conflict",
+      "severity": "high",
+      "description": "U.S. forces disabled a small cargo ship on May 29 after it ignored warnings, according to CENTCOM. The incident occurred in the Gulf of Oman, a key maritime chokepoint.",
+      "date": "2026-05-30",
+      "dateLabel": "May 30, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/us-forces-disable-small-cargo-ship-in-the-gulf-of-oman",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-05-31T02:19:13.858935+00:00"
+    },
     {
       "id": "afa002cac15f",
       "title": "Ukrainian drones strike Russian port and oil depot",
@@ -2505,81 +2520,6 @@
       "sourceUrl": "https://gcaptain.com/ukraine-says-it-hit-russias-sheskharis-oil-terminal-on-black-sea/",
       "sourceLabel": "gCaptain",
       "added": "2026-05-24T06:53:26.943591+00:00"
-    },
-    {
-      "id": "cacff7eeeb61",
-      "title": "SCOTUS ruling impacts truckload brokerage sector",
-      "location": "United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "category": "policy",
-      "severity": "high",
-      "description": "The U.S. Supreme Court ruled that truckload brokers can be held liable under state law for negligent hiring, leading to increased spot rates and potential long-term changes in the $800B+ truckload brokerage industry.",
-      "date": "2026-05-23",
-      "dateLabel": "May 23, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/one-week-after-landmark-scotus-ruling-why-truckload-spot-rates-just-hit-all-time-highs-and-why-this-is-only-the-beginning",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-05-24T02:06:05.788882+00:00"
-    },
-    {
-      "id": "05189179ef60",
-      "title": "US Blockade Redirects 100 Vessels Near Iran",
-      "location": "Iranian Ports",
-      "lat": 29.5254,
-      "lng": 52.3136,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "US forces have redirected 100 commercial vessels near Iranian ports as part of a six-week blockade, disrupting regional maritime traffic.",
-      "date": "2026-05-23",
-      "dateLabel": "May 23, 2026",
-      "sourceUrl": "https://gcaptain.com/us-says-its-blockade-against-iran-has-redirected-100-vessels/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-05-23T20:38:05.908443+00:00"
-    },
-    {
-      "id": "4dfffda9b12c",
-      "title": "Gainesville Inland Port opens with daily rail service to Savannah",
-      "location": "Gainesville, Georgia",
-      "lat": 34.2887,
-      "lng": -83.7431,
-      "category": "port",
-      "severity": "info",
-      "description": "The Georgia Ports Authority's Gainesville Inland Port officially launched daily rail service to the Port of Savannah, enhancing freight connectivity for regional manufacturers.",
-      "date": "2026-05-23",
-      "dateLabel": "May 23, 2026",
-      "sourceUrl": "https://container-news.com/gainesville-port-begins-operations-with-daily-rail-service-to-savannah/",
-      "sourceLabel": "Container News",
-      "added": "2026-05-23T16:52:54.714516+00:00"
-    },
-    {
-      "id": "b5469149f02b",
-      "title": "Dali owners settle USD 2.25B Maryland claim",
-      "location": "Baltimore, Maryland",
-      "lat": 39.2904,
-      "lng": -76.6122,
-      "category": "vessel",
-      "severity": "high",
-      "description": "Grace Ocean and Synergy Marine have agreed to settle a USD 2.25 billion claim by Maryland related to the Dali's collision with the Francis Scott Key Bridge in March 2024.",
-      "date": "2026-05-23",
-      "dateLabel": "May 23, 2026",
-      "sourceUrl": "https://container-news.com/dali-owners-settle-usd-2-25-billion-maryland-claim-as-pi-losses-set-new-record/",
-      "sourceLabel": "Container News",
-      "added": "2026-05-23T13:01:48.578364+00:00"
-    },
-    {
-      "id": "7d4ed3980576",
-      "title": "Maersk blanks Northern Star sailing",
-      "location": "Asia-Oceania corridor",
-      "lat": -23.4944,
-      "lng": 146.977,
-      "category": "industry",
-      "severity": "medium",
-      "description": "Maersk has announced a seasonal blanking on its Northern Star service, affecting the Capitaine Baret on voyages 628S and 631N due to cargo seasonality and demand fluctuations on the Asia-Oceania corridor.",
-      "date": "2026-05-23",
-      "dateLabel": "May 23, 2026",
-      "sourceUrl": "https://container-news.com/maersk-blanks-northern-star-sailing/",
-      "sourceLabel": "Container News",
-      "added": "2026-05-23T02:01:32.298072+00:00"
     }
   ]
 }
