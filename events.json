@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-01T17:25:04.215746+00:00",
+  "lastUpdated": "2026-06-01T22:37:42.399954+00:00",
   "events": [
+    {
+      "id": "51a28882a0c2",
+      "title": "MSC Boxship Holed in Attacks Off Iraq",
+      "location": "Offshore Iraq",
+      "lat": 31.9576,
+      "lng": 47.9189,
+      "category": "vessel",
+      "severity": "critical",
+      "description": "An MSC containership was holed above the waterline following two attacks off the coast of Iraq, as reported by a pro-Iranian media outlet. The incident involves the Islamic Revolutionary Guard Corps (IRGC) and raises concerns over regional security and maritime safety.",
+      "date": "2026-06-01",
+      "dateLabel": "Jun 01, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/video-msc-boxship-holed-after-reports-of-explosion-off-iraq",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-01T22:34:50.993098+00:00"
+    },
+    {
+      "id": "8f4091cd0432",
+      "title": "Cargo vessel struck near Iraq, raises Gulf shipping concerns",
+      "location": "Southeast of Umm Qasr, Iraq",
+      "lat": 30.0,
+      "lng": 48.0,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A cargo vessel was struck by an unidentified projectile approximately 40 nautical miles southeast of Umm Qasr on 1 June, causing a large explosion. The incident has raised concerns about maritime security in Gulf shipping routes.",
+      "date": "2026-06-01",
+      "dateLabel": "Jun 01, 2026",
+      "sourceUrl": "https://container-news.com/cargo-vessel-strike-raises-gulf-shipping-concerns-as-trump-dismisses-iran-talks/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-01T22:33:34.035110+00:00"
+    },
+    {
+      "id": "7734b83c1a16",
+      "title": "MSC Containership Damaged in Apparent Attack Off Iraq",
+      "location": "Gulf of Oman",
+      "lat": 26.7508,
+      "lng": 56.3625,
+      "category": "vessel",
+      "severity": "high",
+      "description": "A Panama-flagged MSC containership was damaged in what appears to be an attack off Iraq, marking the third reported incident in the region since late February. The attack raises concerns about ongoing security risks affecting maritime freight flows.",
+      "date": "2026-06-01",
+      "dateLabel": "Jun 01, 2026",
+      "sourceUrl": "https://gcaptain.com/msc-containership-damaged-in-apparent-attack-off-iraq/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-01T22:29:23.093255+00:00"
+    },
     {
       "id": "3e8b38672eae",
       "title": "US campaign to end Jones Act waiver",
