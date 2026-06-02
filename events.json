@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-02T19:48:24.644634+00:00",
+  "lastUpdated": "2026-06-02T22:23:59.323595+00:00",
   "events": [
+    {
+      "id": "6893b9b7e8a1",
+      "title": "U.S. Disables Iran-Linked Tanker Near Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "U.S. forces have disabled an Iran-linked tanker near the Strait of Hormuz, a critical global shipping chokepoint, raising concerns over regional stability and potential disruptions to oil shipments.",
+      "date": "2026-06-02",
+      "dateLabel": "Jun 02, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/u-s-disables-another-iran-linked-tanker-with-a-hellfire-missile",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-02T22:20:29.498411+00:00"
+    },
+    {
+      "id": "70978189e9a8",
+      "title": "Texas allows CDLs for temporary farm workers",
+      "location": "Texas",
+      "lat": 31.9686,
+      "lng": -99.9018,
+      "category": "policy",
+      "severity": "medium",
+      "description": "Texas has resumed issuing non-domiciled commercial drivers licenses to legally authorized foreign workers, impacting labor availability in the freight sector.",
+      "date": "2026-06-02",
+      "dateLabel": "Jun 02, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/texas-drops-ban-on-commercial-drivers-licenses-for-temporary-farm-workers",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-02T22:16:23.831603+00:00"
+    },
+    {
+      "id": "c9a63df48b50",
+      "title": "U.S. Disables Sanctioned Tanker Bound for Iran",
+      "location": "Persian Gulf",
+      "lat": 26.0,
+      "lng": 54.0,
+      "category": "conflict",
+      "severity": "high",
+      "description": "U.S. forces disabled a sanctioned oil tanker attempting to reach an Iranian port, the sixth such vessel interdicted under Washington's maritime blockade. The action disrupts freight flows and escalates tensions in the region.",
+      "date": "2026-06-02",
+      "dateLabel": "Jun 02, 2026",
+      "sourceUrl": "https://gcaptain.com/u-s-forces-disable-sanctioned-tanker-bound-for-iran-as-blockade-enforcement-continues/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-02T22:16:05.330233+00:00"
+    },
     {
       "id": "7a8a0f845afc",
       "title": "Strait of Hormuz internet cable fee threat",
