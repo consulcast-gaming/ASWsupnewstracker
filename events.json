@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-05T02:21:59.303882+00:00",
+  "lastUpdated": "2026-06-05T08:09:45.127803+00:00",
   "events": [
+    {
+      "id": "65d2624963af",
+      "title": "Middle East conflict impacts bunker fuel market",
+      "location": "Middle East",
+      "lat": 30.5833,
+      "lng": 35.6667,
+      "category": "conflict",
+      "severity": "high",
+      "description": "The global bunker market remains volatile due to ongoing uncertainty from the Middle East conflict, affecting fuel prices and trade stability.",
+      "date": "2026-06-05",
+      "dateLabel": "Jun 05, 2026",
+      "sourceUrl": "https://container-news.com/global-bunker-market-remains-volatile-amid-middle-east-uncertainty/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-05T08:03:27.834164+00:00"
+    },
+    {
+      "id": "a66caaf372c9",
+      "title": "Container spot rates surge due to Red Sea disruptions and peak season",
+      "location": "Red Sea",
+      "lat": 22.5,
+      "lng": 37.5,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Container shipping spot rates have surged to their highest in years due to Red Sea disruptions, early peak season demand, and aggressive carrier pricing. The Shanghai Containerized Freight Index (SCFI) rose 155 points to 2,726.48.",
+      "date": "2026-06-05",
+      "dateLabel": "Jun 05, 2026",
+      "sourceUrl": "https://splash247.com/container-spot-rates-explode-as-peak-season-arrives-early/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-05T07:58:50.651251+00:00"
+    },
     {
       "id": "9d6c28651974",
       "title": "European mine-clearance force forms for Strait of Hormuz",
