@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-06T13:16:21.877563+00:00",
+  "lastUpdated": "2026-06-06T17:08:50.140243+00:00",
   "events": [
+    {
+      "id": "823def8cdb6a",
+      "title": "Osaka Port container volumes decline 0.5% in April",
+      "location": "Port of Osaka",
+      "lat": 34.6937,
+      "lng": 135.4953,
+      "category": "port",
+      "severity": "low",
+      "description": "The Port of Osaka reported a 0.5% year-on-year decline in container volumes in April, with exports down 2.9% to 83,371 TEUs, while imports rose 1.7% to 97,229 TEUs.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://container-news.com/osaka-port-container-volumes-dip-0-5-in-april/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-06T17:02:14.980762+00:00"
+    },
+    {
+      "id": "1bfa3c697526",
+      "title": "MSC restructures Wallaby service, separates New Zealand routes",
+      "location": "Australia and New Zealand",
+      "lat": -25.2744,
+      "lng": 133.9246,
+      "category": "route",
+      "severity": "medium",
+      "description": "MSC has restructured its Wallaby service, removing New Zealand port calls and shifting them to a separate feeder connection to focus on Australia-bound cargo flows.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://container-news.com/msc-reshapes-wallaby-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-06T17:02:07.533690+00:00"
+    },
     {
       "id": "f6648e4877ac",
       "title": "Brazil-Europe Green Shipping Corridor Initiative",
