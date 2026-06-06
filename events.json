@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-06T02:13:25.710864+00:00",
+  "lastUpdated": "2026-06-06T06:56:34.877051+00:00",
   "events": [
+    {
+      "id": "6d8cd1b082f3",
+      "title": "K LINE orders LNG-fuelled car carriers for Europe",
+      "location": "Europe",
+      "lat": 54.526,
+      "lng": 15.255,
+      "category": "industry",
+      "severity": "info",
+      "description": "Kawasaki Kisen Kaisha (K LINE) has ordered four LNG dual-fuel car carriers to enhance its European short-sea shipping operations. The vessels will be built by China Merchants Jinling Shipyard and operated by K LINE’s European subsidiary, KESS.",
+      "date": "2026-06-05",
+      "dateLabel": "Jun 05, 2026",
+      "sourceUrl": "https://container-news.com/k-line-orders-four-lng-fuelled-car-carriers/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-06T06:50:54.891932+00:00"
+    },
     {
       "id": "fcdb0ab1be6d",
       "title": "Hormuz conflict impacts shipping fuel strategy",
