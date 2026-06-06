@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-06T17:08:50.140243+00:00",
+  "lastUpdated": "2026-06-06T21:04:08.731139+00:00",
   "events": [
+    {
+      "id": "22ee12ca3d25",
+      "title": "US-IRGC clashes in Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0831,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "US forces have launched counterattacks in response to several IRGC attacks in the Strait of Hormuz, raising concerns over regional security and potential disruptions to maritime traffic.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/braving-the-dangers-in-the-strait-of-hormuz",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-06T20:58:44.641943+00:00"
+    },
+    {
+      "id": "946665112ffe",
+      "title": "US Tightens Controls on Iranian Dark Fleet",
+      "location": "Iranian Dark Fleet",
+      "lat": 32.0,
+      "lng": 53.0,
+      "category": "policy",
+      "severity": "high",
+      "description": "On June 2, the US Treasury's OFAC imposed new sanctions targeting Iranian dark-fleet operations, aiming to disrupt illicit shipping activities and tighten control over Iranian vessels involved in sanctions evasion.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/economic-fury-tightens-stranglehold-on-iranian-dark-fleet",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-06T20:58:40.016873+00:00"
+    },
+    {
+      "id": "3a46d9885c2f",
+      "title": "Containership sinks off Batam",
+      "location": "Batam, Indonesia",
+      "lat": -1.0167,
+      "lng": 103.6667,
+      "category": "vessel",
+      "severity": "high",
+      "description": "The Tanzania-flagged containership Golden Star 1 has sunk off the Indonesian island of Batam after taking on water, prompting navigation warnings in a major shipping corridor.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://splash247.com/boxship-goes-down-off-batam/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-06T20:53:33.128120+00:00"
+    },
     {
       "id": "823def8cdb6a",
       "title": "Osaka Port container volumes decline 0.5% in April",
