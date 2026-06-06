@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-06T10:03:02.493491+00:00",
+  "lastUpdated": "2026-06-06T13:16:21.877563+00:00",
   "events": [
+    {
+      "id": "f6648e4877ac",
+      "title": "Brazil-Europe Green Shipping Corridor Initiative",
+      "location": "Port of Açu and Port of Antwerp-Bruges",
+      "lat": -22.5333,
+      "lng": -41.8333,
+      "category": "industry",
+      "severity": "info",
+      "description": "A consortium led by the Global Maritime Forum and RMI is working to establish a green shipping corridor between Brazil's Port of Açu and Belgium's Port of Antwerp-Bruges. The initiative involves assessing infrastructure, vessels, and business models to support sustainable shipping practices.",
+      "date": "2026-06-05",
+      "dateLabel": "Jun 05, 2026",
+      "sourceUrl": "https://splash247.com/consortium-to-establish-brazil-europe-green-shipping-corridor/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-06T13:05:29.983802+00:00"
+    },
     {
       "id": "6d8cd1b082f3",
       "title": "K LINE orders LNG-fuelled car carriers for Europe",
