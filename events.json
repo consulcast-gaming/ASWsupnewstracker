@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-07T10:30:40.906873+00:00",
+  "lastUpdated": "2026-06-07T13:28:12.217434+00:00",
   "events": [
+    {
+      "id": "176b83a8aec0",
+      "title": "China–South Africa shipping network restructured",
+      "location": "South Africa",
+      "lat": -34.0,
+      "lng": 23.0,
+      "category": "route",
+      "severity": "high",
+      "description": "The China–South Africa container shipping network is undergoing significant changes as Evergreen and PIL exit, impacting the service structure previously involving five carriers. This shift may affect freight flows and reliability on the route.",
+      "date": "2026-06-07",
+      "dateLabel": "Jun 07, 2026",
+      "sourceUrl": "https://container-news.com/china-south-africa-service-network-reshaped-after-evergreen-and-pil-exit/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-07T13:22:13.698550+00:00"
+    },
+    {
+      "id": "caadd980df3d",
+      "title": "Russian forces attack Ukrainian rescue vessels",
+      "location": "Ukrainian territorial waters",
+      "lat": 46.5,
+      "lng": 33.5,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "Russian forces attacked two civilian search and rescue vessels in Ukrainian waters, causing injuries. The incident was reported by Ukrainian Deputy Prime Minister Oleksiy Kuleba.",
+      "date": "2026-06-07",
+      "dateLabel": "Jun 07, 2026",
+      "sourceUrl": "https://gcaptain.com/russian-forces-attack-rescue-vessels-in-ukrainian-waters-causing-injuries/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-07T13:18:02.527513+00:00"
+    },
     {
       "id": "f201227e8412",
       "title": "Chinese ships near Taiwan in South China Sea",
