@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-06T21:04:08.731139+00:00",
+  "lastUpdated": "2026-06-07T02:37:52.666744+00:00",
   "events": [
+    {
+      "id": "f201227e8412",
+      "title": "Chinese ships near Taiwan in South China Sea",
+      "location": "South China Sea near Taiwan",
+      "lat": 22.5,
+      "lng": 122.5,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Chinese coast guard ship and a survey ship conducted a coordinated operation near Taiwan's key islands, escalating tensions in the South China Sea.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://gcaptain.com/taiwan-says-chinese-coast-guard-research-ships-near-key-s-china-sea-islands/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-07T02:29:46.428537+00:00"
+    },
+    {
+      "id": "b1cfef803251",
+      "title": "Asia-US container rates surge due to Iran war",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 52.2528,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Container shipping rates from Asia to the US have spiked 109% since the Iran war began, driven by rising fuel costs, port congestion, and geopolitical tensions affecting key maritime routes.",
+      "date": "2026-06-06",
+      "dateLabel": "Jun 06, 2026",
+      "sourceUrl": "https://gcaptain.com/asia-to-us-container-rates-spike-109-since-iran-war-started/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-07T02:29:45.005669+00:00"
+    },
     {
       "id": "22ee12ca3d25",
       "title": "US-IRGC clashes in Strait of Hormuz",
@@ -2505,66 +2535,6 @@
       "sourceUrl": "https://container-news.com/samskip-adds-halmstad-to-europe-iceland-blue-service/",
       "sourceLabel": "Container News",
       "added": "2026-05-31T07:41:55.728429+00:00"
-    },
-    {
-      "id": "38ac2c729491",
-      "title": "US Disables Cargo Ship in Gulf of Oman",
-      "location": "Gulf of Oman",
-      "lat": 25.5,
-      "lng": 56.5,
-      "category": "conflict",
-      "severity": "high",
-      "description": "U.S. forces disabled a small cargo ship on May 29 after it ignored warnings, according to CENTCOM. The incident occurred in the Gulf of Oman, a key maritime chokepoint.",
-      "date": "2026-05-30",
-      "dateLabel": "May 30, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/us-forces-disable-small-cargo-ship-in-the-gulf-of-oman",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-05-31T02:19:13.858935+00:00"
-    },
-    {
-      "id": "afa002cac15f",
-      "title": "Ukrainian drones strike Russian port and oil depot",
-      "location": "Taganrog, Russia",
-      "lat": 47.2264,
-      "lng": 38.9364,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Ukrainian drone strikes damaged a port and oil refinery in Taganrog and an oil depot in Armavir, disrupting Russian oil infrastructure and potentially affecting regional freight and logistics flows.",
-      "date": "2026-05-30",
-      "dateLabel": "May 30, 2026",
-      "sourceUrl": "https://gcaptain.com/ukrainian-drones-strike-port-oil-depot-in-southern-russia/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-05-30T20:42:58.583133+00:00"
-    },
-    {
-      "id": "1fa63400f46b",
-      "title": "Rio de Janeiro port upgrades for larger vessels",
-      "location": "Port of Rio de Janeiro, Brazil",
-      "lat": -22.9068,
-      "lng": -43.1729,
-      "category": "port",
-      "severity": "info",
-      "description": "The Port of Rio de Janeiro has completed a USD 32 million dredging and engineering project, allowing it to accommodate vessels up to 366 metres in length and increasing its operational capacity.",
-      "date": "2026-05-30",
-      "dateLabel": "May 30, 2026",
-      "sourceUrl": "https://container-news.com/rio-de-janeiro-port-upgrades-channel-to-receive-larger-vessels/",
-      "sourceLabel": "Container News",
-      "added": "2026-05-30T09:54:28.602715+00:00"
-    },
-    {
-      "id": "8c4f5f4eb425",
-      "title": "Hormuz Strait closure impacts fleet operations",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The closure of the Strait of Hormuz enters its fourth month, affecting 16 Anglo-Eastern vessels and over 350 seafarers. The company is enhancing fleet security via its Global Security Desk to monitor threats and support crews.",
-      "date": "2026-05-30",
-      "dateLabel": "May 30, 2026",
-      "sourceUrl": "https://container-news.com/anglo-eastern-strengthens-fleet-security-as-hormuz-disruption-continues/",
-      "sourceLabel": "Container News",
-      "added": "2026-05-30T06:43:51.800422+00:00"
     }
   ]
 }
