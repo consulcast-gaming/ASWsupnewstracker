@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-08T02:43:39.213023+00:00",
+  "lastUpdated": "2026-06-08T08:51:14.363331+00:00",
   "events": [
+    {
+      "id": "aab4fae84a6f",
+      "title": "Drone Explosion in Constanta Port",
+      "location": "Port of Constanta, Romania",
+      "lat": 44.1667,
+      "lng": 28.6667,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Ukrainian naval drone was found and later detonated in the Port of Constanta, Romania, raising concerns about security and potential disruptions to port operations.",
+      "date": "2026-06-08",
+      "dateLabel": "Jun 08, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/ukrainian-drone-boat-detonates-inside-port-of-constanta",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-08T08:48:23.185315+00:00"
+    },
+    {
+      "id": "6f4bb43c321c",
+      "title": "Red Sea shipping disrupted by Houthi and regional conflict escalation",
+      "location": "Red Sea",
+      "lat": 18.2877,
+      "lng": 38.8054,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "Ongoing conflict between Israel, Iran, and Houthi rebels has intensified, leading to heavy strikes and regional instability. The situation has disrupted Red Sea shipping, a critical global freight route.",
+      "date": "2026-06-08",
+      "dateLabel": "Jun 08, 2026",
+      "sourceUrl": "https://container-news.com/israel-and-iran-exchange-heavy-strikes-as-houthis-seal-red-sea-shipping/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-08T08:47:28.504458+00:00"
+    },
     {
       "id": "910093b8242f",
       "title": "Iran demands $2M for Hormuz Strait transit",
