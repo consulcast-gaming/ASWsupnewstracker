@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-08T18:27:14.476486+00:00",
+  "lastUpdated": "2026-06-08T21:51:52.669629+00:00",
   "events": [
+    {
+      "id": "686c7209c26d",
+      "title": "Strait of Hormuz disruption impacts oil tanker demand",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Maritime disruptions in the Strait of Hormuz are altering global oil trade flows, potentially threatening an extended decline in tanker demand despite alternative routes adding to ton-mile requirements.",
+      "date": "2026-06-08",
+      "dateLabel": "Jun 08, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/strait-of-hormuz-disruption-threatens-extended-decline-in-global-tanker-demand/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-06-08T21:50:25.612128+00:00"
+    },
+    {
+      "id": "f5baf841cb6a",
+      "title": "EU Sanctions Iran Over Strait of Hormuz Navigation",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "policy",
+      "severity": "high",
+      "description": "The European Council imposed sanctions, including on Iran’s IRGC, while calling for freedom of navigation through the Strait of Hormuz, a critical global shipping chokepoint.",
+      "date": "2026-06-08",
+      "dateLabel": "Jun 08, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/eu-imposes-sanctions-calling-for-strait-of-hormuz-freedom-of-navigation",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-08T21:47:50.875429+00:00"
+    },
+    {
+      "id": "549caf0db883",
+      "title": "U.S. Senators Push to Reimpose Port Fees on Chinese Ships",
+      "location": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "category": "policy",
+      "severity": "high",
+      "description": "U.S. Senators Mark Kelly and Elizabeth Warren are urging the Trump administration to reinstate port fees on Chinese-linked vessels, which were previously suspended. The senators argue the fees are essential for rebuilding U.S. infrastructure and addressing trade imbalances.",
+      "date": "2026-06-08",
+      "dateLabel": "Jun 08, 2026",
+      "sourceUrl": "https://gcaptain.com/senators-urge-trump-administration-to-reinstate-port-fees-on-chinese-ships/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-08T21:42:37.125704+00:00"
+    },
     {
       "id": "f609c90a75d1",
       "title": "Norwegian Customs to Implement Digitoll Maritime Reporting",
@@ -2955,36 +3000,6 @@
       "sourceUrl": "https://splash247.com/france-intercepts-sanctioned-russian-tanker-in-atlantic/",
       "sourceLabel": "Splash 247",
       "added": "2026-06-01T09:10:06.422790+00:00"
-    },
-    {
-      "id": "68889b39c455",
-      "title": "Global container repositioning reaches 30% of shipping work",
-      "location": "Global",
-      "lat": 20.0,
-      "lng": 0.0,
-      "category": "industry",
-      "severity": "high",
-      "description": "Trade imbalances have increased the share of empty container shipments to 30% of global container shipping work, up from 25% before the pandemic, according to Sea-Intelligence analysis. This reflects ongoing supply chain inefficiencies and repositioning challenges in the container shipping industry.",
-      "date": "2026-06-01",
-      "dateLabel": "Jun 01, 2026",
-      "sourceUrl": "https://splash247.com/one-in-three-containers-shipped-today-is-empty-up-from-one-in-four-before-the-pandemic/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-01T09:10:00.261580+00:00"
-    },
-    {
-      "id": "eb8fc972aa47",
-      "title": "Suspected mine spotted near Strait of Hormuz",
-      "location": "Strait of Hormuz, Omani waters",
-      "lat": 24.5833,
-      "lng": 54.1667,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "A floating object suspected to be a naval mine has been sighted in Omani territorial waters near the Strait of Hormuz. A navigation warning was issued, urging mariners to exercise extreme caution.",
-      "date": "2026-06-01",
-      "dateLabel": "Jun 01, 2026",
-      "sourceUrl": "https://splash247.com/suspected-mine-spotted-in-omani-waters-near-hormuz/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-01T09:09:58.612879+00:00"
     }
   ]
 }
