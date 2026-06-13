@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-13T13:31:30.524817+00:00",
+  "lastUpdated": "2026-06-13T17:18:27.435695+00:00",
   "events": [
+    {
+      "id": "15993fdf0d66",
+      "title": "Tanker Struck by Projectile in Arabian Sea",
+      "location": "Arabian Sea",
+      "lat": 22.5,
+      "lng": 65.5,
+      "category": "vessel",
+      "severity": "high",
+      "description": "A tanker reported being struck by a projectile, raising concerns about maritime security. Indian officials denied the vessel was theirs, while Pakistan was reportedly working on a statement.",
+      "date": "2026-06-13",
+      "dateLabel": "Jun 13, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/tanker-reports-being-struck-but-india-denies-it-was-their-vessel",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-13T17:13:46.134835+00:00"
+    },
+    {
+      "id": "5553d51dff16",
+      "title": "Tanker attacked near Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0832,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A commercial tanker was struck by an unidentified projectile near the Strait of Hormuz, an area linked to a covert U.S.-coordinated shipping corridor. The incident raises concerns about security and potential disruptions to global shipping in this critical chokepoint.",
+      "date": "2026-06-13",
+      "dateLabel": "Jun 13, 2026",
+      "sourceUrl": "https://gcaptain.com/tanker-attack-raises-new-questions-about-u-s-secret-mission-in-hormuz/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-13T17:09:20.158494+00:00"
+    },
     {
       "id": "dd412f8becbb",
       "title": "China Builds New Structures at Scarborough Shoal",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/middle-east-crisis-why-are-freight-rates-rising-in-waves-and-whats-next-xeneta-chief-analyst-answers/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-08T02:43:04.477004+00:00"
-    },
-    {
-      "id": "82d410f57e2c",
-      "title": "Sailors trapped by Strait of Hormuz blockade",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "Sailors report stress and exhaustion after being trapped for months due to a blockade in the Strait of Hormuz, a critical global shipping chokepoint.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/sailors-stressed-and-exhausted-after-months-trapped-by-strait-of-hormuz-blockade/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:42:57.663472+00:00"
-    },
-    {
-      "id": "3d0623cf25b6",
-      "title": "Panama Canal reduces Neopanamax draft limit",
-      "location": "Panama Canal",
-      "lat": 8.9892,
-      "lng": -79.5133,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The Panama Canal has lowered the maximum authorized draft for Neopanamax vessels to 49.5 feet (15.09 meters), effective July 1, due to low Gatun Lake water levels. This adjustment impacts vessel capacity and transit efficiency through the canal.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/panama-canal-announces-draft-adjustment-for-neopanamax-vessels/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:42:48.022088+00:00"
     }
   ]
 }
