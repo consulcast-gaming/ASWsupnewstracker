@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-13T02:19:47.811265+00:00",
+  "lastUpdated": "2026-06-13T07:47:45.674927+00:00",
   "events": [
+    {
+      "id": "dd412f8becbb",
+      "title": "China Builds New Structures at Scarborough Shoal",
+      "location": "Scarborough Shoal",
+      "lat": 13.6667,
+      "lng": 118.4167,
+      "category": "conflict",
+      "severity": "high",
+      "description": "China has constructed new structures at Scarborough Shoal within the Philippine exclusive economic zone, raising concerns over territorial disputes and potential impacts on maritime navigation and regional stability.",
+      "date": "2026-06-12",
+      "dateLabel": "Jun 12, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/philippines-raise-alarm-over-new-chinese-structures-at-scarborough-shoal",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-13T07:43:55.532967+00:00"
+    },
+    {
+      "id": "97f16eb052f4",
+      "title": "Shadow Fleet Tanker Master Pleads Guilty to Disobeying USCG",
+      "location": "Gulf of Mexico",
+      "lat": 29.5,
+      "lng": -94.0,
+      "category": "vessel",
+      "severity": "high",
+      "description": "The master of the shadow fleet tanker Bella 1 has pleaded guilty to ignoring U.S. Coast Guard orders during a weeks-long pursuit. The incident highlights ongoing enforcement actions against illicit oil tankers operating outside regulatory compliance.",
+      "date": "2026-06-12",
+      "dateLabel": "Jun 12, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/master-of-shadow-fleet-tanker-pleads-guilty-to-not-obeying-uscg-orders",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-13T07:43:01.310132+00:00"
+    },
+    {
+      "id": "a65d3e2e1ad0",
+      "title": "Maersk launches new Asia-South America shipping service",
+      "location": "Far East to West Coast South America",
+      "lat": -12.0,
+      "lng": -77.0,
+      "category": "route",
+      "severity": "info",
+      "description": "Maersk is launching the AC1 service to connect the Far East with the West Coast of South America, enhancing freight connectivity between Asia and Latin American markets.",
+      "date": "2026-06-13",
+      "dateLabel": "Jun 13, 2026",
+      "sourceUrl": "https://container-news.com/maersk-launches-far-east-west-coast-south-america-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-13T07:42:41.193481+00:00"
+    },
     {
       "id": "e5bbdcabd8b9",
       "title": "Strait of Hormuz shipping attacks",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/panama-canal-announces-draft-adjustment-for-neopanamax-vessels/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-08T02:42:48.022088+00:00"
-    },
-    {
-      "id": "5cd9c5486d48",
-      "title": "US Section 301 tariffs drive shipping surcharges",
-      "location": "United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "category": "policy",
-      "severity": "high",
-      "description": "Container shipping carriers are imposing peak season surcharges due to increased demand as US importers rush to avoid upcoming Section 301 tariffs. The USTR proposed new tariffs on Canada and the EU, further impacting freight flows.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/carriers-announce-peak-season-surcharges-on-demand-surge-ahead-of-fresh-us-tariffs/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:42:32.746562+00:00"
-    },
-    {
-      "id": "6f07fe29a815",
-      "title": "Hormuz shipping crisis impacts tanker market",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The ongoing Hormuz shipping crisis is influencing tanker rates as operators assess how shadow-fleet scrapping and newbuild order books will affect supply and demand dynamics.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/sanctioned-tanker-scrapping-could-offset-large-order-book-operators/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:42:27.151144+00:00"
-    },
-    {
-      "id": "17b607f04d20",
-      "title": "CMA CGM orders 8 new 6,000 TEU boxships at Hengli",
-      "location": "Hengli, China",
-      "lat": 22.1667,
-      "lng": 113.55,
-      "category": "industry",
-      "severity": "info",
-      "description": "French shipping giant CMA CGM has placed an order for eight new 6,000 TEU container ships at Hengli Heavy Industries in China, expanding its already large orderbook and signaling continued investment in fleet capacity.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://splash247.com/cma-cgm-linked-to-fresh-boxship-series-at-hengli/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-08T02:34:34.941233+00:00"
     }
   ]
 }
