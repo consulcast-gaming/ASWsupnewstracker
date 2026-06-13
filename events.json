@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-13T17:18:27.435695+00:00",
+  "lastUpdated": "2026-06-13T21:09:57.234940+00:00",
   "events": [
+    {
+      "id": "cee88d0f8b46",
+      "title": "Ukrainian drone attack damages Russian port",
+      "location": "Temryuk Port, Russia",
+      "lat": 45.2167,
+      "lng": 37.4667,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Ukrainian drone attack caused a fire at a sea terminal in Temryuk port, Russia, killing one person and disrupting port operations.",
+      "date": "2026-06-13",
+      "dateLabel": "Jun 13, 2026",
+      "sourceUrl": "https://gcaptain.com/ukraine-drone-strikes-sparks-fire-at-russian-port/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-13T21:01:05.367498+00:00"
+    },
     {
       "id": "15993fdf0d66",
       "title": "Tanker Struck by Projectile in Arabian Sea",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/suez-panama-canals-charge-for-transit-why-cant-hormuz/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-08T02:43:09.908584+00:00"
-    },
-    {
-      "id": "4a78794de9f1",
-      "title": "Middle East conflict causes freight rate surges",
-      "location": "Middle East",
-      "lat": 23.371356,
-      "lng": 43.653427,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "Containerized imports and exports in the Middle East dropped sharply in March following conflict escalation, with imports down 64% and exports down 62% year-on-year, signaling major disruption to regional freight flows.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/middle-east-crisis-why-are-freight-rates-rising-in-waves-and-whats-next-xeneta-chief-analyst-answers/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:43:04.477004+00:00"
     }
   ]
 }
