@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-13T21:09:57.234940+00:00",
+  "lastUpdated": "2026-06-14T02:42:15.850075+00:00",
   "events": [
+    {
+      "id": "16e63589d3c9",
+      "title": "Pilbara Ports throughput drops 1% in May 2026",
+      "location": "Port Hedland",
+      "lat": -20.3411,
+      "lng": 118.6144,
+      "category": "port",
+      "severity": "low",
+      "description": "Pilbara Ports reported a 1% decrease in monthly throughput in May 2026, with Port Hedland's iron ore exports down 3% year-on-year to 51 million tonnes.",
+      "date": "2026-06-13",
+      "dateLabel": "Jun 13, 2026",
+      "sourceUrl": "https://container-news.com/pilbara-ports-records-decrease-in-may-2026/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-14T02:37:35.981603+00:00"
+    },
+    {
+      "id": "8bd81993a14a",
+      "title": "Trump Announces Deal to Reopen Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "policy",
+      "severity": "high",
+      "description": "President Donald Trump announced an interim deal to reopen the Strait of Hormuz and end the conflict with Iran, which could significantly impact global shipping and supply chain operations.",
+      "date": "2026-06-14",
+      "dateLabel": "Jun 14, 2026",
+      "sourceUrl": "https://gcaptain.com/trump-says-hell-sign-deal-with-iran-to-reopen-hormuz-sunday/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-14T02:33:36.310452+00:00"
+    },
     {
       "id": "cee88d0f8b46",
       "title": "Ukrainian drone attack damages Russian port",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/ukrainian-drone-boat-detonates-inside-port-of-constanta",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-08T08:48:23.185315+00:00"
-    },
-    {
-      "id": "6f4bb43c321c",
-      "title": "Red Sea shipping disrupted by Houthi and regional conflict escalation",
-      "location": "Red Sea",
-      "lat": 18.2877,
-      "lng": 38.8054,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "Ongoing conflict between Israel, Iran, and Houthi rebels has intensified, leading to heavy strikes and regional instability. The situation has disrupted Red Sea shipping, a critical global freight route.",
-      "date": "2026-06-08",
-      "dateLabel": "Jun 08, 2026",
-      "sourceUrl": "https://container-news.com/israel-and-iran-exchange-heavy-strikes-as-houthis-seal-red-sea-shipping/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-08T08:47:28.504458+00:00"
-    },
-    {
-      "id": "910093b8242f",
-      "title": "Iran demands $2M for Hormuz Strait transit",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Iran has been accused of extortion for demanding up to $2 million from vessels transiting the Strait of Hormuz, raising concerns about global energy security and potential disruptions to shipping.",
-      "date": "2026-06-07",
-      "dateLabel": "Jun 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/suez-panama-canals-charge-for-transit-why-cant-hormuz/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T02:43:09.908584+00:00"
     }
   ]
 }
