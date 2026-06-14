@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-14T02:42:15.850075+00:00",
+  "lastUpdated": "2026-06-14T08:15:08.910591+00:00",
   "events": [
+    {
+      "id": "ba7f9a6afed0",
+      "title": "Ocean Alliance adds Gdansk to Europe-Far East service",
+      "location": "Gdansk",
+      "lat": 54.3508,
+      "lng": 18.6457,
+      "category": "route",
+      "severity": "info",
+      "description": "Ocean Alliance has extended its Europe–Far East AEU7 service to include a new call at Gdansk, operated by COSCO Shipping Lines and OOCL, starting in August.",
+      "date": "2026-06-14",
+      "dateLabel": "Jun 14, 2026",
+      "sourceUrl": "https://container-news.com/ocean-alliance-extends-europe-far-east-service-to-gdansk/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-14T08:10:23.578940+00:00"
+    },
     {
       "id": "16e63589d3c9",
       "title": "Pilbara Ports throughput drops 1% in May 2026",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/crew-evacuated-after-tanker-fire-near-omans-masirah-island/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-08T15:24:57.386580+00:00"
-    },
-    {
-      "id": "aab4fae84a6f",
-      "title": "Drone Explosion in Constanta Port",
-      "location": "Port of Constanta, Romania",
-      "lat": 44.1667,
-      "lng": 28.6667,
-      "category": "conflict",
-      "severity": "high",
-      "description": "A Ukrainian naval drone was found and later detonated in the Port of Constanta, Romania, raising concerns about security and potential disruptions to port operations.",
-      "date": "2026-06-08",
-      "dateLabel": "Jun 08, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/ukrainian-drone-boat-detonates-inside-port-of-constanta",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-08T08:48:23.185315+00:00"
     }
   ]
 }
