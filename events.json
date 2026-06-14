@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-14T08:15:08.910591+00:00",
+  "lastUpdated": "2026-06-14T13:32:24.223529+00:00",
   "events": [
+    {
+      "id": "235d630399b9",
+      "title": "Strait of Hormuz authority split impacts shipping",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The Strait of Hormuz no longer has a single governing authority, creating a complex and contradictory operating environment for commercial shipping.",
+      "date": "2026-06-14",
+      "dateLabel": "Jun 14, 2026",
+      "sourceUrl": "https://container-news.com/five-ways-shipping-can-navigate-a-strait-with-two-masters/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-14T13:28:49.513048+00:00"
+    },
     {
       "id": "ba7f9a6afed0",
       "title": "Ocean Alliance adds Gdansk to Europe-Far East service",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/eu-sanctions-irgc-navy-unit-over-strait-of-hormuz-toll-system/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-08T15:24:58.731078+00:00"
-    },
-    {
-      "id": "a3e2040cf8e5",
-      "title": "Tanker Fire Near Oman’s Masirah Island",
-      "location": "Masirah Island, Oman",
-      "lat": 20.8833,
-      "lng": 58.6667,
-      "category": "vessel",
-      "severity": "high",
-      "description": "A tanker caught fire off the coast of Oman near Masirah Island, leading to the evacuation of its crew and a joint response from Omani and Indian authorities.",
-      "date": "2026-06-08",
-      "dateLabel": "Jun 08, 2026",
-      "sourceUrl": "https://gcaptain.com/crew-evacuated-after-tanker-fire-near-omans-masirah-island/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-08T15:24:57.386580+00:00"
     }
   ]
 }
