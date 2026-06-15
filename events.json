@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-14T21:07:17.461378+00:00",
+  "lastUpdated": "2026-06-15T02:46:07.643123+00:00",
   "events": [
+    {
+      "id": "e186a4591af6",
+      "title": "PortMiami interim director to retire",
+      "location": "PortMiami, Florida, USA",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "category": "port",
+      "severity": "medium",
+      "description": "The newly appointed interim director of PortMiami has announced his retirement at the end of the month, adding to ongoing turmoil at the port, including issues at a fuel depot.",
+      "date": "2026-06-10",
+      "dateLabel": "Jun 10, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/portmiami-to-seek-new-director-as-fuel-depot-turmoil-continues",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-15T02:44:54.517341+00:00"
+    },
+    {
+      "id": "ea7e04cdc1b6",
+      "title": "Tanker hit in Strait of Hormuz",
+      "location": "Strait of Hormuz, Omani side",
+      "lat": 24.8864,
+      "lng": 56.0142,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "A Hong Kong-flagged tanker was hit and damaged in the Strait of Hormuz by Iranian forces, according to maritime security sources.",
+      "date": "2026-06-14",
+      "dateLabel": "Jun 14, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/hong-kong-flagged-tanker-hit-and-damaged-in-strait-of-hormuz",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-15T02:42:26.640958+00:00"
+    },
     {
       "id": "d2bb4ba40dbc",
       "title": "US escorts oil tankers through Strait of Hormuz",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/u-s-forces-disable-sanctioned-shadow-fleet-tanker-bound-for-iran/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-08T18:17:42.153688+00:00"
-    },
-    {
-      "id": "8ff3b97a4277",
-      "title": "Strait of Hormuz closure impacts LNG supply",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The closure of the Strait of Hormuz has removed 20% of global LNG supply, equivalent to 80 Mtpa, leading to significant market uncertainty and potential long-term price increases.",
-      "date": "2026-06-08",
-      "dateLabel": "Jun 08, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/wood-mackenzie-models-three-global-lng-market-scenarios-as-iran-conflict-removes-20-of-global-supply/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T15:35:27.888614+00:00"
-    },
-    {
-      "id": "1f723570e7e1",
-      "title": "Israel strikes Iranian petrochemical plant",
-      "location": "Southwestern Iran",
-      "lat": 30.5833,
-      "lng": 48.5167,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Israel struck a petrochemical plant and other military targets in southwestern Iran, escalating regional tensions and threatening a fragile ceasefire. The attack has raised concerns over potential disruptions to energy supply chains and regional freight flows.",
-      "date": "2026-06-08",
-      "dateLabel": "Jun 08, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/oil-prices-surge-5-as-israel-strikes-iranian-petrochemical-plant/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-08T15:35:21.561636+00:00"
     }
   ]
 }
