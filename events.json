@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-16T02:46:08.480349+00:00",
+  "lastUpdated": "2026-06-16T09:24:15.636723+00:00",
   "events": [
+    {
+      "id": "52a825e2ee1d",
+      "title": "ONE streamlines Adriatic Service for improved schedule integrity",
+      "location": "Adriatic Sea",
+      "lat": 43.1917,
+      "lng": 17.9414,
+      "category": "route",
+      "severity": "info",
+      "description": "Ocean Network Express (ONE) is restructuring its Adriatic Service 1 (AD1) to improve schedule reliability and reduce transit times. The service will remove calls at Aliaga and Piraeus, streamlining the route for a more efficient weekly operation.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://container-news.com/one-streamlines-adriatic-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-16T09:19:25.324225+00:00"
+    },
+    {
+      "id": "57aa321923c9",
+      "title": "Bulk-to-container ship conversion completed in China",
+      "location": "Zhoushan, China",
+      "lat": 30.0267,
+      "lng": 120.3267,
+      "category": "industry",
+      "severity": "info",
+      "description": "The 80,000-dwt Kuang Chi Delta, the world's largest bulk carrier-to-container ship conversion, was delivered after a six-month project at Zhoushan Xinya Shipbuilding & Repair. This marks a milestone in the ship conversion sector.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://splash247.com/worlds-largest-bulk-to-container-conversion-completed-in-china/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-16T09:15:47.126682+00:00"
+    },
+    {
+      "id": "dd1f825dc86c",
+      "title": "Strait of Hormuz threat level remains severe",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "The Strait of Hormuz remains a high-risk area with reported explosions and ongoing military protection needs, despite recent diplomatic progress. Normal trade resumption is still uncertain.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://splash247.com/hormuz-threat-level-stays-severe-despite-peace-breakthrough/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-16T09:15:44.087138+00:00"
+    },
     {
       "id": "3434cf45a8a3",
       "title": "CMA CGM imposes PSS on China-West Africa shipments",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/undercover-reporters-confirm-russian-paramilitary-presence-on-tankers",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-10T02:16:07.163844+00:00"
-    },
-    {
-      "id": "ba1fbb277df3",
-      "title": "Suez Canal Increases Transit Surcharges",
-      "location": "Suez Canal",
-      "lat": 29.9844,
-      "lng": 32.6094,
-      "category": "chokepoint",
-      "severity": "medium",
-      "description": "The Suez Canal Authority has announced its first significant rate increases in three years, implementing revised surcharges for transits. The move reflects ongoing efforts to boost transit volumes and revenue.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-10T02:16:01.674480+00:00"
-    },
-    {
-      "id": "4aa0b4e807cd",
-      "title": "Maersk exceeds self-imposed capacity cap",
-      "location": "Global",
-      "lat": 0.0,
-      "lng": 0.0,
-      "category": "industry",
-      "severity": "high",
-      "description": "Maersk Line is set to exceed its 4.3 million TEU capacity cap by chartering additional vessels, pushing its capacity to 4.7 million TEU due to firming demand and rising freight rates.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://container-news.com/maersk-crosses-self-imposed-capacity-cap-as-freight-rates-rise/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-10T02:15:04.150867+00:00"
-    },
-    {
-      "id": "cee48ae36e78",
-      "title": "U.S. Army helicopter shot down in Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A U.S. Army helicopter was shot down by Iranian forces in the Strait of Hormuz, leading to a rescue operation. The incident raises concerns over regional security and potential disruptions to maritime traffic in a key global chokepoint.",
-      "date": "2026-06-09",
-      "dateLabel": "Jun 09, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/usv-rescues-two-u-s-army-helicopter-pilots-who-were-shot-down-by-iran",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-09T21:34:06.855352+00:00"
     }
   ]
 }
