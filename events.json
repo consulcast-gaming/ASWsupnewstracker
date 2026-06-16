@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-15T22:18:56.305860+00:00",
+  "lastUpdated": "2026-06-16T02:46:08.480349+00:00",
   "events": [
+    {
+      "id": "3434cf45a8a3",
+      "title": "CMA CGM imposes PSS on China-West Africa shipments",
+      "location": "Nigeria",
+      "lat": 9.082,
+      "lng": 8.6753,
+      "category": "industry",
+      "severity": "medium",
+      "description": "CMA CGM has announced a new Peak Season Surcharge (PSS) of US$750 per TEU for shipments from China to West Africa, effective 15 June 2026, impacting dry and reefer cargo under short-term contracts.",
+      "date": "2026-06-15",
+      "dateLabel": "Jun 15, 2026",
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-pss-from-china-to-west-africa/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-16T02:42:49.166576+00:00"
+    },
+    {
+      "id": "8effa0d99a73",
+      "title": "UK Charges Indian Captain of Russian Shadow Fleet Tanker",
+      "location": "United Kingdom",
+      "lat": 54.0,
+      "lng": -2.0,
+      "category": "policy",
+      "severity": "high",
+      "description": "The UK has charged an Indian captain of a Russian shadow fleet tanker with violating sanctions on Russian oil exports. The incident is part of a broader operation targeting illicit Russian oil trade.",
+      "date": "2026-06-15",
+      "dateLabel": "Jun 15, 2026",
+      "sourceUrl": "https://gcaptain.com/uk-charges-indian-captain-of-russian-shadow-fleet-tanker/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-16T02:39:46.697386+00:00"
+    },
     {
       "id": "80dd53874cb6",
       "title": "Ships sailing through Strait of Hormuz",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/usv-rescues-two-u-s-army-helicopter-pilots-who-were-shot-down-by-iran",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-09T21:34:06.855352+00:00"
-    },
-    {
-      "id": "ba2ab704e6ce",
-      "title": "Cargo ship helmsman arrested after collision",
-      "location": "Copenhagen, Denmark",
-      "lat": 55.6761,
-      "lng": 12.5683,
-      "category": "vessel",
-      "severity": "medium",
-      "description": "A helmsman of a general cargo ship was arrested in Copenhagen after the vessel he was operating collided with a sailboat and a pier. The incident occurred under suspicion of drunk driving.",
-      "date": "2026-06-09",
-      "dateLabel": "Jun 09, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/helmsman-charged-with-drunk-driving-after-hitting-sailboat-and-pier",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-09T21:34:02.432720+00:00"
-    },
-    {
-      "id": "b2ef955e2679",
-      "title": "EU Cracks Down on Mediterranean Dark Fleet",
-      "location": "Mediterranean Sea",
-      "lat": 37.45,
-      "lng": 14.99,
-      "category": "policy",
-      "severity": "high",
-      "description": "The European Union has initiated coordinated stop-and-search operations in the Mediterranean to target dark fleet vessels involved in fraud, false flagging, or regulatory breaches, potentially disrupting maritime trade flows.",
-      "date": "2026-06-09",
-      "dateLabel": "Jun 09, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/eu-commences-mediterranean-dark-fleet-stop-and-search-operations",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-09T21:33:56.444573+00:00"
     }
   ]
 }
