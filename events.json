@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-16T22:14:24.745969+00:00",
+  "lastUpdated": "2026-06-17T02:44:14.028107+00:00",
   "events": [
+    {
+      "id": "00e2a9e9f27d",
+      "title": "Southern California Ports Report Strong May Volumes",
+      "location": "Los Angeles, CA",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "category": "port",
+      "severity": "info",
+      "description": "The twin ports of Southern California reported strong cargo volumes in May, rebounding from the previous year's decline caused by tariffs and other disruptions. Positive near-term outlooks suggest continued recovery in port activity.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/socal-ports-have-very-strong-may-with-positive-near-term-outlooks",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-17T02:41:38.283467+00:00"
+    },
+    {
+      "id": "9b27fdfc5861",
+      "title": "CMA CGM introduces PSS for China to Southern/East Africa",
+      "location": "Durban",
+      "lat": -29.8241,
+      "lng": 30.9978,
+      "category": "industry",
+      "severity": "info",
+      "description": "CMA CGM will implement a Peak Season Surcharge (PSS) of US$450 per TEU from North and Central China to ports in Southern Africa, including Durban, starting 21 June 2026.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-pss-from-china-to-southern-and-east-africa/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-17T02:40:46.008957+00:00"
+    },
     {
       "id": "e65d156a80e6",
       "title": "Singapore VLSFO Bunker Fuel Constraints",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://container-news.com/how-suez-reprices-the-return/",
       "sourceLabel": "Container News",
       "added": "2026-06-10T18:29:02.378435+00:00"
-    },
-    {
-      "id": "eb28bc87fe64",
-      "title": "Organized cargo theft targeting Arizona rail corridor",
-      "location": "Northern Arizona rail corridor",
-      "lat": 35.2011,
-      "lng": -111.6585,
-      "category": "industry",
-      "severity": "high",
-      "description": "Arizona investigators report that organized cargo theft crews are frequently targeting rail corridors in Northern Arizona, with train burglaries occurring up to a dozen times each month.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/500k-train-burglary-exposes-organized-cargo-theft-crews-targeting-arizona-rail-corridor",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-10T18:25:30.194806+00:00"
-    },
-    {
-      "id": "2731cf0032a1",
-      "title": "Democrats push to reinstate China port tax",
-      "location": "United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "category": "policy",
-      "severity": "high",
-      "description": "Leading Democratic senators are advocating for the U.S. to reinstate a tax on Chinese ships, following a mutual postponement agreement between Trump and Xi through November.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/butbutshipbuilding-democrats-want-china-port-tax-reinstated",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-10T18:25:17.609409+00:00"
     }
   ]
 }
