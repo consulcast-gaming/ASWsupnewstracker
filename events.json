@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-17T02:44:14.028107+00:00",
+  "lastUpdated": "2026-06-17T08:59:49.204133+00:00",
   "events": [
+    {
+      "id": "d37872fd02c2",
+      "title": "Iranian tankers bypass U.S. blockade",
+      "location": "Gulf of Oman",
+      "lat": 26.7508,
+      "lng": 55.9428,
+      "category": "conflict",
+      "severity": "high",
+      "description": "Iranian-owned 'shadow fleet' tankers have begun moving past the U.S. Navy's de facto blockade line in the Gulf of Oman, signaling ongoing tensions affecting regional shipping and oil flows.",
+      "date": "2026-06-17",
+      "dateLabel": "Jun 17, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/iranian-tankers-begin-to-move-out-past-u-s-blockade-line",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-17T08:56:50.013038+00:00"
+    },
+    {
+      "id": "b1bb635e6658",
+      "title": "Russian Warship Incident Near UK Territorial Waters",
+      "location": "English Channel",
+      "lat": 50.5,
+      "lng": -1.5,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Russian frigate fired warning shots near a UK-flagged civilian yacht in the English Channel, prompting UK Prime Minister Keir Starmer to call the action reckless and concerning.",
+      "date": "2026-06-17",
+      "dateLabel": "Jun 17, 2026",
+      "sourceUrl": "https://gcaptain.com/uk-pm-starmer-calls-channel-incident-involving-russian-warship-reckless/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-17T08:52:50.501563+00:00"
+    },
+    {
+      "id": "68a7b662ecca",
+      "title": "Oil tankers repositioning ahead of Hormuz reopening",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.073,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Two oil tankers have u-turned in the Indian Ocean, redirecting to the Middle East ahead of the potential reopening of the Strait of Hormuz, indicating repositioning efforts by shipowners.",
+      "date": "2026-06-17",
+      "dateLabel": "Jun 17, 2026",
+      "sourceUrl": "https://gcaptain.com/oil-tankers-u-turn-rush-to-middle-east-before-hormuz-reopening/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-17T08:52:49.212322+00:00"
+    },
     {
       "id": "00e2a9e9f27d",
       "title": "Southern California Ports Report Strong May Volumes",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/press-statement-on-reports-about-m-t-marivex-imo-9464156-from-palau-ship-registry/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-10T18:31:45.993716+00:00"
-    },
-    {
-      "id": "f44be36f3171",
-      "title": "Strait of Hormuz Tensions Disrupt Shipping",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "Increased tensions between the U.S. and Iran are causing uncertainty about shipping through the Strait of Hormuz, a critical global oil transit route.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/which-ships-are-getting-through-the-strait-of-hormuz",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-10T18:29:38.694923+00:00"
-    },
-    {
-      "id": "200fb9cd49c8",
-      "title": "Product tanker attacked off Oman, crew missing",
-      "location": "20 nautical miles off Sohar, Oman",
-      "lat": 23.75,
-      "lng": 56.65,
-      "category": "vessel",
-      "severity": "critical",
-      "description": "A Palau-flagged product tanker was attacked early on June 10, approximately 20 nautical miles off Sohar, Oman, leaving three crew members missing. The vessel issued a distress call following the incident.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/crew-reported-missing-and-injured-after-product-tanker-is-struck-off-oman",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-10T18:29:33.023268+00:00"
-    },
-    {
-      "id": "7d45de4e1864",
-      "title": "Suez Canal implements new surcharge regime",
-      "location": "Suez Canal",
-      "lat": 29.9744,
-      "lng": 32.4713,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Egypt has introduced a new surcharge regime for the Suez Canal, marking a shift toward ongoing toll extraction for strategic waterways. This affects shipping costs for vessels returning to traditional routes.",
-      "date": "2026-06-10",
-      "dateLabel": "Jun 10, 2026",
-      "sourceUrl": "https://container-news.com/how-suez-reprices-the-return/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-10T18:29:02.378435+00:00"
     }
   ]
 }
