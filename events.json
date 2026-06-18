@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-18T02:44:15.473552+00:00",
+  "lastUpdated": "2026-06-18T08:38:46.197325+00:00",
   "events": [
+    {
+      "id": "546743032194",
+      "title": "Fatal Accident at Zeebrugge Ro/Ro Freighter",
+      "location": "Port of Zeebrugge",
+      "lat": 51.1967,
+      "lng": 3.1267,
+      "category": "port",
+      "severity": "high",
+      "description": "A docker was killed in a cargo loading accident aboard a ro/ro freighter at the Port of Zeebrugge, Belgium. The incident is under investigation.",
+      "date": "2026-06-18",
+      "dateLabel": "Jun 18, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/docker-killed-in-cargo-loading-accident-on-ro-ro-at-zeebrugge",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-18T08:34:25.346529+00:00"
+    },
+    {
+      "id": "de8ab2689d16",
+      "title": "Freight carriers shutting down and job cuts in logistics",
+      "location": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "category": "industry",
+      "severity": "high",
+      "description": "In June, freight-sector bankruptcies and layoffs increased as carriers and logistics firms cut costs amid ongoing financial strain. More carriers shut down operations, and logistics companies reduced their workforce to manage expenses.",
+      "date": "2026-06-16",
+      "dateLabel": "Jun 16, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/freight-distress-report-more-carriers-shut-down-logistics-firms-cut-jobs",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-18T08:31:23.423953+00:00"
+    },
+    {
+      "id": "a84619b69690",
+      "title": "Strait of Hormuz reopens under US-Iran deal",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The Strait of Hormuz has reopened following a US-Iran interim agreement, but uncertainty remains about implementation and potential impacts on shipping transit fees and operations.",
+      "date": "2026-06-18",
+      "dateLabel": "Jun 18, 2026",
+      "sourceUrl": "https://splash247.com/hormuz-reopens-under-us-iran-deal-amid-uncertainty-over-future-transit-fees/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-18T08:29:41.154470+00:00"
+    },
     {
       "id": "76969932ed6a",
       "title": "Hormuz Strait shipping remains low after Iran-U.S. war deal",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.freightwaves.com/news/whos-hauling-americas-fourth-of-july-explosives",
       "sourceLabel": "FreightWaves",
       "added": "2026-06-11T18:40:58.373301+00:00"
-    },
-    {
-      "id": "831a5f4bab07",
-      "title": "Panama Canal vessel draft restrictions due to El Niño",
-      "location": "Panama Canal",
-      "lat": 8.9892,
-      "lng": -79.5134,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The Panama Canal Authority announced its first vessel draft restriction of 2026 due to El Niño conditions, which NOAA has confirmed are developing into one of the strongest on record. This could impact global shipping as the canal is a critical transit point for international trade.",
-      "date": "2026-06-11",
-      "dateLabel": "Jun 11, 2026",
-      "sourceUrl": "https://gcaptain.com/el-nino-has-arrived-noaa-warns-it-could-become-one-of-the-strongest-on-record/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-11T18:40:09.965669+00:00"
-    },
-    {
-      "id": "ba600875941f",
-      "title": "U.S. Reaffirms Hormuz Strait Open Amid Iranian Claims",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "conflict",
-      "severity": "high",
-      "description": "U.S. Central Command reaffirmed the Strait of Hormuz is open to commercial shipping after an Iran-linked group claimed authority over the waterway. The statement comes amid heightened tensions affecting a critical global shipping chokepoint.",
-      "date": "2026-06-11",
-      "dateLabel": "Jun 11, 2026",
-      "sourceUrl": "https://gcaptain.com/u-s-military-says-hormuz-open-after-iran-declares-strait-closed/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-11T18:40:08.118867+00:00"
-    },
-    {
-      "id": "e76a02d9cb68",
-      "title": "US-Iran escalation threatens Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "Oil prices have risen due to renewed US strikes in Iran and threats of further action. Iran has warned it may close the Strait of Hormuz, a critical global oil chokepoint, in response.",
-      "date": "2026-06-11",
-      "dateLabel": "Jun 11, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-moves-higher-on-latest-us-iran-escalation/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-11T15:42:04.734775+00:00"
     }
   ]
 }
