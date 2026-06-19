@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-18T22:05:16.914460+00:00",
+  "lastUpdated": "2026-06-19T03:00:27.477764+00:00",
   "events": [
+    {
+      "id": "a3454d9a8b5f",
+      "title": "Russian Frigate Drifts in English Channel",
+      "location": "English Channel",
+      "lat": 50.5,
+      "lng": -1.5,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Russian frigate, low on fuel, is drifting in the English Channel after failing to intervene in a Royal Navy operation to seize a sanctioned vessel on June 14.",
+      "date": "2026-06-18",
+      "dateLabel": "Jun 18, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/low-on-fuel-russian-frigate-drifts-in-the-english-channel",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-19T02:56:12.852998+00:00"
+    },
+    {
+      "id": "bffc00e8560d",
+      "title": "Strait of Hormuz Passage Fee Proposal",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "policy",
+      "severity": "high",
+      "description": "The possibility of new tolls for vessels transiting the Strait of Hormuz remains unresolved, with implications for global shipping and U.S.-Iran relations.",
+      "date": "2026-06-19",
+      "dateLabel": "Jun 19, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/will-passage-fees-be-charged-in-the-strait-of-hormuz",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-19T02:55:47.100839+00:00"
+    },
+    {
+      "id": "13d3698e1531",
+      "title": "Hormuz Strait negotiations resume, shipping resumes",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.073,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The US declared an end to its blockade of the Strait of Hormuz, allowing shipping to resume as negotiations with Iran over Tehran’s nuclear program begin. The development follows the implementation of a US-Iran interim peace deal.",
+      "date": "2026-06-18",
+      "dateLabel": "Jun 18, 2026",
+      "sourceUrl": "https://gcaptain.com/u-s-downplays-possibility-of-hormuz-tolls-as-negotiations-restart/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-19T02:51:04.171019+00:00"
+    },
     {
       "id": "bafe3628106e",
       "title": "Fuel availability tight in Houston port",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/proposed-u-s-iran-deal-would-unblock-hormuz-lift-u-s-sanctions-reports/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-12T18:06:10.334818+00:00"
-    },
-    {
-      "id": "088aa647a0b0",
-      "title": "Tensions Over Hormuz Strait Transits",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "Iran has claimed to have stopped transits through the Strait of Hormuz, a critical global shipping chokepoint, while the U.S. has rebuffed these claims, heightening regional tensions and raising concerns over potential disruptions to oil and freight flows.",
-      "date": "2026-06-12",
-      "dateLabel": "Jun 12, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/iran-s-claims-of-having-stopped-hormuz-transits-rebuffed-by-trump",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-12T18:02:54.588841+00:00"
-    },
-    {
-      "id": "e06f291d6d1e",
-      "title": "Collision of Two Harbor Craft in Singapore",
-      "location": "Singapore Harbor",
-      "lat": 1.2833,
-      "lng": 103.8667,
-      "category": "vessel",
-      "severity": "high",
-      "description": "Three people were killed when two harbor workboats collided near Pasir Panjang in Singapore on June 12. The incident may impact local port operations and harbor traffic.",
-      "date": "2026-06-12",
-      "dateLabel": "Jun 12, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/three-killed-in-collision-of-two-harbor-craft-in-singapore",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-12T18:02:49.002970+00:00"
-    },
-    {
-      "id": "8a2ccf7afed0",
-      "title": "Bangkok Port opens new cargo facility",
-      "location": "Bangkok Port, Thailand",
-      "lat": 13.7367,
-      "lng": 100.5232,
-      "category": "port",
-      "severity": "info",
-      "description": "The Port Authority of Thailand has opened a new 22,000-square-meter cargo-handling facility at Bangkok Port to improve efficiency, reduce congestion, and streamline barge operations and customs procedures.",
-      "date": "2026-06-12",
-      "dateLabel": "Jun 12, 2026",
-      "sourceUrl": "https://container-news.com/bangkok-port-opens-new-cargo-facility-to-improve-efficiency/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-12T18:02:17.264797+00:00"
     }
   ]
 }
