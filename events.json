@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-20T07:48:23.712497+00:00",
+  "lastUpdated": "2026-06-20T10:33:38.113688+00:00",
   "events": [
+    {
+      "id": "f14dcf24b893",
+      "title": "Shadowy Vessel Intercepted Near Solomon Islands",
+      "location": "Solomon Islands",
+      "lat": -9.6452,
+      "lng": 160.3639,
+      "category": "vessel",
+      "severity": "high",
+      "description": "A joint operation by the Royal Solomon Islands Police Force, Customs, and Immigration intercepted a suspicious vessel suspected of international crimes, potentially impacting regional maritime security and trade.",
+      "date": "2026-06-19",
+      "dateLabel": "Jun 19, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/solomon-islands-intercept-shadowy-vessel-suspected-of-international-crimes",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-20T10:28:40.318059+00:00"
+    },
+    {
+      "id": "2a5667ea096f",
+      "title": "Panama Canal conducts Gatun Locks maintenance",
+      "location": "Gatun Locks, Panama Canal",
+      "lat": 9.0667,
+      "lng": -79.5333,
+      "category": "chokepoint",
+      "severity": "info",
+      "description": "The Panama Canal is performing scheduled maintenance on a Gatun Locks chamber using a dry chamber operation. The maintenance is part of a long-term infrastructure program and is being carried out without disrupting transits.",
+      "date": "2026-06-20",
+      "dateLabel": "Jun 20, 2026",
+      "sourceUrl": "https://container-news.com/panama-canal-carries-out-gatun-locks-maintenance-without-disrupting-transits/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-20T10:27:52.845233+00:00"
+    },
     {
       "id": "e10018d58689",
       "title": "MSC restructures intra-Far East shipping network",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/hong-kong-flagged-tanker-hit-and-damaged-in-strait-of-hormuz",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-15T02:42:26.640958+00:00"
-    },
-    {
-      "id": "d2bb4ba40dbc",
-      "title": "US escorts oil tankers through Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "US forces are conducting nighttime escort operations for oil tankers through the Strait of Hormuz, facilitating the movement of over 20 ships on some nights following the removal of sea mines.",
-      "date": "2026-06-14",
-      "dateLabel": "Jun 14, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/us-forces-in-hormuz-help-escort-oil-tankers-at-night-burgum-says/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-14T21:06:44.426546+00:00"
-    },
-    {
-      "id": "7889cdb6cf52",
-      "title": "U.S. defends Hormuz actions after Indian sailors killed",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "conflict",
-      "severity": "high",
-      "description": "U.S. Secretary of State Marco Rubio defended American military actions in the Strait of Hormuz following Indian protests over the deaths of three Indian sailors. The incident occurred amid heightened tensions in the strategic waterway.",
-      "date": "2026-06-14",
-      "dateLabel": "Jun 14, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/rubio-defends-hormuz-blockade-after-india-protests-deaths-of-sailors/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-14T21:06:29.265629+00:00"
     }
   ]
 }
