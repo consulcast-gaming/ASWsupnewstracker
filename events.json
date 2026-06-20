@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-20T17:22:43.037973+00:00",
+  "lastUpdated": "2026-06-20T21:11:26.034456+00:00",
   "events": [
+    {
+      "id": "5d6d5e8aae1e",
+      "title": "US Monitors Hormuz Strait to Ensure Open Passage",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The U.S. military is monitoring the Strait of Hormuz to ensure it remains open, countering Iran's claims that it had closed the critical shipping passage.",
+      "date": "2026-06-20",
+      "dateLabel": "Jun 20, 2026",
+      "sourceUrl": "https://gcaptain.com/us-forces-monitoring-strait-of-hormuz-to-ensure-it-stays-open/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-20T21:02:54.499501+00:00"
+    },
     {
       "id": "7d18f626257e",
       "title": "Americold opens cold chain hub at Port Saint John",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://container-news.com/us-and-iran-agree-framework-deal-to-end-conflict-and-reopen-strait-of-hormuz/",
       "sourceLabel": "Container News",
       "added": "2026-06-15T09:55:18.224745+00:00"
-    },
-    {
-      "id": "6dfaf8e44bfb",
-      "title": "UK Seizes Russian Shadow Fleet Tanker in English Channel",
-      "location": "English Channel",
-      "lat": 50.5,
-      "lng": -1.5,
-      "category": "vessel",
-      "severity": "high",
-      "description": "British forces seized the sanctioned Russian shadow fleet tanker Smyrtos in the English Channel, arresting a seafarer suspected of sanctions violations. The vessel was moved to an anchorage off England's south coast.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://splash247.com/call-to-arm-shadow-tankers-follows-uk-boarding-operation/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-15T09:51:01.083570+00:00"
     }
   ]
 }
