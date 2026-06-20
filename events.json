@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-20T02:21:11.559170+00:00",
+  "lastUpdated": "2026-06-20T07:48:23.712497+00:00",
   "events": [
+    {
+      "id": "e10018d58689",
+      "title": "MSC restructures intra-Far East shipping network",
+      "location": "Far East (East & Southeast Asia)",
+      "lat": 23.0,
+      "lng": 121.0,
+      "category": "industry",
+      "severity": "medium",
+      "description": "MSC is restructuring its intra-Far East network by discontinuing the Bayan Ko service and revising regional loops to maintain coverage between the Pearl River Delta, Vietnam, and the Philippines.",
+      "date": "2026-06-20",
+      "dateLabel": "Jun 20, 2026",
+      "sourceUrl": "https://container-news.com/msc-reshapes-intra-far-east-network/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-20T07:43:44.475297+00:00"
+    },
     {
       "id": "32333313a766",
       "title": "Bulker Contacts Wharf During Departure",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/rubio-defends-hormuz-blockade-after-india-protests-deaths-of-sailors/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-14T21:06:29.265629+00:00"
-    },
-    {
-      "id": "08df8a733a7d",
-      "title": "Strait of Hormuz Closure Causes Vessel Idling",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The closure of the Strait of Hormuz to most commercial shipping since late February 2026 has left approximately 1,550 vessels at anchor in the Arabian Gulf, Gulf of Oman, and adjacent areas, impacting around 20,000 seafarers and disrupting global freight flows.",
-      "date": "2026-06-14",
-      "dateLabel": "Jun 14, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/fuel-quality-management-for-vessels-in-extended-idle-arabian-gulf-gulf-of-oman-adjacent-anchorages/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-14T21:06:18.638277+00:00"
     }
   ]
 }
