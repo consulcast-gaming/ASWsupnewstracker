@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-20T10:33:38.113688+00:00",
+  "lastUpdated": "2026-06-20T13:31:31.498071+00:00",
   "events": [
+    {
+      "id": "9d3ac8dedf5d",
+      "title": "Allianz Wasserstraße launched to boost inland waterways",
+      "location": "Germany",
+      "lat": 51.0,
+      "lng": 9.9937,
+      "category": "industry",
+      "severity": "info",
+      "description": "Rhenus Logistics, duisport, HGK Shipping, and Viking Cruises have formed the Allianz Wasserstraße alliance to strengthen inland waterways as a sustainable transport network for European supply chains.",
+      "date": "2026-06-20",
+      "dateLabel": "Jun 20, 2026",
+      "sourceUrl": "https://container-news.com/rhenus-joins-alliance-to-strengthen-europes-inland-waterways/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-20T13:27:04.414243+00:00"
+    },
     {
       "id": "f14dcf24b893",
       "title": "Shadowy Vessel Intercepted Near Solomon Islands",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/trump-announces-iran-deal-to-reopen-strait-of-hormuz/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-15T09:50:50.568306+00:00"
-    },
-    {
-      "id": "ea7e04cdc1b6",
-      "title": "Tanker hit in Strait of Hormuz",
-      "location": "Strait of Hormuz, Omani side",
-      "lat": 24.8864,
-      "lng": 56.0142,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "A Hong Kong-flagged tanker was hit and damaged in the Strait of Hormuz by Iranian forces, according to maritime security sources.",
-      "date": "2026-06-14",
-      "dateLabel": "Jun 14, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/hong-kong-flagged-tanker-hit-and-damaged-in-strait-of-hormuz",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-15T02:42:26.640958+00:00"
     }
   ]
 }
