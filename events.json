@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-20T21:11:26.034456+00:00",
+  "lastUpdated": "2026-06-21T02:44:45.282367+00:00",
   "events": [
+    {
+      "id": "f54674e80020",
+      "title": "CNC Line revises KCM2 service",
+      "location": "Xiamen, China",
+      "lat": 24.4794,
+      "lng": 118.0897,
+      "category": "industry",
+      "severity": "info",
+      "description": "CNC Line has revised its Korea–China–Malaysia (KCM2) service, removing calls at Shantou and the second Busan call, while adding Xiamen. The fleet has been reduced from seven to six vessels.",
+      "date": "2026-06-20",
+      "dateLabel": "Jun 20, 2026",
+      "sourceUrl": "https://container-news.com/cnc-line-revises-kcm2-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T02:39:18.141542+00:00"
+    },
+    {
+      "id": "cf768a6f6e8a",
+      "title": "Maersk replaces ONE as Adriatic service vessel provider",
+      "location": "Adriatic Sea",
+      "lat": 43.5083,
+      "lng": 16.0,
+      "category": "industry",
+      "severity": "info",
+      "description": "Maersk will replace Ocean Network Express (ONE) as the vessel provider on the jointly operated Adriatic Service (AD1), which it will now market as the Adriatic Sea. ONE will remain as a slot charterer with limited port coverage.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/maersk-replaces-one-as-vessel-provider-on-adriatic-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T02:39:10.702438+00:00"
+    },
     {
       "id": "5d6d5e8aae1e",
       "title": "US Monitors Hormuz Strait to Ensure Open Passage",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/eu-sanctions-shipping-arms-of-gazprom-and-lukoil-over-high-risk-russian-oil-transport-practices/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-15T16:53:29.916652+00:00"
-    },
-    {
-      "id": "ca89295cc4f2",
-      "title": "Shipowners cautious on Hormuz Strait reopening",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Shipowners and traders are seeking more details before resuming transits through the Strait of Hormuz following a US-Iran deal aimed at reopening the critical waterway. Concerns remain over the safety and feasibility of resuming operations after previous failed attempts.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://gcaptain.com/shipowners-seek-details-on-hormuz-deal-before-resuming-transits/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-15T16:53:28.439181+00:00"
-    },
-    {
-      "id": "86b15d43b4ca",
-      "title": "US and Iran agree to reopen Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The United States and Iran have agreed on a framework deal to end their conflict and reopen the Strait of Hormuz, a critical global shipping chokepoint. The agreement is expected to restore normal freight flows through the region and ease market concerns.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://container-news.com/us-and-iran-agree-framework-deal-to-end-conflict-and-reopen-strait-of-hormuz/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-15T09:55:18.224745+00:00"
     }
   ]
 }
