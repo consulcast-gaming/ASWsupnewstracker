@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-21T08:28:27.489894+00:00",
+  "lastUpdated": "2026-06-21T13:53:58.869393+00:00",
   "events": [
+    {
+      "id": "b8e41f1ed0ad",
+      "title": "New direct rail link launched between Baltic Hub and Ostrava",
+      "location": "Baltic Hub, Gdańsk, Poland",
+      "lat": 54.352,
+      "lng": 18.6466,
+      "category": "route",
+      "severity": "info",
+      "description": "Loconi Intermodal has launched a direct weekly rail service from the Baltic Hub in Gdańsk to the PKP Cargo International Terminal in Ostrava, Czech Republic, starting in May 2026. This marks the first direct rail connection between the two terminals.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/loconi-intermodal-launches-direct-rail-link-from-baltic-hub-to-ostrava/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T13:48:45.805199+00:00"
+    },
+    {
+      "id": "054fd73c9a16",
+      "title": "MSC launches Sierra service for Far East-Mexico route",
+      "location": "Manzanillo",
+      "lat": 19.4167,
+      "lng": -104.8167,
+      "category": "route",
+      "severity": "info",
+      "description": "MSC has launched the Sierra service, a new Far East–Mexico route complementing its Mexicas loop. The service operates between Shanghai, Qingdao, Busan, Manzanillo, and Lazaro Cardenas.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/msc-adds-sierra-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T13:48:31.899616+00:00"
+    },
     {
       "id": "90ff4fe57a75",
       "title": "Maersk adjusts Far East-Bangladesh shipping routes",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://theloadstar.com/delete-this-string-of-emails-bombshell-allegations-emerge-in-container-cartel-case/",
       "sourceLabel": "The Loadstar",
       "added": "2026-06-15T16:53:47.512144+00:00"
-    },
-    {
-      "id": "5d05c7d1ba57",
-      "title": "Strait of Hormuz Reopening Delayed Amid Iran Deal",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The global shipping industry welcomed a U.S.-Iran agreement to end conflict near the Strait of Hormuz, but maritime groups warned that full reopening of the critical waterway will take time, causing ongoing uncertainty for freight flows.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://gcaptain.com/shipping-industry-welcomes-iran-deal-but-warns-strait-of-hormuz-reopening-will-take-time/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-15T16:53:34.064163+00:00"
-    },
-    {
-      "id": "00e09e83af64",
-      "title": "Armed skiff attacks on ships off Yemen",
-      "location": "Gulf of Aden, off Yemen",
-      "lat": 12.85,
-      "lng": 45.15,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Two merchant vessels were attacked by armed skiffs off Yemen in the Gulf of Aden, raising concerns about maritime security and potential disruptions to shipping routes.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://gcaptain.com/armed-skiffs-attack-two-ships-off-yemen-in-separate-gulf-of-aden-incidents/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-15T16:53:32.666974+00:00"
     }
   ]
 }
