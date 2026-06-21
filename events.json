@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-21T02:44:45.282367+00:00",
+  "lastUpdated": "2026-06-21T08:28:27.489894+00:00",
   "events": [
+    {
+      "id": "90ff4fe57a75",
+      "title": "Maersk adjusts Far East-Bangladesh shipping routes",
+      "location": "Bangladesh",
+      "lat": 23.684994,
+      "lng": 90.356331,
+      "category": "route",
+      "severity": "medium",
+      "description": "Maersk has revised its Far East–Bangladesh service network, including changes to the SH1, SH2, SH3, and IA7 services. The adjustments aim to optimize coverage and include the removal of calls at Hong Kong for the revised SH1 service.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/maersk-revises-far-east-bangladesh-service-network/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T08:22:57.037206+00:00"
+    },
+    {
+      "id": "b94d300d83b2",
+      "title": "Iran resumes Kharg Island oil loadings",
+      "location": "Kharg Island, Iran",
+      "lat": 26.3333,
+      "lng": 52.3333,
+      "category": "policy",
+      "severity": "high",
+      "description": "Iran has resumed crude oil loading at its Kharg Island terminal after a six-week halt caused by a US-imposed blockade. The resumption follows the lifting of the US restrictions, impacting global oil supply chain operations.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://gcaptain.com/iran-resumes-kharg-island-oil-loadings-after-us-blockade-lifted/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-21T08:20:04.455284+00:00"
+    },
     {
       "id": "f54674e80020",
       "title": "CNC Line revises KCM2 service",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/armed-skiffs-attack-two-ships-off-yemen-in-separate-gulf-of-aden-incidents/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-15T16:53:32.666974+00:00"
-    },
-    {
-      "id": "b1368d7901de",
-      "title": "Hormuz Strait Trade Recovery Delayed",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "Analysts warn that the restoration of oil and gas flows through the Strait of Hormuz following a US-Iran interim agreement may take months, despite positive reactions in oil markets.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://gcaptain.com/analysts-warn-hormuz-trade-flows-face-long-road-back/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-15T16:53:31.335935+00:00"
-    },
-    {
-      "id": "1fe20abace49",
-      "title": "EU Sanctions Russian Oil Shipping Subsidiaries",
-      "location": "European Union",
-      "lat": 54.5265,
-      "lng": 15.2553,
-      "category": "policy",
-      "severity": "high",
-      "description": "The European Union has imposed sanctions on the shipping arms of Gazprom and Lukoil, targeting their role in transporting Russian oil via high-risk routes and the shadow fleet. This move disrupts Russian oil logistics and escalates trade policy pressures on Moscow.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://gcaptain.com/eu-sanctions-shipping-arms-of-gazprom-and-lukoil-over-high-risk-russian-oil-transport-practices/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-15T16:53:29.916652+00:00"
     }
   ]
 }
