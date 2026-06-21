@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-21T13:53:58.869393+00:00",
+  "lastUpdated": "2026-06-21T17:25:16.634568+00:00",
   "events": [
+    {
+      "id": "1b0972de8a7d",
+      "title": "CMA CGM implements PSS on key trade lanes",
+      "location": "Global",
+      "lat": 20.0,
+      "lng": 0.0,
+      "category": "industry",
+      "severity": "info",
+      "description": "CMA CGM has announced multiple Peak Season Surcharges (PSS) on key trade lanes, including shipments from Asia to Canada, West Africa, the Mediterranean, and North Africa, effective between 22 June and 10 July 2026.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/cma-cgm-announces-multiple-pss-on-key-trade-lanes/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T17:20:19.042005+00:00"
+    },
+    {
+      "id": "5094c529b72a",
+      "title": "Maersk extends WAF7 service to South Africa",
+      "location": "South Africa",
+      "lat": -34.0,
+      "lng": 23.0,
+      "category": "route",
+      "severity": "info",
+      "description": "Maersk has extended its WAF7 service to include South Africa, adding calls at Port Elizabeth to support the country's fruit export season. The route now connects Mediterranean and West African ports with South Africa.",
+      "date": "2026-06-21",
+      "dateLabel": "Jun 21, 2026",
+      "sourceUrl": "https://container-news.com/maersk-extends-waf7-service-to-south-africa/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-21T17:20:10.579972+00:00"
+    },
     {
       "id": "b8e41f1ed0ad",
       "title": "New direct rail link launched between Baltic Hub and Ostrava",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://theloadstar.com/cautious-air-cargo-shippers-delay-tenders-amid-signs-rates-may-have-peaked/",
       "sourceLabel": "The Loadstar",
       "added": "2026-06-15T16:54:06.258865+00:00"
-    },
-    {
-      "id": "989ff3c88a84",
-      "title": "Persian Gulf conflict resolution impacts Sub-Saharan Africa trade",
-      "location": "Persian Gulf",
-      "lat": 26.7604,
-      "lng": 56.9463,
-      "category": "conflict",
-      "severity": "high",
-      "description": "The ongoing conflict in the Persian Gulf has severely disrupted container trade volumes to Sub-Saharan Africa, but a tentative agreement between the involved parties offers hope for a recovery in trade later in the year.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://theloadstar.com/sub-saharan-africa-shippers-anticipating-formal-end-to-hostilities/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-06-15T16:53:58.589990+00:00"
-    },
-    {
-      "id": "7bd64a2df7bf",
-      "title": "Container cartel collusion during pandemic",
-      "location": "California, USA",
-      "lat": 34.0522,
-      "lng": -118.2437,
-      "category": "industry",
-      "severity": "high",
-      "description": "Class-action lawsuits allege major container manufacturers colluded to restrict output and inflate prices during the pandemic, causing significant supply chain disruptions.",
-      "date": "2026-06-15",
-      "dateLabel": "Jun 15, 2026",
-      "sourceUrl": "https://theloadstar.com/delete-this-string-of-emails-bombshell-allegations-emerge-in-container-cartel-case/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-06-15T16:53:47.512144+00:00"
     }
   ]
 }
