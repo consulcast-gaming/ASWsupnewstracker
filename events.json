@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-23T17:54:28.640211+00:00",
+  "lastUpdated": "2026-06-23T21:32:36.151502+00:00",
   "events": [
+    {
+      "id": "86ef526d3395",
+      "title": "Strait of Hormuz conflict disrupts oil supply",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "Conflict in the Strait of Hormuz has disrupted oil supply, causing sharp increases in shipping fuel prices and pushing the industry toward alternative fuels.",
+      "date": "2026-06-23",
+      "dateLabel": "Jun 23, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/hormuz-oil-shock-tilts-shipping-towards-alternative-fuels-2/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-06-23T21:31:12.192564+00:00"
+    },
+    {
+      "id": "1051ee0791b7",
+      "title": "Mass evacuation of seafarers trapped in Persian Gulf",
+      "location": "Persian Gulf",
+      "lat": 26.0,
+      "lng": 54.0,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "The International Maritime Organization is launching a large-scale evacuation of over 11,000 seafarers stranded in the Persian Gulf following a recent U.S.-Iran peace agreement. The situation highlights a significant disruption to maritime operations in the region.",
+      "date": "2026-06-23",
+      "dateLabel": "Jun 23, 2026",
+      "sourceUrl": "https://gcaptain.com/imo-launches-mass-evacuation-of-11000-seafarers-still-trapped-in-persian-gulf/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-23T21:22:46.872036+00:00"
+    },
     {
       "id": "2378752d28f1",
       "title": "Strait of Hormuz Phased Evacuation Launched",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/uk-pm-starmer-calls-channel-incident-involving-russian-warship-reckless/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-17T08:52:50.501563+00:00"
-    },
-    {
-      "id": "68a7b662ecca",
-      "title": "Oil tankers repositioning ahead of Hormuz reopening",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Two oil tankers have u-turned in the Indian Ocean, redirecting to the Middle East ahead of the potential reopening of the Strait of Hormuz, indicating repositioning efforts by shipowners.",
-      "date": "2026-06-17",
-      "dateLabel": "Jun 17, 2026",
-      "sourceUrl": "https://gcaptain.com/oil-tankers-u-turn-rush-to-middle-east-before-hormuz-reopening/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-17T08:52:49.212322+00:00"
-    },
-    {
-      "id": "00e2a9e9f27d",
-      "title": "Southern California Ports Report Strong May Volumes",
-      "location": "Los Angeles, CA",
-      "lat": 34.0522,
-      "lng": -118.2437,
-      "category": "port",
-      "severity": "info",
-      "description": "The twin ports of Southern California reported strong cargo volumes in May, rebounding from the previous year's decline caused by tariffs and other disruptions. Positive near-term outlooks suggest continued recovery in port activity.",
-      "date": "2026-06-16",
-      "dateLabel": "Jun 16, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/socal-ports-have-very-strong-may-with-positive-near-term-outlooks",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-17T02:41:38.283467+00:00"
     }
   ]
 }
