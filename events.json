@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-24T14:14:15.326128+00:00",
+  "lastUpdated": "2026-06-24T17:56:42.724085+00:00",
   "events": [
+    {
+      "id": "636a60c02afa",
+      "title": "Port of Long Beach sees strong cargo growth in May",
+      "location": "Port of Long Beach",
+      "lat": 33.7566,
+      "lng": -118.2639,
+      "category": "port",
+      "severity": "info",
+      "description": "The Port of Long Beach handled 842,030 TEUs in May, a 31.7% increase from May 2025, driven by importers moving cargo ahead of potential tariff increases and market uncertainty.",
+      "date": "2026-06-24",
+      "dateLabel": "Jun 24, 2026",
+      "sourceUrl": "https://container-news.com/port-of-long-beach-posts-strong-cargo-growth-in-may/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-24T17:51:45.328745+00:00"
+    },
+    {
+      "id": "937ed5b63d4a",
+      "title": "Strait of Hormuz transits rise amid renewed tensions",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Transits through the Strait of Hormuz are increasing following a US-Iran interim agreement, though Iran has announced a renewed closure amid Israel-Hezbollah clashes. The situation remains volatile, with transits still below pre-war levels.",
+      "date": "2026-06-24",
+      "dateLabel": "Jun 24, 2026",
+      "sourceUrl": "https://container-news.com/freightos-weekly-update-ocean-rates-climb-again-even-as-fuel-costs-ease/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-24T17:51:03.512044+00:00"
+    },
+    {
+      "id": "3084639375d9",
+      "title": "IMO Orders Ships to Halt Movement in Hormuz Amid Evacuation",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0842,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "The International Maritime Organization is directing ships in the Persian Gulf to remain stationary as it initiates the evacuation of thousands of seafarers affected by ongoing disruptions.",
+      "date": "2026-06-24",
+      "dateLabel": "Jun 24, 2026",
+      "sourceUrl": "https://gcaptain.com/imo-tells-ships-to-stay-put-await-instructions-as-hormuz-evacuation-begins/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-24T17:46:26.682284+00:00"
+    },
     {
       "id": "cf17cd47f97c",
       "title": "Strait of Hormuz traffic recovers after Iran peace talks",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/resurgent-piracy-and-grey-zone-pressure-reshape-maritime-risk/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-17T14:56:27.274346+00:00"
-    },
-    {
-      "id": "2605878f8f68",
-      "title": "Maersk PH6 service launches at Visayas Container Terminal",
-      "location": "Port of Iloilo, Philippines",
-      "lat": 10.7167,
-      "lng": 122.55,
-      "category": "industry",
-      "severity": "info",
-      "description": "The Visayas Container Terminal in the Philippines has welcomed the inaugural call of Maersk's PH6 service, enhancing trade connectivity for the Visayas region and providing direct access to key international trade hubs.",
-      "date": "2026-06-17",
-      "dateLabel": "Jun 17, 2026",
-      "sourceUrl": "https://container-news.com/visayas-container-terminal-welcomes-inaugural-maersk-ph6-service/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-17T14:52:45.068202+00:00"
-    },
-    {
-      "id": "27cb774b1134",
-      "title": "DP World to build first U.S. Gulf Coast container terminal",
-      "location": "Port of Corpus Christi, Texas",
-      "lat": 27.7919,
-      "lng": -97.3423,
-      "category": "industry",
-      "severity": "info",
-      "description": "DP World has entered exclusive negotiations to develop and operate a container terminal at the Port of Corpus Christi in Texas. This marks the company's first container terminal on the U.S. Gulf Coast.",
-      "date": "2026-06-17",
-      "dateLabel": "Jun 17, 2026",
-      "sourceUrl": "https://container-news.com/dp-world-plans-first-u-s-gulf-coast-container-terminal/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-17T14:52:38.445853+00:00"
-    },
-    {
-      "id": "8d9ea087c20a",
-      "title": "Maersk resumes Red Sea transits amid vessel shortage",
-      "location": "Bab el-Mandeb Strait",
-      "lat": 12.3797,
-      "lng": 44.2933,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Maersk Line has restarted Red Sea transits after a three-month pause, as vessel availability remains constrained and charter rates rise. The Santa Catarina Maersk and Clementine Maersk are the first of the operator’s ships to pass through the Bab el-Mandeb Strait in this period.",
-      "date": "2026-06-17",
-      "dateLabel": "Jun 17, 2026",
-      "sourceUrl": "https://container-news.com/maersk-restarts-red-sea-transits-amid-vessel-shortage/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-17T14:52:29.284333+00:00"
     }
   ]
 }
