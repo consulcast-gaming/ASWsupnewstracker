@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-24T02:18:12.048984+00:00",
+  "lastUpdated": "2026-06-24T07:41:28.294285+00:00",
   "events": [
+    {
+      "id": "9726a8c39bd9",
+      "title": "Hormuz Strait phased reopening",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0118,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Vessel transits through the Strait of Hormuz are gradually resuming following a phased reopening coordinated by the IMO and Oman, with international efforts to clear stranded ships in a controlled manner.",
+      "date": "2026-06-24",
+      "dateLabel": "Jun 24, 2026",
+      "sourceUrl": "https://splash247.com/imo-and-oman-orchestrate-phased-reopening-of-hormuz/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-24T07:31:32.431042+00:00"
+    },
     {
       "id": "24bf2fb99cf4",
       "title": "KCCI rises 11.88% due to stronger container freight rates",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/iranian-tankers-begin-to-move-out-past-u-s-blockade-line",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-17T08:56:50.013038+00:00"
-    },
-    {
-      "id": "b1bb635e6658",
-      "title": "Russian Warship Incident Near UK Territorial Waters",
-      "location": "English Channel",
-      "lat": 50.5,
-      "lng": -1.5,
-      "category": "conflict",
-      "severity": "high",
-      "description": "A Russian frigate fired warning shots near a UK-flagged civilian yacht in the English Channel, prompting UK Prime Minister Keir Starmer to call the action reckless and concerning.",
-      "date": "2026-06-17",
-      "dateLabel": "Jun 17, 2026",
-      "sourceUrl": "https://gcaptain.com/uk-pm-starmer-calls-channel-incident-involving-russian-warship-reckless/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-17T08:52:50.501563+00:00"
     }
   ]
 }
