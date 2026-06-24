@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-23T21:32:36.151502+00:00",
+  "lastUpdated": "2026-06-24T02:18:12.048984+00:00",
   "events": [
+    {
+      "id": "24bf2fb99cf4",
+      "title": "KCCI rises 11.88% due to stronger container freight rates",
+      "location": "Busan",
+      "lat": 35.1273,
+      "lng": 129.049,
+      "category": "industry",
+      "severity": "info",
+      "description": "The Korea Ocean Business Corporation's Container Composite Index (KCCI) increased 11.88% week-on-week to 3,747 points, driven by higher container export spot rates from Busan on major international trade routes, including significant rises on U.S. West Coast and other key routes.",
+      "date": "2026-06-23",
+      "dateLabel": "Jun 23, 2026",
+      "sourceUrl": "https://container-news.com/kcci-rises-11-88-as-container-freight-rates-strengthen/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-24T02:12:36.237419+00:00"
+    },
+    {
+      "id": "6c0cb8e02315",
+      "title": "Ships return to Hormuz Strait central corridor",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0118,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The first ships have returned to the central corridor of the Strait of Hormuz, signaling a slow return to normalcy after the war began. However, tanker owners and operators remain cautious.",
+      "date": "2026-06-23",
+      "dateLabel": "Jun 23, 2026",
+      "sourceUrl": "https://gcaptain.com/first-ships-return-to-hormuzs-central-corridor-since-war-began/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-24T02:08:19.607271+00:00"
+    },
     {
       "id": "86ef526d3395",
       "title": "Strait of Hormuz conflict disrupts oil supply",
@@ -330,21 +360,6 @@
       "sourceUrl": "https://gcaptain.com/trump-treasury-issues-sweeping-iran-oil-waiver-marking-sharp-break-from-maximum-pressure/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-23T07:37:43.876104+00:00"
-    },
-    {
-      "id": "1b8371145484",
-      "title": "Asia-U.S. West Coast ocean rate stability amid supply chain uncertainty",
-      "location": "Asia to U.S. West Coast",
-      "lat": 35.8971,
-      "lng": -119.4818,
-      "category": "industry",
-      "severity": "medium",
-      "description": "Spot rates on the Asia-U.S. West Coast route remain unchanged at $4,836 per FEU as shippers rush to avoid upcoming fuel surcharges and price hikes from Asian manufacturers, signaling ongoing supply chain volatility.",
-      "date": "2026-06-16",
-      "dateLabel": "Jun 16, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/coming-weeks-will-see-multiple-factors-reset-ocean-rates",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-23T02:08:59.710046+00:00"
     },
     {
       "id": "dd320eda83db",
@@ -2490,21 +2505,6 @@
       "sourceUrl": "https://maritime-executive.com/article/docker-killed-in-cargo-loading-accident-on-ro-ro-at-zeebrugge",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-18T08:34:25.346529+00:00"
-    },
-    {
-      "id": "de8ab2689d16",
-      "title": "Freight carriers shutting down and job cuts in logistics",
-      "location": "United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "category": "industry",
-      "severity": "high",
-      "description": "In June, freight-sector bankruptcies and layoffs increased as carriers and logistics firms cut costs amid ongoing financial strain. More carriers shut down operations, and logistics companies reduced their workforce to manage expenses.",
-      "date": "2026-06-16",
-      "dateLabel": "Jun 16, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/freight-distress-report-more-carriers-shut-down-logistics-firms-cut-jobs",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-18T08:31:23.423953+00:00"
     },
     {
       "id": "a84619b69690",
