@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-25T10:43:23.745217+00:00",
+  "lastUpdated": "2026-06-25T14:11:56.869242+00:00",
   "events": [
+    {
+      "id": "b3354ce9c385",
+      "title": "China-India container rates surge due to strong demand",
+      "location": "Nhava Sheva (JNPA), India",
+      "lat": 19.076,
+      "lng": 72.8689,
+      "category": "industry",
+      "severity": "high",
+      "description": "Container freight rates from China to India have risen by 25-30% since late May due to strong demand from Indian importers, despite increased capacity. Spot rates from Shanghai to Nhava Sheva are now around $2,300 per TEU.",
+      "date": "2026-06-25",
+      "dateLabel": "Jun 25, 2026",
+      "sourceUrl": "https://theloadstar.com/growing-demand-drives-up-china-india-box-rates-despite-capacity-boost/",
+      "sourceLabel": "The Loadstar",
+      "added": "2026-06-25T14:02:14.867728+00:00"
+    },
+    {
+      "id": "2bb83c9d09c0",
+      "title": "IMO unveils Hormuz evacuation plan, vessels transit",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "The International Maritime Organization (IMO) published a Strait of Hormuz evacuation plan, prompting increased vessel transits through the region. Maersk shipped two vessels through the strait in coordination with security measures.",
+      "date": "2026-06-25",
+      "dateLabel": "Jun 25, 2026",
+      "sourceUrl": "https://theloadstar.com/maersk-ships-early-movers-as-imo-unveils-hormuz-evacuation-plan/",
+      "sourceLabel": "The Loadstar",
+      "added": "2026-06-25T14:01:55.582933+00:00"
+    },
     {
       "id": "ce1851370ffc",
       "title": "Strait of Hormuz traffic normalizes, easing oil supply concerns",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://theloadstar.com/sticky-port-congestion-drives-intra-asia-freight-rates-higher/",
       "sourceLabel": "The Loadstar",
       "added": "2026-06-18T14:44:10.527082+00:00"
-    },
-    {
-      "id": "0d17f5bd1545",
-      "title": "Larger vessels deployed on Intra-Europe routes",
-      "location": "Mediterranean Sea",
-      "lat": 38.9591,
-      "lng": 25.5183,
-      "category": "industry",
-      "severity": "medium",
-      "description": "Container lines are increasingly using larger vessels (over 8,000 TEU) on intra-Europe routes, with a 78% year-on-year increase in such ships operating in the Mediterranean. This shift reflects network restructuring by carriers like MSC.",
-      "date": "2026-06-18",
-      "dateLabel": "Jun 18, 2026",
-      "sourceUrl": "https://theloadstar.com/network-restructuring-cascading-larger-vessels-onto-intra-europe-trades/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-06-18T14:44:03.747681+00:00"
-    },
-    {
-      "id": "080fa46aa7de",
-      "title": "US-Iran MoU sparks optimism, Hormuz traffic rises",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "chokepoint",
-      "severity": "medium",
-      "description": "The US and Iran have signed a deal to end the war, leading to cautious optimism and increased ocean transits through the Strait of Hormuz, a key global shipping chokepoint.",
-      "date": "2026-06-18",
-      "dateLabel": "Jun 18, 2026",
-      "sourceUrl": "https://theloadstar.com/hormuz-traffic-rises-as-us-iran-mou-sparks-cautious-optimism/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-06-18T14:44:02.010114+00:00"
     }
   ]
 }
