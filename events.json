@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-26T02:20:38.283599+00:00",
+  "lastUpdated": "2026-06-26T07:52:18.365786+00:00",
   "events": [
+    {
+      "id": "f14aed094d36",
+      "title": "Evergreen container ship attacked near Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "The 9,532 teu Evergreen containership Ever Lovely was struck shortly after transiting the Strait of Hormuz, causing the International Maritime Organization to pause its evacuation operation for vessels in the Gulf.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://splash247.com/hormuz-reopening-plans-thrown-into-doubt-after-evergreen-boxship-attack/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-26T07:41:37.168112+00:00"
+    },
+    {
+      "id": "ac7a170fd687",
+      "title": "France intercepts Russian shadow fleet tanker near Sicily",
+      "location": "Offshore Sicily",
+      "lat": 37.5,
+      "lng": 13.5,
+      "category": "vessel",
+      "severity": "high",
+      "description": "French navy boarded the Russia-linked tanker Deliver near Sicily as part of efforts to disrupt Moscow's shadow fleet circumventing Western sanctions. The incident highlights ongoing disruptions in global energy freight flows.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://splash247.com/france-boards-another-russian-shadow-fleet-tanker-off-sicily/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-26T07:41:33.694698+00:00"
+    },
+    {
+      "id": "4f99bd75b308",
+      "title": "Shipyard engine shortages curb output",
+      "location": "Global shipyards",
+      "lat": 35.0,
+      "lng": 135.0,
+      "category": "industry",
+      "severity": "high",
+      "description": "A shortage of main engines, particularly dual-fuel low-speed two-stroke engines, is limiting shipyard output, echoing constraints from the 2007 shipbuilding boom. This shortage is creating bottlenecks in the shipbuilding supply chain.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://splash247.com/shipyards-compete-with-ai-for-engines/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-26T07:41:32.416276+00:00"
+    },
     {
       "id": "96ab6516ff62",
       "title": "Charleston suspends new terminal operations due to low volume",
