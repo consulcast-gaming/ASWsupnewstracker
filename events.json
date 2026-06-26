@@ -1,6 +1,66 @@
 {
-  "lastUpdated": "2026-06-26T14:11:00.770554+00:00",
+  "lastUpdated": "2026-06-26T17:37:21.292378+00:00",
   "events": [
+    {
+      "id": "53a381c708c6",
+      "title": "Yemen tensions threaten Red Sea shipping",
+      "location": "Yemen Red Sea Coast",
+      "lat": 15.7457,
+      "lng": 47.7263,
+      "category": "conflict",
+      "severity": "high",
+      "description": "Rising tensions between the Houthis and the Internationally Recognized Government in Yemen are causing concern for Red Sea shipping routes, with potential disruptions to global freight flows.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/rising-tensions-in-yemen-threaten-red-sea-transits",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-26T17:33:02.343986+00:00"
+    },
+    {
+      "id": "b38bddf091a5",
+      "title": "Increase in containers lost at sea in 2025",
+      "location": "Global shipping routes",
+      "lat": 0.0,
+      "lng": 0.0,
+      "category": "vessel",
+      "severity": "medium",
+      "description": "The World Shipping Council reported 1,478 containers were lost at sea in 2025, up from 576 in 2024. While representing just 0.0005% of global container traffic, the increase highlights ongoing vessel-related disruptions in global freight flows.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://container-news.com/wsc-reports-increase-in-containers-lost-at-sea/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-26T17:32:38.628812+00:00"
+    },
+    {
+      "id": "4f30426c825b",
+      "title": "South Carolina Ports suspends container terminal operations",
+      "location": "Port of Charleston, South Carolina",
+      "lat": 32.7872,
+      "lng": -79.9474,
+      "category": "port",
+      "severity": "high",
+      "description": "South Carolina Ports has temporarily shut down a key container terminal due to trade uncertainty and cost-cutting measures, disrupting freight operations at the Port of Charleston.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/trade-uncertainty-leads-south-carolina-ports-to-temporarily-shut-down-container-terminal",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-26T17:28:59.944696+00:00"
+    },
+    {
+      "id": "2cf798597bd8",
+      "title": "Drone Strike on Ever Lovely in Strait",
+      "location": "Strait of Malacca",
+      "lat": 2.5,
+      "lng": 101.5,
+      "category": "vessel",
+      "severity": "critical",
+      "description": "The Singapore-flagged containership Ever Lovely was struck by an unknown projectile on its starboard side on 25 June 2026, raising concerns about security and safety in the Strait of Malacca.",
+      "date": "2026-06-26",
+      "dateLabel": "Jun 26, 2026",
+      "sourceUrl": "https://gcaptain.com/drone-strike-on-ever-lovely-exposes-the-fiction-of-a-free-strait/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-26T17:28:24.418980+00:00"
+    },
     {
       "id": "883d99af20eb",
       "title": "Lufthansa Cargo upgrades Frankfurt hub",
@@ -2940,36 +3000,6 @@
       "sourceUrl": "https://splash247.com/splash-wrap-ships-of-the-world-start-your-engines/",
       "sourceLabel": "Splash 247",
       "added": "2026-06-19T08:57:54.688153+00:00"
-    },
-    {
-      "id": "d5f2244a0a7e",
-      "title": "Strait of Hormuz partial reopening amid risks",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The Strait of Hormuz saw increased transits, with 25 recorded on Thursday and more on Friday, marking the highest single-day count in months. However, diplomatic tensions and mine risks continue to cloud the reopening after nearly four months of disruption.",
-      "date": "2026-06-19",
-      "dateLabel": "Jun 19, 2026",
-      "sourceUrl": "https://splash247.com/hormuz-reopening-clouded-by-diplomatic-cracks-and-mine-risks/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-19T08:57:51.759720+00:00"
-    },
-    {
-      "id": "bffc00e8560d",
-      "title": "Strait of Hormuz Passage Fee Proposal",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "policy",
-      "severity": "high",
-      "description": "The possibility of new tolls for vessels transiting the Strait of Hormuz remains unresolved, with implications for global shipping and U.S.-Iran relations.",
-      "date": "2026-06-19",
-      "dateLabel": "Jun 19, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/will-passage-fees-be-charged-in-the-strait-of-hormuz",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-19T02:55:47.100839+00:00"
     }
   ]
 }
