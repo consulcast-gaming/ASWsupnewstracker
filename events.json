@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-27T17:04:55.842342+00:00",
+  "lastUpdated": "2026-06-27T20:58:00.858499+00:00",
   "events": [
+    {
+      "id": "df62596adc07",
+      "title": "Tanker Struck by Drone off Oman",
+      "location": "Offshore Oman, Gulf of Oman",
+      "lat": 23.5833,
+      "lng": 59.1333,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A Panama-flagged tanker was struck by a drone off the coast of Oman on June 27, amid rising tensions with Iran, which has claimed to be firing warning shots in the region.",
+      "date": "2026-06-27",
+      "dateLabel": "Jun 27, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/tanker-struck-by-drone-off-oman-as-tensions-rise-with-iran",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-27T20:53:17.348269+00:00"
+    },
     {
       "id": "3ad81feeb98b",
       "title": "Aluminum cargo released from Strait of Hormuz",
