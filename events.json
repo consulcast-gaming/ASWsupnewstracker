@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-27T10:05:08.839925+00:00",
+  "lastUpdated": "2026-06-27T13:14:59.853042+00:00",
   "events": [
+    {
+      "id": "1259da1563db",
+      "title": "Container Rates Near Two-Year High",
+      "location": "Global",
+      "lat": 20.0,
+      "lng": 0.0,
+      "category": "policy",
+      "severity": "high",
+      "description": "Containerized freight rates are approaching a two-year high due to renewed concerns over potential tariffs, disrupting global shipping expectations for 2026.",
+      "date": "2026-06-27",
+      "dateLabel": "Jun 27, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/container-rates-near-a-two-year-high-amidst-renewed-tariff-concerns",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-27T13:10:46.290743+00:00"
+    },
     {
       "id": "e741c7b8cbef",
       "title": "US-Iran Strait of Hormuz Agreement Extension",
