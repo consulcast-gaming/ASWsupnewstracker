@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-27T02:14:40.239454+00:00",
+  "lastUpdated": "2026-06-27T06:54:08.255002+00:00",
   "events": [
+    {
+      "id": "e741c7b8cbef",
+      "title": "US-Iran Strait of Hormuz Agreement Extension",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "policy",
+      "severity": "high",
+      "description": "The US and Iran signed a 14-point memorandum extending a 60-day agreement to de-escalate tensions in the Strait of Hormuz, a critical global shipping chokepoint.",
+      "date": "2026-06-27",
+      "dateLabel": "Jun 27, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/full-steam-ahead-in-the-strait-of-hormuz-not-so-fast",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-27T06:49:54.238898+00:00"
+    },
+    {
+      "id": "cdfe374a0cf8",
+      "title": "RCL joins Far East–Red Sea container service",
+      "location": "Qingdao",
+      "lat": 35.8617,
+      "lng": 120.7474,
+      "category": "route",
+      "severity": "info",
+      "description": "Regional Container Lines (RCL) has joined the Far East–Red Sea RCS/RCX service operated by Global Feeder Shipping and T.S. Lines, marketing it under the name RCR01. The service deploys seven vessels and operates between major Chinese ports and the Red Sea.",
+      "date": "2026-06-27",
+      "dateLabel": "Jun 27, 2026",
+      "sourceUrl": "https://container-news.com/rcl-joins-far-east-red-sea-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-27T06:49:09.272323+00:00"
+    },
     {
       "id": "744c588642cf",
       "title": "Hormuz Strait faces asymmetric threats",
