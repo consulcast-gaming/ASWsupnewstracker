@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-28T07:52:13.000249+00:00",
+  "lastUpdated": "2026-06-28T10:27:18.006137+00:00",
   "events": [
+    {
+      "id": "8d899b44e171",
+      "title": "Loconi builds new intermodal terminal in Poland",
+      "location": "Zbąszynek, Poland",
+      "lat": 52.4833,
+      "lng": 17.0167,
+      "category": "industry",
+      "severity": "info",
+      "description": "Loconi Intermodal has begun construction of a new intermodal terminal in Zbąszynek, Poland, adjacent to the E20 railway line. The terminal is part of the company's expansion in Central and Eastern Europe.",
+      "date": "2026-06-28",
+      "dateLabel": "Jun 28, 2026",
+      "sourceUrl": "https://container-news.com/loconi-intermodal-starts-construction-of-new-terminal-in-poland/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-28T10:22:56.508578+00:00"
+    },
     {
       "id": "3037f91c60db",
       "title": "Tanker struck in Strait of Hormuz, U.S. strikes Iran",
