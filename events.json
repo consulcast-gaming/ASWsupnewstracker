@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-06-28T02:25:06.670992+00:00",
+  "lastUpdated": "2026-06-28T07:52:13.000249+00:00",
   "events": [
+    {
+      "id": "3037f91c60db",
+      "title": "Tanker struck in Strait of Hormuz, U.S. strikes Iran",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "A tanker was hit in the Strait of Hormuz, prompting U.S. military strikes against Iran, escalating tensions and risking disruption to a key global shipping route.",
+      "date": "2026-06-28",
+      "dateLabel": "Jun 28, 2026",
+      "sourceUrl": "https://gcaptain.com/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-06-28T07:42:47.508096+00:00"
+    },
     {
       "id": "c38a2d64f244",
       "title": "Asia building maritime redundancy around China",
