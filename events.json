@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-06-28T13:21:35.390017+00:00",
+  "lastUpdated": "2026-06-28T17:04:49.397814+00:00",
   "events": [
+    {
+      "id": "5ac872451bd1",
+      "title": "Russian Warship Presence in English Channel",
+      "location": "English Channel",
+      "lat": 50.5,
+      "lng": -1.5,
+      "category": "conflict",
+      "severity": "high",
+      "description": "The Russian frigate RFS Admiral Grigorovich has been lingering in the English Channel since late April, likely to escort dark fleet tankers, raising concerns over potential disruptions to maritime traffic and security.",
+      "date": "2026-06-28",
+      "dateLabel": "Jun 28, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/russian-warships-linger-in-the-english-channel",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-28T17:01:15.374139+00:00"
+    },
+    {
+      "id": "4316b84cda57",
+      "title": "Vancouver Fraser Port approves narrows dredging",
+      "location": "Second Narrows, Burrard Inlet",
+      "lat": 49.3167,
+      "lng": -123.1333,
+      "category": "port",
+      "severity": "medium",
+      "description": "The Vancouver Fraser Port Authority has received regulatory approval to begin dredging near Second Narrows in Burrard Inlet, starting in September. The project aims to increase port capacity and improve supply chain efficiency by allowing larger vessel loads at the Westridge terminal.",
+      "date": "2026-06-28",
+      "dateLabel": "Jun 28, 2026",
+      "sourceUrl": "https://container-news.com/vancouver-fraser-port-secures-regulatory-approval-for-narrows-dredging/",
+      "sourceLabel": "Container News",
+      "added": "2026-06-28T17:00:22.815181+00:00"
+    },
     {
       "id": "844c5da653fe",
       "title": "SM Line removes Yantian from PNS service",
