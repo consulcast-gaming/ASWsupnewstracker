@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-29T15:38:01.902041+00:00",
+  "lastUpdated": "2026-06-29T18:09:54.668393+00:00",
   "events": [
+    {
+      "id": "9ab36a35996e",
+      "title": "Russian LNG Vessel Armed with Machine Guns",
+      "location": "Baltic Sea",
+      "lat": 58.5,
+      "lng": 25.0,
+      "category": "conflict",
+      "severity": "high",
+      "description": "Estonian surveillance detected machine guns on a Russian LNG vessel, marking a potential escalation in the militarization of commercial shipping.",
+      "date": "2026-06-29",
+      "dateLabel": "Jun 29, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/estonian-surveillance-spots-machine-guns-on-russian-lng-vessel",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-06-29T18:07:00.160095+00:00"
+    },
+    {
+      "id": "286fa9ecdf35",
+      "title": "Maersk shifts SoCal imports to UP from BNSF",
+      "location": "Southern California",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "category": "route",
+      "severity": "high",
+      "description": "Maersk is shifting import containers moving inland from Southern California to Union Pacific (UP) from BNSF, signaling a major rail route adjustment affecting freight flows.",
+      "date": "2026-06-29",
+      "dateLabel": "Jun 29, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/new-maersk-shifts-socal-import-containers-to-up-from-bnsf",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-29T18:02:49.547483+00:00"
+    },
+    {
+      "id": "134e88d6e80b",
+      "title": "Top container line invests in Hamburg terminal",
+      "location": "Hamburg, Germany",
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "category": "industry",
+      "severity": "info",
+      "description": "A top-five container line is acquiring a stake in Hamburg's Eurogate terminal, signaling a strategic industry move that could influence European port operations and logistics flows.",
+      "date": "2026-06-29",
+      "dateLabel": "Jun 29, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/top-5-container-line-buying-into-major-europe-terminal",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-29T18:02:46.768498+00:00"
+    },
     {
       "id": "45cc980a0dc5",
       "title": "Oman hints at potential fees for ships through Strait of Hormuz",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://container-news.com/anl-restores-rates-on-asia-australia-trade/",
       "sourceLabel": "Container News",
       "added": "2026-06-22T09:41:02.359819+00:00"
-    },
-    {
-      "id": "fb2e5b27c09a",
-      "title": "Turkish-owned bulker struck by drone in Black Sea",
-      "location": "Black Sea",
-      "lat": 46.0,
-      "lng": 32.0,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A Turkish-owned dry bulk vessel was struck by a drone in the Black Sea, causing it to catch fire. The incident underscores heightened risks for commercial shipping amid escalating tensions between Russia and Ukraine.",
-      "date": "2026-06-22",
-      "dateLabel": "Jun 22, 2026",
-      "sourceUrl": "https://splash247.com/black-sea-tensions-escalate-as-bulker-hit-and-ports-burn/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-22T09:37:58.677476+00:00"
-    },
-    {
-      "id": "0dde287a31f5",
-      "title": "Conflicting US-Iran Hormuz Strait Status Reports",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The United States and Iran issued conflicting statements on the status of the Strait of Hormuz, a key energy chokepoint, causing uncertainty and reducing vessel transits below normal levels.",
-      "date": "2026-06-22",
-      "dateLabel": "Jun 22, 2026",
-      "sourceUrl": "https://splash247.com/washington-and-tehran-issue-conflicting-messages-on-hormuz-transits/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-06-22T09:37:51.028149+00:00"
-    },
-    {
-      "id": "22dcf040b4e0",
-      "title": "Iran Shuts Strait of Hormuz, Slows Shipping",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The number of ships passing through the Strait of Hormuz dropped sharply after Iran announced it had again closed the waterway, disrupting a key global shipping route.",
-      "date": "2026-06-22",
-      "dateLabel": "Jun 22, 2026",
-      "sourceUrl": "https://gcaptain.com/shipping-slows-after-iran-says-it-has-again-shut-the-strait-of-hormuz/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-22T09:37:45.023992+00:00"
     }
   ]
 }
