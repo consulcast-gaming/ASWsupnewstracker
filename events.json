@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-06-30T02:19:36.407647+00:00",
+  "lastUpdated": "2026-06-30T07:51:09.746344+00:00",
   "events": [
+    {
+      "id": "12aab3c14cb0",
+      "title": "U.S. dry van spot rates surge 31% YoY",
+      "location": "United States",
+      "lat": 37.0902,
+      "lng": -95.7129,
+      "category": "industry",
+      "severity": "high",
+      "description": "The U.S. Bank Freight Payment Index shows dry van spot rates surged 31% year-over-year in May 2026 due to tightening capacity, signaling significant cost increases in freight transportation.",
+      "date": "2026-06-29",
+      "dateLabel": "Jun 29, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/us-bank-freight-payment-index-rates",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-06-30T07:42:15.759396+00:00"
+    },
+    {
+      "id": "576ffc1f48cd",
+      "title": "Russian LNG carrier armed with machine guns in Baltic Sea",
+      "location": "Baltic Sea",
+      "lat": 58.5,
+      "lng": 20.0,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A Russian LNG carrier operating in the Baltic Sea has been spotted with heavy machine guns mounted on board, marking an unusual militarization of a commercial vessel. The action raises concerns about the security implications for maritime trade routes in the region.",
+      "date": "2026-06-30",
+      "dateLabel": "Jun 30, 2026",
+      "sourceUrl": "https://splash247.com/machine-guns-spotted-on-russian-lng-carrier-in-the-baltic/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-30T07:41:42.699921+00:00"
+    },
+    {
+      "id": "d8371af0d635",
+      "title": "MSC acquires stake in Vizhinjam port",
+      "location": "Vizhinjam Port, Kerala, India",
+      "lat": 8.5263,
+      "lng": 76.7416,
+      "category": "industry",
+      "severity": "info",
+      "description": "Mediterranean Shipping Company (MSC) has agreed to acquire a 49% stake in Adani Ports' Vizhinjam transhipment terminal in Kerala, India, for $1.4 billion. The investment signals MSC's growing commitment to India's container market and port infrastructure.",
+      "date": "2026-06-30",
+      "dateLabel": "Jun 30, 2026",
+      "sourceUrl": "https://splash247.com/msc-pays-1-4bn-for-49-stake-in-adanis-vizhinjam-port/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-06-30T07:41:39.027133+00:00"
+    },
     {
       "id": "b8d57c18d7cb",
       "title": "Yanbu Red Sea bypass remains active",
