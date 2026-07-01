@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-01T02:24:29.529665+00:00",
+  "lastUpdated": "2026-07-01T08:11:38.753130+00:00",
   "events": [
+    {
+      "id": "36241c14d09b",
+      "title": "COSCO wins Tarragona terminal award",
+      "location": "Port of Tarragona",
+      "lat": 41.1263,
+      "lng": 1.2514,
+      "category": "industry",
+      "severity": "info",
+      "description": "A COSCO Shipping Ports-led consortium has received an award notification to develop a new multipurpose terminal at the Port of Tarragona, Spain. The project, valued at around €144.6m, could expand COSCO's European port network.",
+      "date": "2026-07-01",
+      "dateLabel": "Jul 01, 2026",
+      "sourceUrl": "https://splash247.com/cosco-led-group-wins-tarragona-terminal-award/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-07-01T08:01:55.120748+00:00"
+    },
     {
       "id": "ae83ed0fcd5d",
       "title": "Middle East Disruptions Impact Cargo Flows",
