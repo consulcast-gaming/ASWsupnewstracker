@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-01T21:26:08.380765+00:00",
+  "lastUpdated": "2026-07-02T02:14:21.402155+00:00",
   "events": [
+    {
+      "id": "d7a3db32ff57",
+      "title": "Busan container rates rise sharply, pushing KCCI up 4.6%",
+      "location": "Busan Port",
+      "lat": 35.1068,
+      "lng": 129.046,
+      "category": "industry",
+      "severity": "high",
+      "description": "Container spot rates from Busan have increased across most trade lanes, leading to a 4.62% rise in the KOBC Container Composite Index (KCCI), which now stands at 3,920 points.",
+      "date": "2026-07-02",
+      "dateLabel": "Jul 02, 2026",
+      "sourceUrl": "https://container-news.com/kcci-climbs-4-6-as-busan-export-container-rates-rise-on-most-trades/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-02T02:10:09.507087+00:00"
+    },
     {
       "id": "9aa281f8ec75",
       "title": "Indian sailors avoid Gulf due to Middle East conflict",
@@ -2852,21 +2867,6 @@
       "added": "2026-06-25T07:37:00.298492+00:00"
     },
     {
-      "id": "895f73478d82",
-      "title": "FedEx retires 10 MD-11 cargo jets",
-      "location": "Memphis, Tennessee",
-      "lat": 35.1495,
-      "lng": -89.9774,
-      "category": "industry",
-      "severity": "medium",
-      "description": "FedEx is retiring 10 aging MD-11 cargo jets while returning others to service after a seven-month grounding following a UPS freighter crash. This fleet adjustment reflects ongoing operational changes in air freight logistics.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/more-fedex-md-11-cargo-jets-return-to-service-others-are-retired",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-25T07:33:42.136043+00:00"
-    },
-    {
       "id": "f5704bcb8eff",
       "title": "Shadow VLCC Era resurfaces under Comoros flag",
       "location": "Comoros",
@@ -2897,21 +2897,6 @@
       "added": "2026-06-25T07:32:40.230467+00:00"
     },
     {
-      "id": "db1c0f6f4c95",
-      "title": "Strait of Hormuz Traffic Rising",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Traffic levels in the Strait of Hormuz are increasing as a formal plan for outbound transits takes effect, indicating improved flow after prior disruptions.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/strait-of-hormuz-traffic-is-rising-and-oil-prices-are-plummeting",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-25T02:13:46.376568+00:00"
-    },
-    {
       "id": "14daabaf9687",
       "title": "CMA CGM introduces hazardous cargo surcharge on key routes",
       "location": "Far East to Indian Ocean, South Africa, East Africa",
@@ -2925,81 +2910,6 @@
       "sourceUrl": "https://container-news.com/cma-cgm-expands-surcharge-programme-across-key-trade-routes/",
       "sourceLabel": "Container News",
       "added": "2026-06-25T02:12:40.939146+00:00"
-    },
-    {
-      "id": "8d67a6c54f8b",
-      "title": "Black Sea and Hormuz Maritime Security Escalation",
-      "location": "Black Sea and Strait of Hormuz",
-      "lat": 42.0,
-      "lng": 45.0,
-      "category": "conflict",
-      "severity": "high",
-      "description": "The Dryad Global Maritime Intelligence Brief reports increased maritime security risks in the Black Sea and Strait of Hormuz, including drone strikes targeting merchant vessels and port infrastructure, raising concerns for global freight flows.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/black-sea-escalation-and-hormuz-tensions-shape-this-weeks-maritime-risk-picture/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-24T21:26:36.742622+00:00"
-    },
-    {
-      "id": "1e2ddc8c49fc",
-      "title": "Oman and Iran discuss Hormuz Strait administration",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Oman and Iran have initiated discussions on the administrative framework for the Strait of Hormuz, a critical global shipping chokepoint. A working group will be formed to address navigation management and costs, potentially impacting maritime logistics through the region.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/oman-and-iran-engage-in-discussions-about-hormuz-administration/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-24T21:26:31.255514+00:00"
-    },
-    {
-      "id": "e3f6dd663908",
-      "title": "Strait of Hormuz reopens, seafarers evacuated",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "The International Maritime Organization is evacuating over 11,000 seafarers from the Strait of Hormuz as the shipping corridor reopens following a US-Iran peace agreement aimed at restoring maritime security.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/imo-to-evacuate-11000-seafarers-from-strait-of-hormuz-as-shipping-corridor-reopens/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-24T21:26:20.544268+00:00"
-    },
-    {
-      "id": "c244806cfea8",
-      "title": "Strait of Hormuz traffic recovers after Iran peace talks",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 54.6434,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Oil prices fell as traffic through the Strait of Hormuz showed signs of recovery following improved U.S.-Iran relations and peace talks, easing concerns over energy supply disruptions.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/oil-extends-losses-as-hormuz-traffic-recovers-following-iran-peace-talks-2/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-24T21:26:02.652274+00:00"
-    },
-    {
-      "id": "4086b6a4d5b6",
-      "title": "Strait of Hormuz reopening uncertainty",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Uncertainty remains about the full reopening of the Strait of Hormuz, a critical global shipping chokepoint, affecting container shipping routes and market stability.",
-      "date": "2026-06-24",
-      "dateLabel": "Jun 24, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/container-shipping-market-overview-outlook/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-24T21:25:38.020158+00:00"
     }
   ]
 }
