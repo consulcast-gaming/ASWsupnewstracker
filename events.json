@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-03T17:20:47.854011+00:00",
+  "lastUpdated": "2026-07-03T21:00:33.395371+00:00",
   "events": [
+    {
+      "id": "61625b89e8a1",
+      "title": "Strait of Hormuz Security Concerns",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0122,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Vessel transits through the Strait of Hormuz have increased, but uncertainty remains over the security of safe passage amid ongoing geopolitical tensions and US-Iran peace talks.",
+      "date": "2026-07-03",
+      "dateLabel": "Jul 03, 2026",
+      "sourceUrl": "https://www.hellenicshippingnews.com/clarksons-platou-hellas-snp-weekly-bulletin-139/",
+      "sourceLabel": "Hellenic Shipping",
+      "added": "2026-07-03T20:59:47.245302+00:00"
+    },
+    {
+      "id": "4cdf0d949cc9",
+      "title": "Container rates rise sharply on transpacific and Asia-Europe routes",
+      "location": "Global",
+      "lat": 20.0,
+      "lng": 0.0,
+      "category": "industry",
+      "severity": "high",
+      "description": "The Drewry World Container Index increased by 9% to $4,530 per 40ft container, driven by rising spot rates on transpacific and Asia-Europe trades. Rates from Shanghai to New York climbed 11% to $7,902, indicating significant industry stress.",
+      "date": "2026-07-03",
+      "dateLabel": "Jul 03, 2026",
+      "sourceUrl": "https://container-news.com/drewry-world-container-index-jumps-9-as-transpacific-and-asia-europe-rates-climb/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-03T20:55:10.897685+00:00"
+    },
+    {
+      "id": "aa88567c5a0a",
+      "title": "GENMA supplies RTGs for Fujairah Port expansion",
+      "location": "Port of Fujairah",
+      "lat": 24.6564,
+      "lng": 56.3445,
+      "category": "port",
+      "severity": "info",
+      "description": "GENMA has secured an order to supply eight rubber-tyred gantry (RTG) cranes for the Port of Fujairah in the UAE, supporting AD Ports Group's terminal expansion. The cranes will be customized for the region's harsh environmental conditions.",
+      "date": "2026-07-03",
+      "dateLabel": "Jul 03, 2026",
+      "sourceUrl": "https://container-news.com/genma-wins-order-for-eight-rtgs-from-ad-ports-group/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-03T20:55:02.388106+00:00"
+    },
     {
       "id": "a916b70bad75",
       "title": "Mundra Port Requires Prior Acceptance for Vessels",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/strait-of-hormuz-volumes-are-rising-but-iranian-attack-adds-uncertainty",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-26T21:16:58.226278+00:00"
-    },
-    {
-      "id": "d9bb7e6ed2e6",
-      "title": "SC Ports suspends Leatherman Terminal operations",
-      "location": "Leatherman Terminal, South Carolina",
-      "lat": 32.8067,
-      "lng": -80.0216,
-      "category": "port",
-      "severity": "medium",
-      "description": "South Carolina Ports will temporarily pause container operations at Leatherman Terminal starting August to address lower cargo volumes and an uncertain trade outlook. Operations will shift to Wando and North Charleston terminals.",
-      "date": "2026-06-26",
-      "dateLabel": "Jun 26, 2026",
-      "sourceUrl": "https://container-news.com/sc-ports-to-pause-leatherman-terminal-operations-from-august/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-26T21:16:10.951296+00:00"
-    },
-    {
-      "id": "467a8aa06f99",
-      "title": "Bourbon shipment stolen via carrier impersonation",
-      "location": "United States",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "category": "industry",
-      "severity": "high",
-      "description": "A $500,000 shipment of Noble Oak Bourbon was stolen when suspects impersonated authorized carriers to pick up the freight. The incident highlights a growing cargo theft tactic involving impersonation and legitimate shipment information.",
-      "date": "2026-06-26",
-      "dateLabel": "Jun 26, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/500k-bourbon-shipment-stolen-in-alleged-carrier-impersonation-scheme",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-06-26T21:12:27.596010+00:00"
-    },
-    {
-      "id": "5fa416bec949",
-      "title": "Iran accused of drone attack on ship in Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "President Donald Trump accused Iran of violating a U.S. ceasefire by conducting a drone attack on commercial shipping in the Strait of Hormuz, a critical global shipping chokepoint.",
-      "date": "2026-06-26",
-      "dateLabel": "Jun 26, 2026",
-      "sourceUrl": "https://gcaptain.com/trump-says-iran-violated-ceasefire-with-drone-attack-on-ship/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-26T21:11:44.730129+00:00"
     }
   ]
 }
