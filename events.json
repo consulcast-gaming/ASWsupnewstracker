@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-04T10:07:18.263609+00:00",
+  "lastUpdated": "2026-07-04T13:05:49.985182+00:00",
   "events": [
+    {
+      "id": "a5a55445f0e1",
+      "title": "Maersk raises ECS for Indian Subcontinent to West Coast Latin America",
+      "location": "Indian Subcontinent to West Coast Latin America",
+      "lat": 23.0,
+      "lng": -80.0,
+      "category": "industry",
+      "severity": "medium",
+      "description": "Maersk has increased Emergency Contingency Surcharges (ECS) for shipments from the Indian Subcontinent, including North West India, Pakistan, South and East India, Bangladesh, Sri Lanka, and the Maldives, to the West Coast of Latin America, the Caribbean, and Central America.",
+      "date": "2026-07-04",
+      "dateLabel": "Jul 04, 2026",
+      "sourceUrl": "https://container-news.com/maersk-increases-emergency-contingency-surcharge-to-west-coast-latin-america/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-04T13:00:32.050863+00:00"
+    },
     {
       "id": "037854f88ef7",
       "title": "Ruscon uses Northern Sea Route for China to St. Petersburg",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/full-steam-ahead-in-the-strait-of-hormuz-not-so-fast",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-27T06:49:54.238898+00:00"
-    },
-    {
-      "id": "cdfe374a0cf8",
-      "title": "RCL joins Far East–Red Sea container service",
-      "location": "Qingdao",
-      "lat": 35.8617,
-      "lng": 120.7474,
-      "category": "route",
-      "severity": "info",
-      "description": "Regional Container Lines (RCL) has joined the Far East–Red Sea RCS/RCX service operated by Global Feeder Shipping and T.S. Lines, marketing it under the name RCR01. The service deploys seven vessels and operates between major Chinese ports and the Red Sea.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://container-news.com/rcl-joins-far-east-red-sea-service/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-27T06:49:09.272323+00:00"
     }
   ]
 }
