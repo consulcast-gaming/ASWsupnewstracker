@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-04T13:05:49.985182+00:00",
+  "lastUpdated": "2026-07-04T17:00:08.457701+00:00",
   "events": [
+    {
+      "id": "4af7ba788614",
+      "title": "Akkon Lines expands EAS service to Mogadishu",
+      "location": "Mogadishu",
+      "lat": 2.0444,
+      "lng": 45.3432,
+      "category": "route",
+      "severity": "info",
+      "description": "Akkon Lines has added Mogadishu, Somalia, to its East Africa–Indian Subcontinent (EAS) service, operating fortnightly with 1,700 TEU vessels. The route now includes Nhava Sheva, Mundra, Karachi, Dar es Salaam, Mombasa, and Mogadishu.",
+      "date": "2026-07-04",
+      "dateLabel": "Jul 04, 2026",
+      "sourceUrl": "https://container-news.com/akkon-lines-adds-mogadishu-to-eas-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-04T16:54:52.245740+00:00"
+    },
+    {
+      "id": "f173ed0ce4df",
+      "title": "CMA CGM Ship Damaged by Missile in Hormuz Strait",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0118,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A CMA CGM container ship was struck by a missile in the Strait of Hormuz in early May, sustaining severe damage that may lead to its scrapping.",
+      "date": "2026-07-04",
+      "dateLabel": "Jul 04, 2026",
+      "sourceUrl": "https://gcaptain.com/cma-cgm-ship-hit-by-missile-in-hormuz-strait-may-go-for-scrapping/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-07-04T16:51:16.081993+00:00"
+    },
+    {
+      "id": "73922226d8e5",
+      "title": "Ukrainian drone attack hits St Petersburg oil terminal",
+      "location": "St Petersburg, Russia",
+      "lat": 59.9343,
+      "lng": 30.3361,
+      "category": "conflict",
+      "severity": "high",
+      "description": "A major Ukrainian drone attack hit a port and oil infrastructure in St Petersburg, Russia, causing supply chain disruptions to oil logistics.",
+      "date": "2026-07-04",
+      "dateLabel": "Jul 04, 2026",
+      "sourceUrl": "https://gcaptain.com/st-petersburg-oil-terminal-hit-in-major-ukrainian-drone-attack/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-07-04T16:51:13.303982+00:00"
+    },
     {
       "id": "a5a55445f0e1",
       "title": "Maersk raises ECS for Indian Subcontinent to West Coast Latin America",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/tanker-struck-in-hormuz-as-navies-raise-threat-level-to-ships/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-27T16:55:14.374862+00:00"
-    },
-    {
-      "id": "f39e0d02f8b0",
-      "title": "Second Tanker Struck in Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "A second merchant vessel has been struck in the Strait of Hormuz, highlighting escalating security risks and disrupting critical global shipping routes between the Persian Gulf and the Arabian Sea.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://gcaptain.com/second-tanker-struck-in-strait-of-hormuz-as-u-s-iran-shipping-crisis-deepens/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-27T16:55:13.035389+00:00"
-    },
-    {
-      "id": "1259da1563db",
-      "title": "Container Rates Near Two-Year High",
-      "location": "Global",
-      "lat": 20.0,
-      "lng": 0.0,
-      "category": "policy",
-      "severity": "high",
-      "description": "Containerized freight rates are approaching a two-year high due to renewed concerns over potential tariffs, disrupting global shipping expectations for 2026.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/container-rates-near-a-two-year-high-amidst-renewed-tariff-concerns",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-27T13:10:46.290743+00:00"
-    },
-    {
-      "id": "e741c7b8cbef",
-      "title": "US-Iran Strait of Hormuz Agreement Extension",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0165,
-      "category": "policy",
-      "severity": "high",
-      "description": "The US and Iran signed a 14-point memorandum extending a 60-day agreement to de-escalate tensions in the Strait of Hormuz, a critical global shipping chokepoint.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/full-steam-ahead-in-the-strait-of-hormuz-not-so-fast",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-27T06:49:54.238898+00:00"
     }
   ]
 }
