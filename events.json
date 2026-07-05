@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-05T02:03:25.634822+00:00",
+  "lastUpdated": "2026-07-05T07:06:30.257583+00:00",
   "events": [
+    {
+      "id": "9e3255d94a16",
+      "title": "CMA CGM launches Iberimar shipping service",
+      "location": "Strait of Gibraltar",
+      "lat": 36.0,
+      "lng": -5.0,
+      "category": "route",
+      "severity": "info",
+      "description": "CMA CGM has launched the Iberimar service, a weekly shipping route connecting the Iberian Peninsula's Atlantic coast with Morocco and the Strait of Gibraltar. The service includes calls at Tangier, Algeciras, Vigo, Leixões, Lisbon, Casablanca, and Agadir.",
+      "date": "2026-07-05",
+      "dateLabel": "Jul 05, 2026",
+      "sourceUrl": "https://container-news.com/cma-cgm-launches-iberimar-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-05T07:02:00.102465+00:00"
+    },
+    {
+      "id": "396e06d21a47",
+      "title": "KMTC merges JKW3 and JKW4 services",
+      "location": "Busan",
+      "lat": 35.1273,
+      "lng": 129.049,
+      "category": "route",
+      "severity": "info",
+      "description": "KMTC is consolidating its fortnightly JKW3 and JKW4 Busan-Japan services into a single weekly JKW3 loop. The change removes Nagasaki from the rotation and adjusts port frequencies.",
+      "date": "2026-07-05",
+      "dateLabel": "Jul 05, 2026",
+      "sourceUrl": "https://container-news.com/kmtc-merges-jkw3-and-jkw4/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-05T07:01:52.590069+00:00"
+    },
     {
       "id": "c771e9b3cab4",
       "title": "Diamond Line launches Spain-Morocco feeder service",
