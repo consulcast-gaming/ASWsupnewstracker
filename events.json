@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-05T10:10:23.042488+00:00",
+  "lastUpdated": "2026-07-05T13:12:48.726991+00:00",
   "events": [
+    {
+      "id": "a37ca9ba70f8",
+      "title": "Rising Violence Against Truckers in Mexico Borderlands",
+      "location": "Mexico Borderlands",
+      "lat": 29.4241,
+      "lng": -110.9967,
+      "category": "conflict",
+      "severity": "high",
+      "description": "While cargo theft in the Mexico Borderlands has decreased, attacks on truckers have become deadlier, raising concerns about safety and security for freight operations in the region.",
+      "date": "2026-07-05",
+      "dateLabel": "Jul 05, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/borderlands-mexico-cargo-theft-falls-but-attacks-on-truckers-turn-deadlier",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-07-05T13:05:11.992621+00:00"
+    },
     {
       "id": "9e3255d94a16",
       "title": "CMA CGM launches Iberimar shipping service",
