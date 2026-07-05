@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-04T20:50:35.747842+00:00",
+  "lastUpdated": "2026-07-05T02:03:25.634822+00:00",
   "events": [
+    {
+      "id": "c771e9b3cab4",
+      "title": "Diamond Line launches Spain-Morocco feeder service",
+      "location": "Valencia and Casablanca",
+      "lat": 39.4667,
+      "lng": -0.3763,
+      "category": "route",
+      "severity": "info",
+      "description": "Diamond Line has launched a new Spain-Morocco shuttle service to enhance cargo links between Valencia and Casablanca, operating on a fixed seven-day schedule.",
+      "date": "2026-07-05",
+      "dateLabel": "Jul 05, 2026",
+      "sourceUrl": "https://container-news.com/diamond-line-launches-new-feeder-connection/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-05T01:59:50.478205+00:00"
+    },
     {
       "id": "4af7ba788614",
       "title": "Akkon Lines expands EAS service to Mogadishu",
@@ -2732,21 +2747,6 @@
       "added": "2026-06-29T08:48:43.181809+00:00"
     },
     {
-      "id": "7674f338b2a0",
-      "title": "Tanker Struck by Drone Off Oman Coast",
-      "location": "Offshore Oman, Arabian Sea",
-      "lat": 21.0,
-      "lng": 56.0,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A Panama-flagged tanker was struck by a drone off the coast of Oman on June 27, amid ongoing tensions in the region. The U.S. responded with new strikes, raising concerns about disruptions to maritime trade in the critical Gulf shipping corridor.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/tanker-struck-by-drone-off-oman-and-the-us-again-responds-with-new-strikes",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-29T02:20:07.594192+00:00"
-    },
-    {
       "id": "f2b38ab34293",
       "title": "Santos Port deepens navigation channel to 16m",
       "location": "Port of Santos",
@@ -2910,96 +2910,6 @@
       "sourceUrl": "https://gcaptain.com/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities/",
       "sourceLabel": "gCaptain",
       "added": "2026-06-28T07:42:47.508096+00:00"
-    },
-    {
-      "id": "c38a2d64f244",
-      "title": "Asia building maritime redundancy around China",
-      "location": "Caspian Sea and Southeast Asia",
-      "lat": 40.1434,
-      "lng": 44.5152,
-      "category": "route",
-      "severity": "high",
-      "description": "Asian middle powers are developing alternative maritime routes and infrastructure to reduce dependence on China's dominant shipping corridors, enhancing supply chain redundancy.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://container-news.com/explainer-asias-quiet-race-around-chinas-maritime-grip/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-28T02:20:04.379702+00:00"
-    },
-    {
-      "id": "6c87b226a9da",
-      "title": "Sweden Arms Coast Guard Amid Baltic Tensions",
-      "location": "Baltic Sea",
-      "lat": 58.38386,
-      "lng": 26.72968,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Sweden is fitting machine guns to its civilian coast guard vessels due to rising tensions with Russia, which could impact maritime security and freight flows in the Baltic region.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://gcaptain.com/sweden-fits-guns-to-coast-guard-vessels-as-baltic-tensions-rise/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-28T02:15:32.215370+00:00"
-    },
-    {
-      "id": "df62596adc07",
-      "title": "Tanker Struck by Drone off Oman",
-      "location": "Offshore Oman, Gulf of Oman",
-      "lat": 23.5833,
-      "lng": 59.1333,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A Panama-flagged tanker was struck by a drone off the coast of Oman on June 27, amid rising tensions with Iran, which has claimed to be firing warning shots in the region.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/tanker-struck-by-drone-off-oman-as-tensions-rise-with-iran",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-27T20:53:17.348269+00:00"
-    },
-    {
-      "id": "3ad81feeb98b",
-      "title": "Aluminum cargo released from Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0118,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Vitol Group has successfully shipped a stranded cargo of aluminum out of the Strait of Hormuz, indicating potential supply relief for buyers after a period of disruption.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://gcaptain.com/vitol-sails-stranded-aluminum-cargo-out-of-strait-of-hormuz/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-27T16:55:17.265435+00:00"
-    },
-    {
-      "id": "1edb458fe772",
-      "title": "Saudi Arabia ramps up oil exports as Gulf ports reopen",
-      "location": "Persian Gulf",
-      "lat": 24.8864,
-      "lng": 46.8935,
-      "category": "port",
-      "severity": "high",
-      "description": "Saudi Arabia is increasing crude oil exports as its Persian Gulf ports, previously closed due to the Iran war, resume operations. The reopening is helping restore regional freight flows.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://gcaptain.com/saudi-arabia-is-ramping-up-oil-exports-as-gulf-ports-restart/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-27T16:55:15.836547+00:00"
-    },
-    {
-      "id": "26d7856e67c4",
-      "title": "Tanker Struck in Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0118,
-      "category": "chokepoint",
-      "severity": "critical",
-      "description": "A tanker was struck in the Strait of Hormuz, prompting naval authorities to raise the threat level for ships in the region, a critical global shipping chokepoint.",
-      "date": "2026-06-27",
-      "dateLabel": "Jun 27, 2026",
-      "sourceUrl": "https://gcaptain.com/tanker-struck-in-hormuz-as-navies-raise-threat-level-to-ships/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-06-27T16:55:14.374862+00:00"
     }
   ]
 }
