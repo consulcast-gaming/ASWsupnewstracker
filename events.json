@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-07T02:07:00.944208+00:00",
+  "lastUpdated": "2026-07-07T07:35:16.526114+00:00",
   "events": [
+    {
+      "id": "f9dfd5072bb3",
+      "title": "Projectile strike near Strait of Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A tanker was struck by an unknown projectile late Monday while transiting just east of the Strait of Hormuz, raising concerns about the security and stability of this critical global shipping chokepoint.",
+      "date": "2026-07-07",
+      "dateLabel": "Jul 07, 2026",
+      "sourceUrl": "https://splash247.com/projectile-strike-tests-fragile-hormuz-recovery/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-07-07T07:27:00.662485+00:00"
+    },
+    {
+      "id": "0d037a29b836",
+      "title": "Israeli PM and Defense Minister Oppose ZIM Sale",
+      "location": "Israel",
+      "lat": 31.5,
+      "lng": 34.75,
+      "category": "policy",
+      "severity": "high",
+      "description": "Israeli Prime Minister Benjamin Netanyahu and Defense Minister Israel Katz have urged the cancellation of the proposed sale of ZIM Integrated Shipping Services to Hapag-Lloyd and FIMI, citing national security concerns.",
+      "date": "2026-07-07",
+      "dateLabel": "Jul 07, 2026",
+      "sourceUrl": "https://splash247.com/netanyahu-and-katz-urge-zim-sale-be-scrapped/",
+      "sourceLabel": "Splash 247",
+      "added": "2026-07-07T07:26:59.355465+00:00"
+    },
     {
       "id": "f4edd80d1be2",
       "title": "Sulfur-laden bulkers face corrosion risks near Hormuz",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/oil-prices-inch-down-as-u-s-iran-talks-temper-hormuz-supply-concerns/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-06-30T10:57:07.570339+00:00"
-    },
-    {
-      "id": "36647be405e0",
-      "title": "Strait of Hormuz Gradually Reopening",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0122,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The Strait of Hormuz is gradually reopening after disruptions, though freight rates continue to rise. Carriers are cancelling fewer sailings, indicating stabilizing schedules.",
-      "date": "2026-06-30",
-      "dateLabel": "Jun 30, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/drewry-cancelled-sailings-lower-last-week/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-06-30T10:56:11.295582+00:00"
-    },
-    {
-      "id": "f3f6dd4153a1",
-      "title": "Hormuz Strait Tensions Persist Amid Peace Talks",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0118,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Shipping through the Strait of Hormuz remains steady, but ongoing tensions between Iran and the U.S. continue to cast uncertainty. Peace talks are set to resume in Doha, Qatar, with little clarity on a resolution.",
-      "date": "2026-06-30",
-      "dateLabel": "Jun 30, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/shipping-through-hormuz-holds-steady-but-little-clarity-on-peace-talks",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-06-30T10:53:03.329861+00:00"
     }
   ]
 }
