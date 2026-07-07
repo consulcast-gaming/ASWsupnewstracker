@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-06T21:28:21.495178+00:00",
+  "lastUpdated": "2026-07-07T02:07:00.944208+00:00",
   "events": [
+    {
+      "id": "f4edd80d1be2",
+      "title": "Sulfur-laden bulkers face corrosion risks near Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8786,
+      "lng": 56.4039,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Bulk carriers transporting sulfur through the Strait of Hormuz are experiencing delays, increasing the risk of cargo corrosion. The issue highlights vulnerabilities in freight flows through this critical global shipping chokepoint.",
+      "date": "2026-07-06",
+      "dateLabel": "Jul 06, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/sulfur-laden-bulkers-face-corrosion-threat-after-hormuz-delays",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-07-07T02:03:17.973579+00:00"
+    },
+    {
+      "id": "c4a12e7f6e93",
+      "title": "Tanker struck by projectile near Hormuz",
+      "location": "Strait of Hormuz",
+      "lat": 24.8607,
+      "lng": 56.4149,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "A tanker was struck by an unknown projectile late Monday while transiting just east of the Strait of Hormuz, sparking a fire. The incident is the latest security threat in a key global shipping chokepoint.",
+      "date": "2026-07-06",
+      "dateLabel": "Jul 06, 2026",
+      "sourceUrl": "https://gcaptain.com/tanker-struck-by-projectile-near-hormuz-sparking-fire/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-07-07T01:58:25.761707+00:00"
+    },
     {
       "id": "469cd341d0f1",
       "title": "Stranded sulphur cargoes risk corrosion in Strait of Hormuz",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/shipping-through-hormuz-holds-steady-but-little-clarity-on-peace-talks",
       "sourceLabel": "Maritime Executive",
       "added": "2026-06-30T10:53:03.329861+00:00"
-    },
-    {
-      "id": "b9b668fca858",
-      "title": "Adani and MSC expand partnership at Vizhinjam Port",
-      "location": "Vizhinjam Port, India",
-      "lat": 8.5264,
-      "lng": 76.8333,
-      "category": "industry",
-      "severity": "info",
-      "description": "Adani Ports and MSC have agreed for Terminal Investment Limited to acquire a 49% stake in Adani Vizhinjam Port Private Limited, with a total deal value of US$2.85 billion. The partnership aims to develop and operate the Vizhinjam port, a strategic deep-water port on India's southwest coast.",
-      "date": "2026-06-30",
-      "dateLabel": "Jun 30, 2026",
-      "sourceUrl": "https://container-news.com/adani-and-msc-deepen-partnership-in-vizhinjam-port/",
-      "sourceLabel": "Container News",
-      "added": "2026-06-30T10:51:56.355832+00:00"
-    },
-    {
-      "id": "4ae627d3bfb5",
-      "title": "Carriers boost capacity on East Asia-Australia route",
-      "location": "East Asia-Australia shipping route",
-      "lat": -25.2744,
-      "lng": 133.9223,
-      "category": "route",
-      "severity": "high",
-      "description": "Shipping lines are increasing capacity on the East Asia-Australia trade lane due to a 30% surge in freight rates. CMA CGM and Cosco affiliate OOCL are launching a dedicated express service to meet rising demand and address tight capacity.",
-      "date": "2026-06-30",
-      "dateLabel": "Jun 30, 2026",
-      "sourceUrl": "https://theloadstar.com/carriers-pour-capacity-into-booming-east-asia-australia-trade/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-06-30T10:47:56.056507+00:00"
     }
   ]
 }
