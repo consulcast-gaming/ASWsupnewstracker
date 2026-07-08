@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-07T21:22:28.971226+00:00",
+  "lastUpdated": "2026-07-08T01:37:33.290100+00:00",
   "events": [
+    {
+      "id": "7e5b7ea9bf99",
+      "title": "EU imposes new customs charges on low-value UK exports",
+      "location": "European Union",
+      "lat": 48.8588897,
+      "lng": 2.320041,
+      "category": "policy",
+      "severity": "medium",
+      "description": "New EU customs charges of €3 per parcel now apply to low-value shipments (€150 or less) from the UK to the EU, effective 1 July 2026. The Rhenus Group has warned UK exporters to adjust their operations accordingly.",
+      "date": "2026-07-07",
+      "dateLabel": "Jul 07, 2026",
+      "sourceUrl": "https://container-news.com/rhenus-reminds-uk-exporters-of-new-eu-customs-charges-on-low-value-parcels/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-08T01:32:39.608018+00:00"
+    },
+    {
+      "id": "a7cdd9b967dd",
+      "title": "U.S. Revokes Iran Oil Waiver, Launches Strikes After Hormuz Attacks",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0118,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "The Trump administration revoked Iran's oil sanctions waiver and launched military strikes following renewed attacks on commercial shipping in the Strait of Hormuz, a critical global energy chokepoint.",
+      "date": "2026-07-07",
+      "dateLabel": "Jul 07, 2026",
+      "sourceUrl": "https://gcaptain.com/u-s-revokes-iran-oil-waiver-after-hormuz-attacks-launches-new-military-strikes/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-07-08T01:28:23.994460+00:00"
+    },
+    {
+      "id": "c0afdf013097",
+      "title": "Iran Mines Strait of Hormuz to Control Shipping",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0861,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "Iran is mining the Strait of Hormuz to funnel commercial shipping into sea lanes near its shores, aiming to control traffic and collect tolls, according to the U.S. Navy's top military official.",
+      "date": "2026-07-07",
+      "dateLabel": "Jul 07, 2026",
+      "sourceUrl": "https://gcaptain.com/iran-mining-hormuz-to-funnel-ships-into-its-waters-u-s-navy-says/",
+      "sourceLabel": "gCaptain",
+      "added": "2026-07-08T01:28:21.425474+00:00"
+    },
     {
       "id": "08a10bc76d8e",
       "title": "Oil tanker hit by projectile in Strait of Hormuz",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/coal-retreats-to-pre-war-levels/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-07-01T14:15:21.504242+00:00"
-    },
-    {
-      "id": "f76dc6c53170",
-      "title": "Port of La Guaira operations suspended after earthquake",
-      "location": "Port of La Guaira",
-      "lat": 10.7833,
-      "lng": -67.1667,
-      "category": "port",
-      "severity": "high",
-      "description": "Commercial operations at the Port of La Guaira in Venezuela remain suspended following a recent earthquake. Authorities have not yet authorized the resumption of import and export activities, causing shipment delays.",
-      "date": "2026-07-01",
-      "dateLabel": "Jul 01, 2026",
-      "sourceUrl": "https://container-news.com/maersk-provides-venezuela-operations-update/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-01T14:10:22.973093+00:00"
-    },
-    {
-      "id": "92991eda7bff",
-      "title": "Truck driver steals $2.9M cargo using fake docs",
-      "location": "Pennsylvania to Japan shipment route",
-      "lat": 40.5774,
-      "lng": -77.2646,
-      "category": "industry",
-      "severity": "high",
-      "description": "An Indiana truck driver was arrested for allegedly using fraudulent documents to steal $2.9 million worth of tungsten oxide powder in Pennsylvania. The stolen cargo was intended for shipment to Japan.",
-      "date": "2026-07-01",
-      "dateLabel": "Jul 01, 2026",
-      "sourceUrl": "https://www.freightwaves.com/news/truck-driver-accused-of-using-fake-documents-to-steal-2-9m-cargo",
-      "sourceLabel": "FreightWaves",
-      "added": "2026-07-01T14:06:28.216767+00:00"
-    },
-    {
-      "id": "a6ba58a8a259",
-      "title": "Maersk cautious on Middle East transits due to ongoing instability",
-      "location": "Middle East",
-      "lat": 30.5833318,
-      "lng": 35.6494974,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Maersk is proceeding with caution regarding Middle East transits due to ongoing unpredictability, despite recent positive developments between the US and Iran. The company will resume transits only after confirming safety through thorough risk assessments.",
-      "date": "2026-07-01",
-      "dateLabel": "Jul 01, 2026",
-      "sourceUrl": "https://theloadstar.com/maersk-europe-market-update-july-2026/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-07-01T14:06:16.982092+00:00"
     }
   ]
 }
