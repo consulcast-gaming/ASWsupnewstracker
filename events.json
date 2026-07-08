@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-08T01:37:33.290100+00:00",
+  "lastUpdated": "2026-07-08T06:29:39.480953+00:00",
   "events": [
+    {
+      "id": "161551ad5ff7",
+      "title": "Freighter collides with fishing boat off Vietnam",
+      "location": "South China Sea, near Vietnam",
+      "lat": 10.7794,
+      "lng": 106.6915,
+      "category": "vessel",
+      "severity": "high",
+      "description": "A freighter collided with a Vietnamese fishing boat, resulting in one death and 16 rescues. The incident occurred off the southern coast of Vietnam.",
+      "date": "2026-07-08",
+      "dateLabel": "Jul 08, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/one-dead-16-rescued-after-freighter-hits-vietnamese-fishing-boat",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-07-08T06:25:35.757070+00:00"
+    },
     {
       "id": "7e5b7ea9bf99",
       "title": "EU imposes new customs charges on low-value UK exports",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/us-and-iran-enter-technical-talks-to-secure-peace-deal-shipping-restart/",
       "sourceLabel": "gCaptain",
       "added": "2026-07-01T17:45:54.633622+00:00"
-    },
-    {
-      "id": "8ba8d0eade2b",
-      "title": "Strait of Hormuz peace talks boost coal prices",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.073,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Thermal coal prices fell as ongoing peace talks between the US and Iran raised hopes for a resolution and the reopening of the Strait of Hormuz, a critical global shipping chokepoint.",
-      "date": "2026-07-01",
-      "dateLabel": "Jul 01, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/coal-retreats-to-pre-war-levels/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-01T14:15:21.504242+00:00"
     }
   ]
 }
