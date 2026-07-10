@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-10T07:36:04.838191+00:00",
+  "lastUpdated": "2026-07-10T10:51:02.586651+00:00",
   "events": [
+    {
+      "id": "2c96b9f54f0f",
+      "title": "Red Sea crisis impacts container shipping",
+      "location": "Red Sea",
+      "lat": 18.2074,
+      "lng": 38.9142,
+      "category": "conflict",
+      "severity": "critical",
+      "description": "Geopolitical tensions in the Red Sea are having a greater impact on container shipping than supply and demand, according to KOBC. Shipping lines are adapting by prioritizing supply chain stability and flexible networks.",
+      "date": "2026-07-10",
+      "dateLabel": "Jul 10, 2026",
+      "sourceUrl": "https://theloadstar.com/geopolitics-now-trumps-supply-and-demand-in-box-shipping-says-kobc/",
+      "sourceLabel": "The Loadstar",
+      "added": "2026-07-10T10:42:59.663753+00:00"
+    },
     {
       "id": "9071ed27927b",
       "title": "American mariners protest Chinese ship in U.S. domestic trade",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/china-urges-unimpeded-passage-of-hormuz-as-fee-chatter-mounts/",
       "sourceLabel": "gCaptain",
       "added": "2026-07-03T17:11:29.589261+00:00"
-    },
-    {
-      "id": "6d9cfb4d29df",
-      "title": "Japan Considering Iranian Oil Resumption Amid Shipping Risks",
-      "location": "Iranian Oil Shipment Routes",
-      "lat": 32.0,
-      "lng": 53.0,
-      "category": "policy",
-      "severity": "high",
-      "description": "Japan is considering resuming Iranian oil purchases under a U.S. sanctions waiver, but buyers are seeking extended waivers and assurances about ship safety amid ongoing shipping risks.",
-      "date": "2026-07-03",
-      "dateLabel": "Jul 03, 2026",
-      "sourceUrl": "https://gcaptain.com/japan-weighs-return-to-iranian-oil-as-shipping-risks-cloud-sanctions-waiver/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-07-03T17:11:25.889799+00:00"
     }
   ]
 }
