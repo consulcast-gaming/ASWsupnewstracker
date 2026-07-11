@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-11T12:59:20.114609+00:00",
+  "lastUpdated": "2026-07-11T16:50:50.244647+00:00",
   "events": [
+    {
+      "id": "e5a73d2814cf",
+      "title": "Gioia Tauro Port advances rail link with Abruzzo",
+      "location": "Gioia Tauro Port, Calabria, Italy",
+      "lat": 38.4833,
+      "lng": 16.1667,
+      "category": "port",
+      "severity": "info",
+      "description": "A strategic meeting was held to establish a direct rail link between Gioia Tauro Port in Calabria and Abruzzo, aiming to improve intermodal logistics and freight efficiency.",
+      "date": "2026-07-11",
+      "dateLabel": "Jul 11, 2026",
+      "sourceUrl": "https://container-news.com/gioia-tauro-port-advances-direct-rail-link-with-abruzzo/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-11T16:45:50.575666+00:00"
+    },
     {
       "id": "24e7e00a1cdf",
       "title": "CMA CGM expands air freight operations in Syria",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/strait-of-hormuz-vessel-transits-drop-to-four-day-low-july-2-cas/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-07-06T02:10:29.862730+00:00"
-    },
-    {
-      "id": "806e99669fbd",
-      "title": "Russia's crude export flow shift impacts tanker market",
-      "location": "Russia",
-      "lat": 61.524,
-      "lng": 105.319,
-      "category": "route",
-      "severity": "high",
-      "description": "Russia’s reduced crude processing capacity is increasing seaborne exports, altering cargo flows and impacting the tanker market as the Ukraine war enters its fifth year.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/tanker-market-russian-fuel-system-in-limbo/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-06T02:10:11.200156+00:00"
     }
   ]
 }
