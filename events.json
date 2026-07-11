@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-11T06:15:42.306560+00:00",
+  "lastUpdated": "2026-07-11T09:25:05.781143+00:00",
   "events": [
+    {
+      "id": "3806291339bb",
+      "title": "Akkon Lines launches Türkiye-Jeddah shipping service",
+      "location": "Jeddah, Saudi Arabia",
+      "lat": 21.5421,
+      "lng": 39.1804,
+      "category": "route",
+      "severity": "info",
+      "description": "Akkon Lines has launched the Jeddah Express Service (JXS), a direct container shipping route between Türkiye and Jeddah, Saudi Arabia. The service operates with two 2,000 TEU vessels, offering a sailing every ten days.",
+      "date": "2026-07-11",
+      "dateLabel": "Jul 11, 2026",
+      "sourceUrl": "https://container-news.com/akkon-lines-launches-turkiye-jeddah-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-11T09:19:52.722499+00:00"
+    },
     {
       "id": "c75b02d4b53a",
       "title": "Panstar tests Northern Sea Route as Suez alternative",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/vlcc-from-pricing-risk-to-pricing-utilisation/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-07-06T02:10:05.740097+00:00"
-    },
-    {
-      "id": "c775cfcd39a0",
-      "title": "Cargo ship attacked near Hodeidah, Yemen",
-      "location": "Hodeidah, Yemen",
-      "lat": 15.0667,
-      "lng": 42.5833,
-      "category": "conflict",
-      "severity": "high",
-      "description": "A cargo ship reported an attack off the coast of Yemen near Hodeidah, where hostilities between Houthi rebels and international forces continue.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/cargo-ship-reports-attack-near-hodeidah-yemen",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-07-06T02:07:28.230694+00:00"
     }
   ]
 }
