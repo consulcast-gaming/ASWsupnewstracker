@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-11T09:25:05.781143+00:00",
+  "lastUpdated": "2026-07-11T12:59:20.114609+00:00",
   "events": [
+    {
+      "id": "24e7e00a1cdf",
+      "title": "CMA CGM expands air freight operations in Syria",
+      "location": "Damascus International Airport",
+      "lat": 33.4956,
+      "lng": 36.3076,
+      "category": "industry",
+      "severity": "medium",
+      "description": "CMA CGM, already operating the port of Latakia, is expanding into Syria's air freight sector with a new cargo deal at Damascus International Airport, signaling increased logistics presence in the region.",
+      "date": "2026-07-10",
+      "dateLabel": "Jul 10, 2026",
+      "sourceUrl": "https://theloadstar.com/cma-cgm-expands-syria-ambitions-with-damascus-airport-cargo-deal/",
+      "sourceLabel": "The Loadstar",
+      "added": "2026-07-11T12:51:55.281898+00:00"
+    },
     {
       "id": "3806291339bb",
       "title": "Akkon Lines launches Türkiye-Jeddah shipping service",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/tanker-market-russian-fuel-system-in-limbo/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-07-06T02:10:11.200156+00:00"
-    },
-    {
-      "id": "668a49b1c878",
-      "title": "VLCC freight market shifts due to geopolitical risks",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0789,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The VLCC freight market is transitioning from pricing based on risk to pricing based on vessel utilisation, as geopolitical tensions persist in the Strait of Hormuz. This shift reflects ongoing uncertainty and evolving dynamics in global oil shipping routes.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/vlcc-from-pricing-risk-to-pricing-utilisation/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-06T02:10:05.740097+00:00"
     }
   ]
 }
