@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-11T01:38:04.983341+00:00",
+  "lastUpdated": "2026-07-11T06:15:42.306560+00:00",
   "events": [
+    {
+      "id": "c75b02d4b53a",
+      "title": "Panstar tests Northern Sea Route as Suez alternative",
+      "location": "Northern Sea Route",
+      "lat": 75.0,
+      "lng": 100.0,
+      "category": "route",
+      "severity": "medium",
+      "description": "South Korea's Panstar Group is set to conduct a trial voyage through the Northern Sea Route this summer, exploring it as an alternative to the traditional Suez Canal route. The test is supported by the Korea Ocean Business Corporation.",
+      "date": "2026-07-11",
+      "dateLabel": "Jul 11, 2026",
+      "sourceUrl": "https://container-news.com/panstar-group-to-test-northern-sea-route/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-11T06:10:22.522838+00:00"
+    },
+    {
+      "id": "7afc16fe0420",
+      "title": "Hapag-Lloyd increases PSS on North Europe-US trade",
+      "location": "North Europe to United States",
+      "lat": 56.0,
+      "lng": 10.0,
+      "category": "industry",
+      "severity": "info",
+      "description": "Hapag-Lloyd has raised its Peak Season Surcharge (PSS) for container shipments from Northern Europe to the United States, effective from 10 August 2026, reflecting increased demand on the trade lane.",
+      "date": "2026-07-11",
+      "dateLabel": "Jul 11, 2026",
+      "sourceUrl": "https://container-news.com/hapag-lloyd-raises-peak-season-surcharge-on-north-europe-us-trade/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-11T06:10:14.977654+00:00"
+    },
     {
       "id": "a9a383f64028",
       "title": "MSC Baltic III Salvage Progress",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://maritime-executive.com/article/cargo-ship-reports-attack-near-hodeidah-yemen",
       "sourceLabel": "Maritime Executive",
       "added": "2026-07-06T02:07:28.230694+00:00"
-    },
-    {
-      "id": "6c8abc674331",
-      "title": "Port of Galveston opens new cargo berth",
-      "location": "Port of Galveston, Texas",
-      "lat": 29.3744,
-      "lng": -94.8944,
-      "category": "port",
-      "severity": "info",
-      "description": "The Port of Galveston opened a new cargo berth with the arrival of its first Wallenius Wilhelmsen cargo vessel on July 2, 2026, expanding its capacity for freight operations.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/port-of-galveston-opens-new-berth-with-1st-cargo-vessel-call-july-2",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-07-06T02:07:14.381378+00:00"
-    },
-    {
-      "id": "a6cddee14506",
-      "title": "Sailors Stranded Behind Hormuz Due To Conflict",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.3422,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "Over 8,000 sailors remain stranded behind the Strait of Hormuz amid ongoing disruptions, likely due to geopolitical tensions. The situation highlights a critical chokepoint disruption affecting global shipping and crew movements.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://gcaptain.com/the-race-to-rescue-8000-sailors-still-stranded-behind-hormuz/",
-      "sourceLabel": "gCaptain",
-      "added": "2026-07-06T02:03:06.976587+00:00"
     }
   ]
 }
