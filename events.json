@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-12T06:34:16.739845+00:00",
+  "lastUpdated": "2026-07-12T09:50:39.588440+00:00",
   "events": [
+    {
+      "id": "0d906e248045",
+      "title": "Pacifica Shipping suspends NZ domestic service",
+      "location": "New Zealand",
+      "lat": -40.9006,
+      "lng": 174.8867,
+      "category": "industry",
+      "severity": "medium",
+      "description": "Pacifica Shipping will suspend its New Zealand domestic (NZ1) service for approximately three months starting at the end of the month while its sole vessel undergoes scheduled dry docking in Asia. No replacement vessel has been arranged during the suspension.",
+      "date": "2026-07-12",
+      "dateLabel": "Jul 12, 2026",
+      "sourceUrl": "https://container-news.com/pacifica-shipping-suspends-new-zealand-domestic-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T09:45:55.431474+00:00"
+    },
     {
       "id": "f2145a11d4db",
       "title": "Maersk resumes Suez Canal route on MECL service",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://splash247.com/vessel-attacked-off-yemen/",
       "sourceLabel": "Splash 247",
       "added": "2026-07-06T08:09:00.082877+00:00"
-    },
-    {
-      "id": "170dc9991651",
-      "title": "Panama Canal reduces neopanamax draught limits",
-      "location": "Panama Canal",
-      "lat": 8.9811,
-      "lng": -79.5221,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "The Panama Canal Authority is reducing the maximum authorised draught for neopanamax vessels to 14.94 meters, signaling renewed water scarcity concerns at this critical shipping chokepoint.",
-      "date": "2026-07-06",
-      "dateLabel": "Jul 06, 2026",
-      "sourceUrl": "https://splash247.com/panama-canal-tightens-draught-limits-again/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-07-06T08:08:57.653123+00:00"
     }
   ]
 }
