@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-11T20:46:36.307003+00:00",
+  "lastUpdated": "2026-07-12T01:38:33.298431+00:00",
   "events": [
+    {
+      "id": "05038d194755",
+      "title": "Liner networks reduce port calls globally",
+      "location": "Global",
+      "lat": 20.0,
+      "lng": 0.0,
+      "category": "industry",
+      "severity": "info",
+      "description": "Global liner shipping carriers are shifting toward fewer port calls while maintaining direct trade connections, according to Sea-Intelligence. This change reflects a new operating model aimed at improving efficiency amid ongoing supply chain adjustments.",
+      "date": "2026-07-11",
+      "dateLabel": "Jul 11, 2026",
+      "sourceUrl": "https://container-news.com/sea-intelligence-global-liner-networks-shift-toward-fewer-port-calls/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T01:33:45.429411+00:00"
+    },
     {
       "id": "e5a73d2814cf",
       "title": "Gioia Tauro Port advances rail link with Abruzzo",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://www.hellenicshippingnews.com/us-courts-signal-shift-in-the-interpretation-of-package-under-cogsa/",
       "sourceLabel": "Hellenic Shipping",
       "added": "2026-07-06T02:10:49.727115+00:00"
-    },
-    {
-      "id": "ebf6bb7b3666",
-      "title": "Strait of Hormuz vessel transits drop to four-day low",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0169,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "Vessel transits through the Strait of Hormuz fell to a four-day low on July 2 due to ongoing regional tensions. Iran-linked vessels accounted for nearly 60% of crossings, according to S&P Global Energy vessel tracking data.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/strait-of-hormuz-vessel-transits-drop-to-four-day-low-july-2-cas/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-06T02:10:29.862730+00:00"
     }
   ]
 }
