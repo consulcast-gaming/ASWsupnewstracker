@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-12T09:50:39.588440+00:00",
+  "lastUpdated": "2026-07-12T13:02:13.871009+00:00",
   "events": [
+    {
+      "id": "76d54ae90b43",
+      "title": "Folk Maritime launches India-Red Sea container service",
+      "location": "Jeddah, Saudi Arabia",
+      "lat": 21.5421,
+      "lng": 39.1804,
+      "category": "route",
+      "severity": "info",
+      "description": "Folk Maritime has launched a new India-Red Sea container service with direct connections between Jeddah and India's west coast. The route includes Jeddah, Mundra, and Nhava Sheva.",
+      "date": "2026-07-12",
+      "dateLabel": "Jul 12, 2026",
+      "sourceUrl": "https://container-news.com/folk-maritime-launches-india-red-sea-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T12:57:43.109093+00:00"
+    },
+    {
+      "id": "abb2d3f50c8f",
+      "title": "Iran claims closure of Strait of Hormuz after US strikes",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0169,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "Iran has announced the closure of the Strait of Hormuz following renewed US military strikes, escalating regional tensions and raising concerns over global shipping disruptions.",
+      "date": "2026-07-12",
+      "dateLabel": "Jul 12, 2026",
+      "sourceUrl": "https://container-news.com/iran-claims-closure-of-strait-of-hormuz-after-renewed-us-strikes/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T12:57:35.702231+00:00"
+    },
+    {
+      "id": "f00132404938",
+      "title": "Eimskip launches Purple Line service",
+      "location": "Rotterdam",
+      "lat": 51.9225,
+      "lng": 4.4792,
+      "category": "route",
+      "severity": "info",
+      "description": "Eimskip is launching a weekly Purple Line service starting in August, connecting Rotterdam with the Faroe Islands and expanding to Norway in September. The route will be served by a single 700 TEU vessel.",
+      "date": "2026-07-12",
+      "dateLabel": "Jul 12, 2026",
+      "sourceUrl": "https://container-news.com/eimskip-launches-purple-line/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T12:57:28.351282+00:00"
+    },
     {
       "id": "0d906e248045",
       "title": "Pacifica Shipping suspends NZ domestic service",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://container-news.com/readers-speak-shipping-vulnerability-still-defines-the-hormuz-crisis/",
       "sourceLabel": "Container News",
       "added": "2026-07-06T08:13:00.076280+00:00"
-    },
-    {
-      "id": "77810b83ab52",
-      "title": "CNC launches direct Shantou–Thailand/Cambodia route",
-      "location": "Shantou",
-      "lat": 23.3667,
-      "lng": 116.7167,
-      "category": "route",
-      "severity": "info",
-      "description": "CNC has revamped its JTX service to include the first direct connection from Shantou to Thailand and Cambodia, enhancing Intra-Asia freight connectivity and offering a new route option between China and Southeast Asia.",
-      "date": "2026-07-06",
-      "dateLabel": "Jul 06, 2026",
-      "sourceUrl": "https://container-news.com/cnc-revamps-jtx-service-with-first-direct-shantou-thailand-cambodia-connection/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-06T08:12:50.652567+00:00"
-    },
-    {
-      "id": "646f60d766b1",
-      "title": "Tehran-linked ship grounded in Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8607,
-      "lng": 56.4149,
-      "category": "chokepoint",
-      "severity": "high",
-      "description": "A 2006-built 1,574 TEU container ship, the Arista, which is linked to Iran and sanctioned by the US, ran aground in the Strait of Hormuz on 1 July 2026. The incident could disrupt critical shipping flows through this key global chokepoint.",
-      "date": "2026-07-06",
-      "dateLabel": "Jul 06, 2026",
-      "sourceUrl": "https://container-news.com/tehran-linked-ship-grounded-in-strait-of-hormuz/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-06T08:12:43.210450+00:00"
-    },
-    {
-      "id": "9774790bf7e3",
-      "title": "Cargo vessel attacked off Yemen in Red Sea",
-      "location": "Red Sea, off Yemen",
-      "lat": 15.8871,
-      "lng": 42.6034,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A cargo vessel was attacked by unknown armed assailants approximately 30 nautical miles off Yemen in the Red Sea, raising concerns about ongoing maritime security risks in the region.",
-      "date": "2026-07-06",
-      "dateLabel": "Jul 06, 2026",
-      "sourceUrl": "https://splash247.com/vessel-attacked-off-yemen/",
-      "sourceLabel": "Splash 247",
-      "added": "2026-07-06T08:09:00.082877+00:00"
     }
   ]
 }
