@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-12T01:38:33.298431+00:00",
+  "lastUpdated": "2026-07-12T06:34:16.739845+00:00",
   "events": [
+    {
+      "id": "f2145a11d4db",
+      "title": "Maersk resumes Suez Canal route on MECL service",
+      "location": "Suez Canal",
+      "lat": 29.9744,
+      "lng": 32.2917,
+      "category": "route",
+      "severity": "medium",
+      "description": "Maersk announced the MECL service linking India, the Middle East, and the US East Coast will transit the Suez Canal again, following a successful Red Sea passage by the Majestic Maersk.",
+      "date": "2026-07-12",
+      "dateLabel": "Jul 12, 2026",
+      "sourceUrl": "https://container-news.com/red-sea-return-cautious-reversible-and-racing-against-hormuz/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-12T06:29:31.861400+00:00"
+    },
     {
       "id": "05038d194755",
       "title": "Liner networks reduce port calls globally",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://splash247.com/panama-canal-tightens-draught-limits-again/",
       "sourceLabel": "Splash 247",
       "added": "2026-07-06T08:08:57.653123+00:00"
-    },
-    {
-      "id": "f71dba5a1c8e",
-      "title": "US courts redefine 'package' under COGSA",
-      "location": "New York, USA",
-      "lat": 40.7128,
-      "lng": -74.006,
-      "category": "policy",
-      "severity": "high",
-      "description": "Recent US court decisions, particularly in the Second Circuit, are shifting the interpretation of 'package' under COGSA, prioritizing contractual definitions in bills of lading. This could significantly impact liability limits for carriers and affect claims handling in the shipping industry.",
-      "date": "2026-07-05",
-      "dateLabel": "Jul 05, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/us-courts-signal-shift-in-the-interpretation-of-package-under-cogsa/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-06T02:10:49.727115+00:00"
     }
   ]
 }
