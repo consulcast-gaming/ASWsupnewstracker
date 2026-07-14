@@ -1,6 +1,51 @@
 {
-  "lastUpdated": "2026-07-14T01:29:02.530472+00:00",
+  "lastUpdated": "2026-07-14T06:11:46.935852+00:00",
   "events": [
+    {
+      "id": "86393ef14f90",
+      "title": "CMA CGM NOTRE DAME Completes First Bio-LNG Bunkering",
+      "location": "Rotterdam",
+      "lat": 51.9225,
+      "lng": 4.4792,
+      "category": "industry",
+      "severity": "info",
+      "description": "The CMA CGM NOTRE DAME, a 24,000-TEU LNG-powered container ship, completed its first bio-LNG bunkering operation in Rotterdam. This marks a significant step in the adoption of sustainable fuel in maritime logistics.",
+      "date": "2026-07-13",
+      "dateLabel": "Jul 13, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-07-14T06:08:43.961945+00:00"
+    },
+    {
+      "id": "beef20415ae4",
+      "title": "Hormuz Strait tensions disrupt shipping",
+      "location": "Strait of Hormuz",
+      "lat": 24.8864,
+      "lng": 56.0165,
+      "category": "chokepoint",
+      "severity": "critical",
+      "description": "The Strait of Hormuz is experiencing heightened tensions with conflicting claims about its operational status, following a third round of US strikes and a drop in transits, creating uncertainty for global shipping.",
+      "date": "2026-07-14",
+      "dateLabel": "Jul 14, 2026",
+      "sourceUrl": "https://container-news.com/open-on-paper-closed-in-practice-hormuzs-new-reality/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-14T06:06:53.750847+00:00"
+    },
+    {
+      "id": "ea18855ce2d7",
+      "title": "DP World plans UAE port to bypass Strait of Hormuz",
+      "location": "United Arab Emirates",
+      "lat": 24.4539,
+      "lng": 54.3773,
+      "category": "route",
+      "severity": "high",
+      "description": "DP World is reportedly planning a new port and container terminal in the UAE to divert freight away from the Strait of Hormuz, likely in response to ongoing geopolitical tensions and potential disruptions in the region.",
+      "date": "2026-07-14",
+      "dateLabel": "Jul 14, 2026",
+      "sourceUrl": "https://www.freightwaves.com/news/dp-world-plans-uae-port-container-terminal-to-bypass-strait-of-hormuz-report",
+      "sourceLabel": "FreightWaves",
+      "added": "2026-07-14T06:03:19.050867+00:00"
+    },
     {
       "id": "4cb6d25dd0ee",
       "title": "Tanker traffic drops at Strait of Hormuz",
@@ -2955,51 +3000,6 @@
       "sourceUrl": "https://gcaptain.com/hormuz-strikes-threaten-progress-on-europes-de-mining-mission/",
       "sourceLabel": "gCaptain",
       "added": "2026-07-07T21:13:10.020518+00:00"
-    },
-    {
-      "id": "bf229596435b",
-      "title": "Ukraine strikes Russian oil refinery",
-      "location": "Nizhnekamsk, Russia",
-      "lat": 54.7833,
-      "lng": 52.3667,
-      "category": "conflict",
-      "severity": "high",
-      "description": "Ukrainian forces conducted a drone strike on an oil refinery in Nizhnekamsk, Russia, over 2,500 km behind the front lines, aiming to disrupt Russian military logistics and energy infrastructure.",
-      "date": "2026-07-07",
-      "dateLabel": "Jul 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/ukraine-hits-vital-oil-refinery-more-than-2500km-behind-russian-border/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-07T17:57:50.981532+00:00"
-    },
-    {
-      "id": "b3d80bf5fa6f",
-      "title": "Qatari tanker attacked near Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0118,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "A Qatari tanker was attacked near the Strait of Hormuz, a critical global shipping chokepoint. Qatar condemned the incident, calling it a threat to international navigation and energy supplies.",
-      "date": "2026-07-07",
-      "dateLabel": "Jul 07, 2026",
-      "sourceUrl": "https://www.hellenicshippingnews.com/qatar-condemns-iran-over-tanker-attack-near-strait-of-hormuz/",
-      "sourceLabel": "Hellenic Shipping",
-      "added": "2026-07-07T17:57:42.960756+00:00"
-    },
-    {
-      "id": "f4685a934673",
-      "title": "Tankers Struck Near Strait of Hormuz",
-      "location": "Strait of Hormuz",
-      "lat": 24.8864,
-      "lng": 56.0832,
-      "category": "conflict",
-      "severity": "critical",
-      "description": "Two tankers were struck from the air near the Omani coast as they exited the Strait of Hormuz. The Islamic Revolutionary Guard Corps (IRGC) claimed control over the strait, raising concerns about regional security and potential disruptions to global oil shipments.",
-      "date": "2026-07-07",
-      "dateLabel": "Jul 07, 2026",
-      "sourceUrl": "https://maritime-executive.com/article/two-more-tankers-struck-as-irgc-asserts-that-it-controls-hormuz",
-      "sourceLabel": "Maritime Executive",
-      "added": "2026-07-07T17:55:01.616879+00:00"
     }
   ]
 }
