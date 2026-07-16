@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-16T01:35:25.996975+00:00",
+  "lastUpdated": "2026-07-16T06:17:34.847748+00:00",
   "events": [
+    {
+      "id": "0e1dc1d45278",
+      "title": "Port of Long Beach channel deepening approved",
+      "location": "Port of Long Beach, California",
+      "lat": 33.7567,
+      "lng": -118.2323,
+      "category": "port",
+      "severity": "info",
+      "description": "A key congressional committee approved a $255 million project to deepen the main shipping channel at the Port of Long Beach, aimed at accommodating larger vessels and improving cargo flows.",
+      "date": "2026-07-16",
+      "dateLabel": "Jul 16, 2026",
+      "sourceUrl": "https://container-news.com/committee-approves-255m-port-of-long-beach-channel-project/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-16T06:12:28.142192+00:00"
+    },
     {
       "id": "4537225d0773",
       "title": "ARA Bunker Fuel Availability Tight",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://container-news.com/maersk-revises-heavy-load-surcharge-on-far-east-latin-america-trades/",
       "sourceLabel": "Container News",
       "added": "2026-07-10T07:30:42.883096+00:00"
-    },
-    {
-      "id": "49f2ee1a6c36",
-      "title": "Russia diesel ban impacts global tanker market",
-      "location": "Russia",
-      "lat": 61.524,
-      "lng": 105.3188,
-      "category": "policy",
-      "severity": "high",
-      "description": "Russia's diesel export ban merges domestic fuel shortages with Gulf disruptions, creating a single crisis in the global tanker market and affecting diesel supply flows.",
-      "date": "2026-07-10",
-      "dateLabel": "Jul 10, 2026",
-      "sourceUrl": "https://container-news.com/russias-diesel-ban-welds-two-chokepoints-into-one-market/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-10T07:30:36.328857+00:00"
     }
   ]
 }
