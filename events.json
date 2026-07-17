@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-07-17T01:39:16.703954+00:00",
+  "lastUpdated": "2026-07-17T06:17:06.691695+00:00",
   "events": [
+    {
+      "id": "a185eeea409b",
+      "title": "U.S. Marines board falsified-flag tanker in Gulf of Oman",
+      "location": "Gulf of Oman",
+      "lat": 24.5,
+      "lng": 56.0,
+      "category": "vessel",
+      "severity": "high",
+      "description": "On July 16, the USS Boxer Amphibious Ready Group intercepted and boarded a 'shadow fleet' VLCC in the Gulf of Oman, part of a broader effort to counter illicit maritime activity.",
+      "date": "2026-07-17",
+      "dateLabel": "Jul 17, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/video-u-s-marines-board-falsely-flagged-tanker-in-gulf-of-oman",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-07-17T06:12:45.531241+00:00"
+    },
     {
       "id": "1d54de41c742",
       "title": "Sea of Azov disruptions impact wheat supply",
@@ -2985,21 +3000,6 @@
       "sourceUrl": "https://container-news.com/gioia-tauro-port-advances-direct-rail-link-with-abruzzo/",
       "sourceLabel": "Container News",
       "added": "2026-07-11T16:45:50.575666+00:00"
-    },
-    {
-      "id": "24e7e00a1cdf",
-      "title": "CMA CGM expands air freight operations in Syria",
-      "location": "Damascus International Airport",
-      "lat": 33.4956,
-      "lng": 36.3076,
-      "category": "industry",
-      "severity": "medium",
-      "description": "CMA CGM, already operating the port of Latakia, is expanding into Syria's air freight sector with a new cargo deal at Damascus International Airport, signaling increased logistics presence in the region.",
-      "date": "2026-07-10",
-      "dateLabel": "Jul 10, 2026",
-      "sourceUrl": "https://theloadstar.com/cma-cgm-expands-syria-ambitions-with-damascus-airport-cargo-deal/",
-      "sourceLabel": "The Loadstar",
-      "added": "2026-07-11T12:51:55.281898+00:00"
     }
   ]
 }
