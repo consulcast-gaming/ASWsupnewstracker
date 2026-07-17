@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-07-17T06:17:06.691695+00:00",
+  "lastUpdated": "2026-07-17T09:53:51.158060+00:00",
   "events": [
+    {
+      "id": "677eb74f8f06",
+      "title": "Yemen conflict escalates near Bab el Mandeb chokepoint",
+      "location": "Bab el Mandeb Strait",
+      "lat": 12.4486,
+      "lng": 44.0236,
+      "category": "chokepoint",
+      "severity": "high",
+      "description": "Political tensions in Yemen, exacerbated by extreme summer heat, are bringing the Bab el Mandeb Strait back to the brink of instability, raising concerns about potential disruptions to global shipping through this critical maritime chokepoint.",
+      "date": "2026-07-16",
+      "dateLabel": "Jul 16, 2026",
+      "sourceUrl": "https://maritime-executive.com/article/hot-weather-and-politics-bring-yemen-back-to-the-brink-in-the-bab-el-mandeb",
+      "sourceLabel": "Maritime Executive",
+      "added": "2026-07-17T09:50:10.617918+00:00"
+    },
+    {
+      "id": "c30e86aed1a2",
+      "title": "COSCO launches Peru-Costa Rica CHX3 service",
+      "location": "Peru-Costa Rica maritime route",
+      "lat": -12.06,
+      "lng": -77.0458,
+      "category": "route",
+      "severity": "info",
+      "description": "COSCO SHIPPING Lines has launched a new weekly container service (CHX3) connecting Peru's Paita and Chancay with Costa Rica's Caldera, enhancing regional supply chain efficiency in Latin America.",
+      "date": "2026-07-17",
+      "dateLabel": "Jul 17, 2026",
+      "sourceUrl": "https://container-news.com/cosco-shipping-launches-chx3-peru-costa-rica-service/",
+      "sourceLabel": "Container News",
+      "added": "2026-07-17T09:48:38.057126+00:00"
+    },
     {
       "id": "a185eeea409b",
       "title": "U.S. Marines board falsified-flag tanker in Gulf of Oman",
@@ -2970,36 +3000,6 @@
       "sourceUrl": "https://container-news.com/red-sea-return-cautious-reversible-and-racing-against-hormuz/",
       "sourceLabel": "Container News",
       "added": "2026-07-12T06:29:31.861400+00:00"
-    },
-    {
-      "id": "05038d194755",
-      "title": "Liner networks reduce port calls globally",
-      "location": "Global",
-      "lat": 20.0,
-      "lng": 0.0,
-      "category": "industry",
-      "severity": "info",
-      "description": "Global liner shipping carriers are shifting toward fewer port calls while maintaining direct trade connections, according to Sea-Intelligence. This change reflects a new operating model aimed at improving efficiency amid ongoing supply chain adjustments.",
-      "date": "2026-07-11",
-      "dateLabel": "Jul 11, 2026",
-      "sourceUrl": "https://container-news.com/sea-intelligence-global-liner-networks-shift-toward-fewer-port-calls/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-12T01:33:45.429411+00:00"
-    },
-    {
-      "id": "e5a73d2814cf",
-      "title": "Gioia Tauro Port advances rail link with Abruzzo",
-      "location": "Gioia Tauro Port, Calabria, Italy",
-      "lat": 38.4833,
-      "lng": 16.1667,
-      "category": "port",
-      "severity": "info",
-      "description": "A strategic meeting was held to establish a direct rail link between Gioia Tauro Port in Calabria and Abruzzo, aiming to improve intermodal logistics and freight efficiency.",
-      "date": "2026-07-11",
-      "dateLabel": "Jul 11, 2026",
-      "sourceUrl": "https://container-news.com/gioia-tauro-port-advances-direct-rail-link-with-abruzzo/",
-      "sourceLabel": "Container News",
-      "added": "2026-07-11T16:45:50.575666+00:00"
     }
   ]
 }
